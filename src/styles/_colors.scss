@@ -1,0 +1,24 @@
+:root {
+  /* Neutral */
+  --color-white: #ffffff;
+  --color-black: #000000;
+
+  /* Brand */
+  --color-primary-dark: #1b5587;
+  --color-primary: #317dbb;
+  --color-primary-soft: #8db6fb;
+
+  /* Accent */
+  --color-accent: #60c6d2;
+
+  /* Supporting */
+  --color-muted-blue: #83a9c9;
+
+  /* Text */
+  --color-text: #000000;
+  --color-text-disabled: rgba(0, 0, 0, 0.5);
+
+  /* Borders */
+  --color-border: rgba(0, 0, 0, 0.2);
+  --color-border-soft: rgba(0, 0, 0, 0.05);
+}
