@@ -1,0 +1,78 @@
+{
+  "brand": {
+    "name": "Wellcare Clinics",
+    "logo": "assets/images/wellcare.png",
+    "logoAlt": "Logo de Wellcare Clinics"
+  },
+  "navigation": {
+    "home": "Inicio",
+    "aboutUs": "Quiénes somos",
+    "ourProject": "Nuestro proyecto",
+    "tips": "Consejos",
+    "contact": "Contacto"
+  },
+  "footer": {
+    "brand": {
+      "subtitle": "Fisioterapia especializada y atención sanitaria personalizada.",
+      "description": "Cuidamos tu salud con un enfoque cercano, global y adaptado a las necesidades de cada persona."
+    },
+    "navigation": {
+      "title": "Navegación"
+    },
+    "services": {
+      "title": "Servicios",
+      "traumatology": "Traumatología",
+      "rehabilitation": "Rehabilitación",
+      "physiotherapy": "Fisioterapia",
+      "chronicPain": "Dolor crónico"
+    },
+    "information": {
+      "title": "Información",
+      "tips": "Consejos",
+      "faq": "Preguntas frecuentes",
+      "privacyPolicy": "Política de privacidad",
+      "termsOfService": "Términos de servicio"
+    },
+    "bottom": {
+      "copyright": "© 2024 Wellcare Clinics. Todos los derechos reservados.",
+      "privacyPolicy": "Política de privacidad",
+      "termsOfService": "Términos de servicio"
+    },
+    "badges": {
+      "healthAlt": "Icono de salud",
+      "logoAlt": "Logo de Wellcare Clinics"
+    }
+  },
+  "hero": {
+    "home": {
+      "image": "assets/images/home.png",
+      "imageAlt": "Tratamiento de fisioterapia personalizado",
+      "title": "Tu bienestar es nuestro compromiso",
+      "text": "Tratamientos personalizados en traumatología, rehabilitación y fisioterapia especializada."
+    },
+    "aboutUs": {
+      "image": "assets/images/about-us.png",
+      "imageAlt": "Clínica de fisioterapia Wellcare Clinics",
+      "title": "Tu clinica de confianza",
+      "text": "En Wellcare Clinics contamos con un equipo especializado en diversas técnicas de fisioterapia y tratamientos, comprometido con tu bienestar."
+    },
+    "ourProject": {
+      "image": "assets/images/our-project.png",
+      "imageAlt": "Proyecto de fisioterapia y bienestar personalizado",
+      "title": "Nuestro proyecto",
+      "text": "Tratamientos personalizados y efectivos para cuidar tu bienestar en cada etapa de tu recuperación."
+    },
+    "workWithUs": {
+      "image": "assets/images/work-with-us.png",
+      "imageAlt": "Equipo profesional de fisioterapia trabajando en clínica",
+      "title": "Trabaja con nosotros",
+      "text": ""
+    },
+    "healthTips": {
+      "image": "assets/images/health-tips.png",
+      "imageAlt": "Consejos de salud y bienestar para pacientes",
+      "title": "Consejos de salud",
+      "text": "Artículos, consejos y blogs para cuidar de tu salud y tu bienestar."
+    }
+  }
+}

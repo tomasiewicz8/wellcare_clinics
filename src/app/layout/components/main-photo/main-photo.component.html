@@ -1,0 +1,22 @@
+<section class="main-photo">
+  <div
+    class="main-photo__image"
+    [style.background-image]="'url(' + image + ')'"
+    role="img"
+    [attr.aria-label]="imageAlt"
+  ></div>
+
+  <div class="main-photo__overlay"></div>
+
+  <div class="main-photo__container">
+    <div class="main-photo__content">
+      <h1 class="main-photo__title">
+        {{ title }}
+      </h1>
+
+      <p class="main-photo__text" *ngIf="text">
+        {{ text }}
+      </p>
+    </div>
+  </div>
+</section>

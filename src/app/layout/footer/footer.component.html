@@ -2,53 +2,133 @@
   <div class="footer__main">
     <div class="footer__brand">
       <div class="footer__brand-header">
-        <img class="footer__logo" src="assets/images/wellcare-logo.png" alt="Wellcare Clinics logo" />
-        <h2 class="footer__title">Wellcare Clinics</h2>
+        <img
+          class="footer__logo"
+          src="assets/images/logo.png"
+          [alt]="translationService.translate('brand.logoAlt')"
+        />
+
+        <h2 class="footer__title">
+          {{ translationService.translate('brand.name') }}
+        </h2>
       </div>
 
-      <p class="footer__subtitle">Fisioterapia especializada y atención sanitaria personalizada.</p>
-      <p class="footer__description">Cuidamos tu salud con un enfoque cercano, global y adaptado a las necesidades de cada persona.</p>
+      <p class="footer__subtitle">
+        {{ translationService.translate('footer.brand.subtitle') }}
+      </p>
+
+      <p class="footer__description">
+        {{ translationService.translate('footer.brand.description') }}
+      </p>
     </div>
 
-    <nav class="footer__links" aria-label="Footer navigation">
+    <nav
+      class="footer__links"
+      [attr.aria-label]="translationService.translate('footer.navigation.title')"
+    >
       <div class="footer__column">
-        <h3 class="footer__column-title">Navegación</h3>
-        <a routerLink="/">Inicio</a>
-        <a routerLink="/about-us">Quiénes somos</a>
-        <a routerLink="/our-project">Qué hacemos</a>
-        <a routerLink="/tips">Consejos</a>
-        <a routerLink="/contact">Contacto</a>
+        <h3 class="footer__column-title">
+          {{ translationService.translate('footer.navigation.title') }}
+        </h3>
+
+        <a routerLink="/">
+          {{ translationService.translate('navigation.home') }}
+        </a>
+
+        <a routerLink="/about-us">
+          {{ translationService.translate('navigation.aboutUs') }}
+        </a>
+
+        <a routerLink="/our-project">
+          {{ translationService.translate('navigation.ourProject') }}
+        </a>
+
+        <a routerLink="/tips">
+          {{ translationService.translate('navigation.tips') }}
+        </a>
+
+        <a routerLink="/contact">
+          {{ translationService.translate('navigation.contact') }}
+        </a>
       </div>
 
       <div class="footer__column">
-        <h3 class="footer__column-title">Servicios</h3>
-        <a routerLink="/our-project">Traumatología</a>
-        <a routerLink="/our-project">Rehabilitación</a>
-        <a routerLink="/our-project">Fisioterapia</a>
-        <a routerLink="/our-project">Dolor crónico</a>
+        <h3 class="footer__column-title">
+          {{ translationService.translate('footer.services.title') }}
+        </h3>
+
+        <a routerLink="/our-project">
+          {{ translationService.translate('footer.services.traumatology') }}
+        </a>
+
+        <a routerLink="/our-project">
+          {{ translationService.translate('footer.services.rehabilitation') }}
+        </a>
+
+        <a routerLink="/our-project">
+          {{ translationService.translate('footer.services.physiotherapy') }}
+        </a>
+
+        <a routerLink="/our-project">
+          {{ translationService.translate('footer.services.chronicPain') }}
+        </a>
       </div>
 
       <div class="footer__column">
-        <h3 class="footer__column-title">Información</h3>
-        <a routerLink="/tips">Consejos</a>
-        <a routerLink="/contact">Preguntas frecuentes</a>
-        <a routerLink="/contact">Política de privacidad</a>
-        <a routerLink="/contact">Términos de servicio</a>
+        <h3 class="footer__column-title">
+          {{ translationService.translate('footer.information.title') }}
+        </h3>
+
+        <a routerLink="/tips">
+          {{ translationService.translate('footer.information.tips') }}
+        </a>
+
+        <a routerLink="/contact">
+          {{ translationService.translate('footer.information.faq') }}
+        </a>
+
+        <a routerLink="/contact">
+          {{ translationService.translate('footer.information.privacyPolicy') }}
+        </a>
+
+        <a routerLink="/contact">
+          {{ translationService.translate('footer.information.termsOfService') }}
+        </a>
       </div>
     </nav>
 
     <div class="footer__badges">
-      <a class="footer__badge" href="#" aria-label="Professional badge">
-        <img src="assets/images/badge-red.png" alt="Professional badge" />
+      <a
+        class="footer__badge"
+        href="#"
+        [attr.aria-label]="translationService.translate('footer.badges.healthAlt')"
+      >
+        <img
+          src="assets/images/badge-red.png"
+          [alt]="translationService.translate('footer.badges.healthAlt')"
+        />
       </a>
 
-      <a class="footer__badge" href="#" aria-label="Wellcare Clinics badge">
-        <img src="assets/images/wellcare-logo.png" alt="Wellcare Clinics badge" />
+      <a
+        class="footer__badge"
+        href="#"
+        [attr.aria-label]="translationService.translate('footer.badges.logoAlt')"
+      >
+        <img
+          src="assets/images/wellcare.png"
+          [alt]="translationService.translate('footer.badges.logoAlt')"
+        />
       </a>
     </div>
   </div>
 
   <div class="footer__bottom">
-    <p>© 2024 Wellcare Clinics. Todos los derechos reservados. | Política de privacidad | Términos de servicio</p>
+    <p>
+      {{ translationService.translate('footer.bottom.copyright') }}
+      |
+      {{ translationService.translate('footer.bottom.privacyPolicy') }}
+      |
+      {{ translationService.translate('footer.bottom.termsOfService') }}
+    </p>
   </div>
 </footer>

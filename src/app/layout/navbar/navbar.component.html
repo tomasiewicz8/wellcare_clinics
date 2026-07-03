@@ -1,13 +1,52 @@
 <header class="navbar">
   <div class="navbar__container">
-    <a class="navbar__logo" routerLink="/">Wellcare Clinics</a>
+    <div class="navbar__brand-area">
+      <app-navbar-menu-button
+        [isOpen]="isMobileMenuOpen"
+        (menuToggle)="toggleMobileMenu()"
+      />
+
+      <a class="navbar__brand" routerLink="/">
+        <img
+          class="navbar__logo"
+          [src]="translationService.translate('brand.logo')"
+          [alt]="translationService.translate('brand.logoAlt')"
+        />
+
+        <span class="navbar__brand-name">
+          {{ translationService.translate('brand.name') }}
+        </span>
+      </a>
+    </div>
 
     <nav class="navbar__nav">
-      <a routerLink="/" routerLinkActive="navbar__link--active" [routerLinkActiveOptions]="{ exact: true }">Home</a>
-      <a routerLink="/about-us" routerLinkActive="navbar__link--active">About Us</a>
-      <a routerLink="/our-project" routerLinkActive="navbar__link--active">Our Project</a>
-      <a routerLink="/tips" routerLinkActive="navbar__link--active">Tips</a>
-      <a routerLink="/contact" routerLinkActive="navbar__link--active">Contact</a>
+      <a
+        routerLink="/"
+        routerLinkActive="navbar__link--active"
+        [routerLinkActiveOptions]="{ exact: true }"
+      >
+        {{ translationService.translate('navigation.home') }}
+      </a>
+
+      <a routerLink="/about-us" routerLinkActive="navbar__link--active">
+        {{ translationService.translate('navigation.aboutUs') }}
+      </a>
+
+      <a routerLink="/our-project" routerLinkActive="navbar__link--active">
+        {{ translationService.translate('navigation.ourProject') }}
+      </a>
+
+      <a routerLink="/tips" routerLinkActive="navbar__link--active">
+        {{ translationService.translate('navigation.tips') }}
+      </a>
+
+      <a
+        class="navbar__contact-link"
+        routerLink="/contact"
+        routerLinkActive="navbar__link--active"
+      >
+        {{ translationService.translate('navigation.contact') }}
+      </a>
     </nav>
   </div>
 </header>
