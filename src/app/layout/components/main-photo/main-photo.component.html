@@ -17,6 +17,10 @@
       <p class="main-photo__text" *ngIf="text">
         {{ text }}
       </p>
+
+      <div class="main-photo__action">
+        <ng-content></ng-content>
+      </div>
     </div>
   </div>
 </section>

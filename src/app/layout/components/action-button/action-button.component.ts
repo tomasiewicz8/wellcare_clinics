@@ -1,24 +1,38 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { NgIf } from '@angular/common';
+
+import { TranslationService } from '../../../services/translation.service';
+
+type MailMode = 'contact' | 'cv';
 
 @Component({
   selector: 'app-action-button',
   standalone: true,
-  imports: [],
+  imports: [NgIf],
   templateUrl: './action-button.component.html',
-  styleUrl: './action-button.component.scss'
+  styleUrl: './action-button.component.scss',
 })
-
 export class ActionButtonComponent {
-  destinatario = 'tomasiewic@gmail.com';
-  asunto = 'Candidatura para Wellcare Clinics SL';
+  @Input() buttonKey = '';
 
-  mensaje = `Hola,
+  @Input() mailMode: MailMode = 'contact';
 
-He visto vuestra web y me gustaría enviaros mi CV para posibles candidaturas en Wellcare Clinics SL.
+  constructor(public translationService: TranslationService) {}
 
-¡¡¡NO OLVIDES ADJUNTAR TU CURRÍCULUM EN ESTE CORREO!!!`;
+  get text(): string {
+    return this.translationService.translate(this.buttonKey);
+  }
 
   get correoUrl(): string {
-    return `mailto:${this.destinatario}?subject=${encodeURIComponent(this.asunto)}&body=${encodeURIComponent(this.mensaje)}`;
+    const recipient = this.translationService.translate('mail.recipient');
+
+    if (this.mailMode === 'cv') {
+      const subject = this.translationService.translate('mail.cv.subject');
+      const body = this.translationService.translate('mail.cv.body');
+
+      return `mailto:${recipient}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    }
+
+    return `mailto:${recipient}`;
   }
 }

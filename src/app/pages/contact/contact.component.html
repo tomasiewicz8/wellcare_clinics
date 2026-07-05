@@ -1,2 +1,7 @@
-<app-main-photo heroKey="hero.workWithUs" />
-<app-action-button></app-action-button>
+<app-main-photo heroKey="hero.workWithUs">
+  <app-action-button buttonKey="actionButton.sendCv" mailMode="cv"/>
+    <app-navigation-button
+      buttonKey="actionButton.goToTips"
+      route="/tips"
+    />
+</app-main-photo>

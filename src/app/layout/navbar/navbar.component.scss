@@ -17,7 +17,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: var(--space-lg);
+  gap: var(--space-md);
 
   @include respond-lg {
     padding: var(--space-md) var(--container-padding-desktop);
@@ -51,11 +51,14 @@
 
 .navbar__brand-name {
   font-family: var(--font-family-title);
-  font-size: var(--font-size-footer-brand);
+  font-size: var(--font-size-footer-brand-mobile);
   font-weight: var(--font-weight-regular);
   line-height: var(--line-height-tight);
   color: var(--color-text-disabled);
   white-space: nowrap;
+  @include respond-lg {
+    font-size: var(--font-size-footer-brand);
+  }
 }
 
 .navbar__nav {
@@ -69,22 +72,60 @@
     font-size: var(--font-size-footer-link);
     font-weight: var(--font-weight-regular);
     color: var(--color-text-disabled);
-    transition: color var(--transition-fast);
+    transition:
+      color var(--transition-fast),
+      background-color var(--transition-fast);
     text-decoration: none;
+  }
+
+  a:not(.navbar__contact-link):hover,
+  a:not(.navbar__contact-link).navbar__link--active {
+    color: var(--color-primary);
   }
 
   .navbar__contact-link {
     display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    max-width: var(--action-button-max-width);
+    min-height: var(--action-button-height);
+
+    padding: var(--space-xs) var(--space-md);
+
+    background-color: var(--color-primary-dark);
+    color: var(--color-white);
+
+    font-family: var(--font-family-ui);
+    font-size: var(--font-size-action-button-mobile);
+    font-weight: var(--font-weight-bold);
+    line-height: var(--line-height-tight);
+
+    border: none;
+    border-radius: var(--radius-full);
+    box-shadow: var(--shadow-action-button);
+
+    text-decoration: none;
+    cursor: pointer;
+
+    @include respond-lg {
+      font-size: var(--font-size-action-button);
+      padding: var(--space-xs) var(--space-xl);
+    }
+  }
+
+  .navbar__contact-link:hover,
+  .navbar__contact-link.navbar__link--active {
+    color: var(--color-white);
+    background-color: var(--color-primary-dark);
   }
 
   @include respond-lg {
     a {
       display: inline-flex;
     }
-  }
-
-  a:hover,
-  .navbar__link--active {
-    color: var(--color-primary);
+    .navbar__brand-name {
+      font-size: var(--font-size-footer-brand);
+    }
   }
 }

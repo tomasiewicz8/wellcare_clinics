@@ -1,6 +1,6 @@
 {
   "brand": {
-    "name": "Wellcare Clinics",
+    "name": "Wellcare Clinics S.L",
     "logo": "assets/images/wellcare.png",
     "logoAlt": "Logo de Wellcare Clinics"
   },
@@ -66,7 +66,7 @@
       "image": "assets/images/work-with-us.png",
       "imageAlt": "Equipo profesional de fisioterapia trabajando en clínica",
       "title": "Trabaja con nosotros",
-      "text": ""
+      "text": "Forma parte de nuestro equipo de profesionales y envíanos tu currículum para futuras oportunidades en Wellcare Clinics."
     },
     "healthTips": {
       "image": "assets/images/health-tips.png",
@@ -74,5 +74,50 @@
       "title": "Consejos de salud",
       "text": "Artículos, consejos y blogs para cuidar de tu salud y tu bienestar."
     }
+  },
+  "actionButton": {
+    "sendCv": "Enviar currículum",
+    "contact": "Contactar",
+    "goToHome": "ir a contacto",
+    "goToAboutUs": "Quienes somos",
+    "goToOurProject": "Ver tratamientos",
+    "goToTips": "Más información",
+    "goToContact": "Trabaja con nosotros"
+  },
+  "mail": {
+    "recipient": "tomasiewic@gmail.com",
+    "cv": {
+      "subject": "Candidatura para Wellcare Clinics SL",
+      "body": "Hola,\n\nHe visto vuestra web y me gustaría enviaros mi CV para posibles candidaturas en Wellcare Clinics SL.\n\n¡¡¡NO OLVIDES ADJUNTAR TU CURRÍCULUM EN ESTE CORREO!!!"
+    }
+  },
+  "treatments": {
+    "sectionTitle": "Tratamientos",
+    "items": [
+      {
+        "image": "assets/images/knee.png",
+        "imageAlt": "",
+        "title": "Traumatología",
+        "text": "Tratamientos para lesiones musculares, articulares y procesos de recuperación."
+      },
+      {
+        "image": "assets/images/back.png",
+        "imageAlt": "",
+        "title": "Dolor crónico",
+        "text": "Tratamientos enfocados en aliviar el dolor persistente y mejorar la calidad de vida."
+      },
+      {
+        "image": "assets/images/pelvis.png",
+        "imageAlt": "",
+        "title": "Suelo pélvico",
+        "text": "Rehabilitación especializada para mejorar la función y el control del suelo pélvico."
+      },
+      {
+        "image": "assets/images/lungs.png",
+        "imageAlt": "",
+        "title": "Fisioterapia respiratoria",
+        "text": "Tratamientos para mejorar la función pulmonar y favorecer una respiración eficaz."
+      }
+    ]
   }
 }

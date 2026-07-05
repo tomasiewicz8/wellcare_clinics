@@ -1,58 +1,58 @@
 .navbar-menu-button {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 8px;
-    width: 48px;
-    height: 40px;
-    padding: 0;
-    border: none;
-    background: transparent;
-    cursor: pointer;
-  
-    span {
-      display: block;
-      height: 5px;
-      background: var(--color-text-disabled);
-      border-radius: 999px;
-      transition:
-        width var(--transition-fast),
-        transform var(--transition-fast),
-        opacity var(--transition-fast);
-    }
-  
-    span:nth-child(1) {
-      width: 28px;
-    }
-  
-    span:nth-child(2) {
-      width: 42px;
-    }
-  
-    span:nth-child(3) {
-      width: 28px;
-    }
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 6px;
+  width: 36px;
+  height: 32px;
+  padding: 0;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+
+  span {
+    display: block;
+    height: 4px;
+    background: var(--color-text-disabled);
+    border-radius: 999px;
+    transition:
+      width var(--transition-fast),
+      transform var(--transition-fast),
+      opacity var(--transition-fast);
   }
-  
-  .navbar-menu-button--open {
-    span:nth-child(1) {
-      width: 36px;
-      transform: translateY(13px) rotate(45deg);
-    }
-  
-    span:nth-child(2) {
-      opacity: 0;
-    }
-  
-    span:nth-child(3) {
-      width: 36px;
-      transform: translateY(-13px) rotate(-45deg);
-    }
+
+  span:nth-child(1) {
+    width: 22px;
   }
-  
-  @media (min-width: 1024px) {
-    .navbar-menu-button {
-      display: none;
-    }
+
+  span:nth-child(2) {
+    width: 32px;
   }
+
+  span:nth-child(3) {
+    width: 22px;
+  }
+}
+
+.navbar-menu-button--open {
+  span:nth-child(1) {
+    width: 30px;
+    transform: translateY(10px) rotate(45deg);
+  }
+
+  span:nth-child(2) {
+    opacity: 0;
+  }
+
+  span:nth-child(3) {
+    width: 30px;
+    transform: translateY(-10px) rotate(-45deg);
+  }
+}
+
+@media (min-width: 1024px) {
+  .navbar-menu-button {
+    display: none;
+  }
+}

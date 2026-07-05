@@ -2,11 +2,11 @@
 
 :host {
   display: flex;
-  justify-content: left;
+  justify-content: start;
   width: 100%;
 }
 
-.action-button {
+.navigation-button {
   width: var(--action-button-width-mobile);
   flex-shrink: 0;
 

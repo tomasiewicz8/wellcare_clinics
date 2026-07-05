@@ -1,3 +1,3 @@
-<a [href]="correoUrl" class="action-button">
-  Enviar correo
+<a *ngIf="text" [href]="correoUrl" class="action-button">
+  {{ text }}
 </a>
