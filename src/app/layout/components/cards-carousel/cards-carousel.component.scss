@@ -1,0 +1,71 @@
+@use '../../../../styles/mixins' as *;
+
+:host {
+  display: block;
+  width: 100%;
+}
+
+.cards-carousel__viewport {
+  width: 100%;
+
+  overflow-x: auto;
+  overflow-y: visible;
+
+  padding: 5px 0 var(--cards-carousel-padding-y) 0;
+
+  scrollbar-width: none;
+}
+
+.cards-carousel__viewport::-webkit-scrollbar {
+  display: none;
+}
+
+.cards-carousel__grid {
+  display: grid;
+  grid-auto-flow: column;
+
+  grid-auto-columns: calc(
+    (
+      100% -
+      (var(--cards-carousel-gap) * (var(--cards-carousel-columns-mobile) - 1))
+    ) / var(--cards-carousel-columns-mobile)
+  );
+
+  padding-left: var(--container-padding-mobile);
+
+  gap: var(--cards-carousel-gap);
+
+  align-items: stretch;
+}
+
+.cards-carousel__grid::after {
+  content: '';
+  width: 0.1px;
+}
+
+.cards-carousel__grid > * {
+  width: 100%;
+}
+
+@include respond-md {
+  .cards-carousel__grid {
+    grid-auto-columns: calc(
+      (
+        100% -
+        (var(--cards-carousel-gap) * (var(--cards-carousel-columns-tablet) - 1))
+      ) / var(--cards-carousel-columns-tablet)
+    );
+  }
+}
+
+@include respond-lg {
+  .cards-carousel__grid {
+    padding-left: var(--container-padding-desktop);
+    grid-auto-columns: calc(
+      (
+        100% -
+        (var(--cards-carousel-gap) * (var(--cards-carousel-columns-desktop) - 1))
+      ) / var(--cards-carousel-columns-desktop)
+    );
+  }
+}

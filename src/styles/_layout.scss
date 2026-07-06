@@ -1,15 +1,4 @@
 :root {
-  --container-padding-heght: 20px;
-
-  --container-padding-mobile: 20px;
-  --container-padding-desktop: 60px;
-
-  --footer-main-padding-y-mobile: 48px;
-  --footer-main-padding-y-desktop: 28px;
-
-  --footer-bottom-padding-y-mobile: 24px;
-  --footer-bottom-padding-y-desktop: 16px;
-
   --footer-logo-size-mobile: 76px;
   --footer-logo-size-desktop: 38px;
 
@@ -18,4 +7,8 @@
 
   --action-button-width-mobile: 180px;
   --action-button-width: 250px;
+
+  --cards-carousel-columns-mobile: 2;
+  --cards-carousel-columns-tablet: 4;
+  --cards-carousel-columns-desktop: 4;
 }

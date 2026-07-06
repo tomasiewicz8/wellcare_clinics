@@ -1,0 +1,36 @@
+<article class="diagonal-card">
+    <svg
+      class="diagonal-card__background"
+      viewBox="0 0 100 100"
+      preserveAspectRatio="none"
+      aria-hidden="true"
+    >
+      <path
+        class="diagonal-card__curve diagonal-card__curve--odd"
+        d="M0 0 H100 V90 C72 82 32 20 0 10 Z"
+      />
+  
+      <path
+        class="diagonal-card__curve diagonal-card__curve--even"
+        d="M0 0 H100 V10 C68 20 28 82 0 90 Z"
+      />
+    </svg>
+  
+    <div class="diagonal-card__content">
+      <img
+        class="diagonal-card__image"
+        [src]="image"
+        [alt]="imageAlt"
+      />
+  
+      <div class="diagonal-card__text-content">
+        <h3 class="diagonal-card__title">
+          {{ title }}
+        </h3>
+  
+        <p class="diagonal-card__text">
+          {{ text }}
+        </p>
+      </div>
+    </div>
+  </article>

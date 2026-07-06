@@ -1,0 +1,133 @@
+@use '../../../../styles/mixins' as *;
+
+:host {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.diagonal-card {
+  position: relative;
+  width: 100%;
+  height: 100%;
+
+  overflow: hidden;
+
+  background-color: var(--color-white);
+
+  border: var(--diagonal-card-border-width) solid var(--color-border-soft);
+  border-radius: var(--diagonal-card-radius);
+
+  box-shadow: var(--diagonal-card-shadow);
+}
+
+.diagonal-card__background {
+  position: absolute;
+  inset: 0;
+
+  width: 100%;
+  height: 100%;
+
+  display: block;
+}
+
+.diagonal-card__curve {
+  fill: var(--color-surface-blue-opacity);
+}
+
+.diagonal-card__curve--even {
+  display: none;
+}
+
+:host(:nth-of-type(even)) {
+  .diagonal-card__curve--odd {
+    display: none;
+  }
+
+  .diagonal-card__curve--even {
+    display: block;
+  }
+}
+
+.diagonal-card__content {
+  position: relative;
+  z-index: 1;
+
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0px;
+
+  padding: var(--diagonal-card-padding-mobile);
+
+  text-align: center;
+
+  @include respond-lg {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    column-gap: 0px;
+
+    padding: var(--diagonal-card-padding-desktop);
+
+    text-align: left;
+  }
+}
+
+.diagonal-card__image {
+  width: var(--diagonal-card-image-size-mobile);
+  height: var(--diagonal-card-image-size-mobile);
+
+  object-fit: contain;
+  flex-shrink: 0;
+
+  @include respond-lg {
+    width: var(--diagonal-card-image-size-desktop);
+    height: var(--diagonal-card-image-size-desktop);
+  }
+}
+
+.diagonal-card__text-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+
+  @include respond-lg {
+    align-items: flex-start;
+  }
+}
+
+.diagonal-card__title {
+  margin: 0;
+
+  color: var(--color-text-disabled);
+
+  font-family: var(--font-family-title);
+  font-size: var(--diagonal-card-title-size-mobile);
+  font-weight: var(--font-weight-bold);
+  line-height: var(--line-height-tight);
+
+  @include respond-lg {
+    font-size: var(--diagonal-card-title-size-desktop);
+  }
+}
+
+.diagonal-card__text {
+  margin: 0;
+
+  color: var(--color-text-disabled);
+
+  font-family: var(--font-family-text);
+  font-size: var(--diagonal-card-text-size-mobile);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--line-height-normal);
+
+  @include respond-lg {
+    font-size: var(--diagonal-card-text-size-desktop);
+  }
+}

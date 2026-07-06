@@ -9,14 +9,14 @@
   width: 100%;
   max-width: var(--container-width);
   margin: 0 auto;
-  padding: var(--space-xl) var(--container-padding-mobile);
+  padding: var(--space-xl) var(--container-padding-mobile) 0 var(--container-padding-mobile);
 
   display: flex;
   align-items: center;
   justify-content: flex-start;
 
   @include respond-lg {
-    padding: var(--space-xl) var(--container-padding-desktop);
+    padding: var(--space-xl) var(--container-padding-desktop) 0 var(--container-padding-desktop);
     justify-content: center;
   }
 }
