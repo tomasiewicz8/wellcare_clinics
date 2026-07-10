@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-diagonal-card',
@@ -7,8 +7,5 @@ import { Component } from '@angular/core';
   styleUrl: './diagonal-card.component.scss',
 })
 export class DiagonalCardComponent {
-  image = 'assets/images/knee.png';
-  imageAlt = 'Rodilla';
-  title = 'Traumatologia';
-  text = 'Tratamientos para lesiones musculares, articulares y procesos de recuperación.';
+  @Input() card?: any = {};
 }

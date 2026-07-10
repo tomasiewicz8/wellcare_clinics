@@ -60,7 +60,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 0px;
+  gap: 5px;
 
   padding: var(--diagonal-card-padding-mobile);
 
@@ -70,7 +70,7 @@
     display: grid;
     grid-template-columns: auto 1fr;
     align-items: center;
-    column-gap: 0px;
+    column-gap: 20px;
 
     padding: var(--diagonal-card-padding-desktop);
 
@@ -95,7 +95,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 20px;
+  gap: 15px;
 
   @include respond-lg {
     align-items: flex-start;

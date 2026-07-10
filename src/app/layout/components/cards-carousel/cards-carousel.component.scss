@@ -11,7 +11,7 @@
   overflow-x: auto;
   overflow-y: visible;
 
-  padding: 5px 0 var(--cards-carousel-padding-y) 0;
+  padding: 0 0 var(--cards-carousel-padding-y) 0;
 
   scrollbar-width: none;
 }
@@ -67,5 +67,10 @@
         (var(--cards-carousel-gap) * (var(--cards-carousel-columns-desktop) - 1))
       ) / var(--cards-carousel-columns-desktop)
     );
+  }
+
+  .cards-carousel__grid::after {
+    content: '';
+    width: 30px;
   }
 }

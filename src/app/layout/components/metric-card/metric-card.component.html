@@ -1,0 +1,21 @@
+<article class="metric-card">
+    <div class="metric-card__image-wrapper">
+      @if (card.image) {
+        <img
+          class="metric-card__image"
+          [src]="card.image"
+          [alt]="card.imageAlt || card.text || card.title"
+        />
+      }
+    </div>
+  
+    <div class="metric-card__content">
+      <h3 class="metric-card__title">
+        {{ card.title }}
+      </h3>
+  
+      <p class="metric-card__text">
+        {{ card.text }}
+      </p>
+    </div>
+  </article>

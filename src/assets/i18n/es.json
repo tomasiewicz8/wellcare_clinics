@@ -45,31 +45,31 @@
   },
   "hero": {
     "home": {
-      "image": "assets/images/home.png",
+      "image": "assets/images/hero/home.png",
       "imageAlt": "Tratamiento de fisioterapia personalizado",
       "title": "Tu bienestar es nuestro compromiso",
       "text": "Tratamientos personalizados en traumatología, rehabilitación y fisioterapia especializada."
     },
     "aboutUs": {
-      "image": "assets/images/about-us.png",
+      "image": "assets/images/hero/about-us.png",
       "imageAlt": "Clínica de fisioterapia Wellcare Clinics",
       "title": "Tu clinica de confianza",
       "text": "En Wellcare Clinics contamos con un equipo especializado en diversas técnicas de fisioterapia y tratamientos, comprometido con tu bienestar."
     },
     "ourProject": {
-      "image": "assets/images/our-project.png",
+      "image": "assets/images/hero/our-project.png",
       "imageAlt": "Proyecto de fisioterapia y bienestar personalizado",
       "title": "Nuestro proyecto",
       "text": "Tratamientos personalizados y efectivos para cuidar tu bienestar en cada etapa de tu recuperación."
     },
     "workWithUs": {
-      "image": "assets/images/work-with-us.png",
+      "image": "assets/images/hero/work-with-us.png",
       "imageAlt": "Equipo profesional de fisioterapia trabajando en clínica",
       "title": "Trabaja con nosotros",
       "text": "Forma parte de nuestro equipo de profesionales y envíanos tu currículum para futuras oportunidades en Wellcare Clinics."
     },
     "healthTips": {
-      "image": "assets/images/health-tips.png",
+      "image": "assets/images/hero/health-tips.png",
       "imageAlt": "Consejos de salud y bienestar para pacientes",
       "title": "Consejos de salud",
       "text": "Artículos, consejos y blogs para cuidar de tu salud y tu bienestar."
@@ -117,6 +117,81 @@
         "imageAlt": "",
         "title": "Fisioterapia respiratoria",
         "text": "Tratamientos para mejorar la función pulmonar y favorecer una respiración eficaz."
+      },
+      {
+        "image": "assets/images/knee.png",
+        "imageAlt": "",
+        "title": "Traumatología",
+        "text": "Tratamientos para lesiones musculares, articulares y procesos de recuperación."
+      }
+    ]
+  },
+  "team": {
+    "sectionTitle": "Nuestro equipo profesional",
+    "items": [
+      {
+        "image": "assets/images/team/2.png",
+        "imageAlt": "Foto de Dra. Laura González",
+        "title": "Dra. Laura González",
+        "text": "Fisioterapeuta"
+      },
+      {
+        "image": "assets/images/team/4.png",
+        "imageAlt": "Foto de Dr. Martin Pérez",
+        "title": "Dr. Martin Pérez",
+        "text": "Traumatólogo"
+      },
+      {
+        "image": "assets/images/team/3.png",
+        "imageAlt": "Foto de Ana López",
+        "title": "Ana López",
+        "text": "Fisioterapeuta"
+      },
+      {
+        "image": "assets/images/team/1.png",
+        "imageAlt": "Foto de José Rodríguez",
+        "title": "José Rodríguez",
+        "text": "Rehabilitador"
+      },
+      {
+        "image": "assets/images/team/5.png",
+        "imageAlt": "Foto de Pedro Sánchez",
+        "title": "Pedro Sánchez",
+        "text": "Fisioterapeuta"
+      }
+    ]
+  },
+  "metrics": {
+    "items": [
+      {
+        "image": "assets/images/metrics/1.png",
+        "imageAlt": "Icono de experiencia",
+        "title": "+10",
+        "text": "Años de experiencia"
+      },
+      {
+        "image": "assets/images/metrics/2.png",
+        "imageAlt": "Icono de pacientes",
+        "title": "+1000",
+        "text": "Pacientes tratados"
+      },
+      {
+        "image": "assets/images/metrics/3.png",
+        "imageAlt": "Icono de pacientes",
+        "title": "+1000",
+        "text": "Pacientes tratados"
+      },
+      {
+        "image": "assets/images/metrics/1.png",
+        "imageAlt": "Icono de experiencia",
+        "title": "+10",
+        "text": "Años de experiencia"
+      },
+      {
+        "image": "assets/images/metrics/2.png",
+        "imageAlt": "Icono de pacientes",
+        "title": "+1000",
+        "text": "Pacientes tratados"
       }
     ]
   }

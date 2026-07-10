@@ -1,0 +1,19 @@
+<article class="professional-card">
+    <div class="professional-card__image-wrapper">
+      <img
+        class="professional-card__image"
+        [src]="card.image"
+        [alt]="card.imageAlt || card.title"
+      />
+    </div>
+  
+    <div class="professional-card__content">
+      <h3 class="professional-card__name">
+        {{ card.title }}
+      </h3>
+  
+      <p class="professional-card__profession">
+        {{ card.text }}
+      </p>
+    </div>
+  </article>

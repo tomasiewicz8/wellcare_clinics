@@ -33,6 +33,14 @@ export class TranslationService {
     return typeof value === 'string' ? value : key;
   }
 
+  translateArray<T = unknown>(key: string): T[] {
+    const value = key
+      .split('.')
+      .reduce<any>((current, part) => current?.[part], this.translations);
+
+    return Array.isArray(value) ? value : [];
+  }
+
   getCurrentLang(): string {
     return this.currentLang;
   }

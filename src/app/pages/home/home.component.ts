@@ -1,10 +1,13 @@
 import { Component } from '@angular/core';
+
 import { MainPhotoComponent } from '../../layout/components/main-photo/main-photo.component';
-import { NavigationButtonComponent } from '../../layout/components/navigation-button/navigation-button.component';
 import { ActionButtonComponent } from '../../layout/components/action-button/action-button.component';
 import { SectionTitleComponent } from '../../layout/components/section-title/section-title.component';
 import { DiagonalCardComponent } from '../../layout/components/diagonal-card/diagonal-card.component';
 import { CardsCarouselComponent } from '../../layout/components/cards-carousel/cards-carousel.component';
+
+import { TranslationService } from '../../services/translation.service';
+import { ProfessionalCardComponent } from '../../layout/components/professional-card/professional-card.component';
 
 @Component({
   selector: 'app-home',
@@ -17,8 +20,12 @@ import { CardsCarouselComponent } from '../../layout/components/cards-carousel/c
     CardsCarouselComponent,
   ],
   templateUrl: './home.component.html',
-  styleUrl: './home.component.scss'
+  styleUrl: './home.component.scss',
 })
 export class HomeComponent {
+  constructor(private translationService: TranslationService) {}
 
+  get treatmentsArray(): any[] {
+    return this.translationService.translateArray<any>('treatments.items');
+  }
 }

@@ -19,17 +19,17 @@
     <div class="diagonal-card__content">
       <img
         class="diagonal-card__image"
-        [src]="image"
-        [alt]="imageAlt"
+        [src]="card?.image"
+        [alt]="card?.imageAlt"
       />
   
       <div class="diagonal-card__text-content">
         <h3 class="diagonal-card__title">
-          {{ title }}
+          {{ card?.title }}
         </h3>
   
         <p class="diagonal-card__text">
-          {{ text }}
+          {{ card?.text }}
         </p>
       </div>
     </div>
