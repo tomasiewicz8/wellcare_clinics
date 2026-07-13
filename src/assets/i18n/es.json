@@ -194,5 +194,96 @@
         "text": "Pacientes tratados"
       }
     ]
+  },
+  "articles": {
+    "sectionTitle": "Explora nuestros artículos.",
+    "blogs": "Blogs",
+    "news": "Noticias",
+    "tips": "Consejos",
+    "news&tips": "Consejos & Noticias",
+    "readMore": "Leer más",
+    "items": [
+      {
+        "image": "",
+        "imageAlt": "",
+        "category": "DOLOR LUMBAR:",
+        "type": "Blog",
+        "title": "Dolor lumbar: causas, síntomas y tratamiento",
+        "shortTitle": "Dolor lumbar",
+        "text": "Todo lo que necesitas saber para entender el dolor lumbar y cómo tratarlo de forma efectiva."
+      },
+      {
+        "image": "",
+        "imageAlt": "",
+        "category": "PREVENCIÓN:",
+        "type": "Consejo",
+        "title": "Consejos para prevenir lesiones deportivas",
+        "shortTitle": "Prevención deportiva",
+        "text": "Recomendaciones clave para entrenar de forma segura y evitar lesiones comunes."
+      },
+      {
+        "image": "",
+        "imageAlt": "",
+        "category": "FISIOTERAPIA:",
+        "type": "Blog",
+        "title": "Fisioterapia respiratoria: qué es y cómo ayuda",
+        "shortTitle": "Fisioterapia respiratoria",
+        "text": "Descubre cómo mejora la función pulmonar y la calidad de vida en diferentes patologías."
+      },
+      {
+        "image": "",
+        "imageAlt": "",
+        "category": "APERTURA:",
+        "type": "Noticia",
+        "title": "Wellcare Clinics abre su nueva clínica en Valencia",
+        "shortTitle": "Nueva clínica",
+        "text": "Seguimos creciendo para estar más cerca de ti y ofrecerte el mejor servicio."
+      },
+      {
+        "image": "",
+        "imageAlt": "",
+        "category": "APERTURA:",
+        "type": "Noticia",
+        "title": "Wellcare Clinics abre su nueva clínica en Valencia",
+        "shortTitle": "Nueva clínica",
+        "text": "Seguimos creciendo para estar más cerca de ti y ofrecerte el mejor servicio."
+      },
+      {
+        "image": "",
+        "imageAlt": "",
+        "category": "APERTURA",
+        "type": "Noticia",
+        "title": "Wellcare Clinics abre su nueva clínica en Valencia",
+        "shortTitle": "Nueva clínica",
+        "text": "Seguimos creciendo para estar más cerca de ti y ofrecerte el mejor servicio."
+      },
+      {
+        "image": "",
+        "imageAlt": "",
+        "category": "APERTURA:",
+        "type": "Noticia",
+        "title": "Wellcare Clinics abre su nueva clínica en Valencia",
+        "shortTitle": "Nueva clínica",
+        "text": "Seguimos creciendo para estar más cerca de ti y ofrecerte el mejor servicio."
+      },
+      {
+        "image": "",
+        "imageAlt": "",
+        "category": "SALUD:",
+        "type": "Consejo",
+        "title": "5 ejercicios para aliviar el dolor de espalda en casa",
+        "shortTitle": "Ejercicios espalda",
+        "text": "Rutinas sencillas que puedes hacer en casa para reducir el dolor y mejorar tu movilidad."
+      },
+      {
+        "image": "",
+        "imageAlt": "",
+        "category": "POSTURAS:",
+        "type": "Consejo",
+        "title": "La importancia de una buena postura en tu día a día",
+        "shortTitle": "Buena postura",
+        "text": "Pequeños hábitos que marcan la diferencia en tu salud y ayudan a prevenir lesiones."
+      }
+    ]
   }
 }

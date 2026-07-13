@@ -1,0 +1,27 @@
+@if (isOpen) {
+    <div
+      class="modal"
+      role="presentation"
+      (click)="onBackdropClick()"
+    >
+      <section
+        class="modal__panel"
+        role="dialog"
+        aria-modal="true"
+        (click)="onPanelClick($event)"
+      >
+        <button
+          class="modal__close"
+          type="button"
+          aria-label="Cerrar modal"
+          (click)="close()"
+        >
+          <span aria-hidden="true">×</span>
+        </button>
+  
+        <div class="modal__content">
+          <ng-content />
+        </div>
+      </section>
+    </div>
+  }

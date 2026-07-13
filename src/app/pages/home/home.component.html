@@ -10,3 +10,14 @@
     }
   </app-cards-carousel>
 
+<app-section-title titleKey="articles.news&tips" />
+<app-cards-carousel
+  [columnsMobile]="articlesArray.length > 1 ? 1.2 : articlesArray.length"
+  [columnsTablet]="articlesArray.length > 1 ? 2 : articlesArray.length"
+  [columnsDesktop]="articlesArray.length > 1 ? 4 : articlesArray.length"
+>
+  @for (card of articlesArray; track card.title || $index) {
+    <app-article-card [card]="card" />
+  }
+</app-cards-carousel>
+

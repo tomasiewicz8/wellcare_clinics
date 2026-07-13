@@ -7,7 +7,7 @@ import { DiagonalCardComponent } from '../../layout/components/diagonal-card/dia
 import { CardsCarouselComponent } from '../../layout/components/cards-carousel/cards-carousel.component';
 
 import { TranslationService } from '../../services/translation.service';
-import { ProfessionalCardComponent } from '../../layout/components/professional-card/professional-card.component';
+import { ArticleCardComponent } from '../../layout/components/article-card/article-card.component';
 
 @Component({
   selector: 'app-home',
@@ -18,6 +18,7 @@ import { ProfessionalCardComponent } from '../../layout/components/professional-
     SectionTitleComponent,
     DiagonalCardComponent,
     CardsCarouselComponent,
+    ArticleCardComponent,
   ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss',
@@ -28,4 +29,9 @@ export class HomeComponent {
   get treatmentsArray(): any[] {
     return this.translationService.translateArray<any>('treatments.items');
   }
+
+  get articlesArray(): any[] {
+    return this.translationService.translateArray<any>('articles.items');
+  }
+
 }

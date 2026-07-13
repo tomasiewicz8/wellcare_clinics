@@ -14,6 +14,9 @@
   padding: 0 0 var(--cards-carousel-padding-y) 0;
 
   scrollbar-width: none;
+
+  scroll-snap-type: x mandatory;
+  scroll-padding-left: var(--container-padding-mobile);
 }
 
 .cards-carousel__viewport::-webkit-scrollbar {
@@ -47,6 +50,13 @@
   width: 100%;
 }
 
+:host ::ng-deep .cards-carousel__grid > * {
+  width: 100%;
+
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+}
+
 @include respond-md {
   .cards-carousel__grid {
     grid-auto-columns: calc(
@@ -67,6 +77,10 @@
         (var(--cards-carousel-gap) * (var(--cards-carousel-columns-desktop) - 1))
       ) / var(--cards-carousel-columns-desktop)
     );
+  }
+
+  .cards-carousel__viewport {
+    scroll-padding-left: var(--container-padding-desktop);
   }
 
   .cards-carousel__grid::after {
