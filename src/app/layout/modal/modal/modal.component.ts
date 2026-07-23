@@ -5,10 +5,16 @@ import {
   Input,
   Output,
 } from '@angular/core';
+import { RouterLink } from '@angular/router';
+
+import { TranslationService } from '../../../services/translation.service';
 
 @Component({
   selector: 'app-modal',
   standalone: true,
+  imports: [
+    RouterLink,
+  ],
   templateUrl: './modal.component.html',
   styleUrl: './modal.component.scss',
 })
@@ -17,6 +23,10 @@ export class ModalComponent {
   @Input() closeOnBackdrop = true;
 
   @Output() modalClose = new EventEmitter<void>();
+
+  constructor(
+    public translationService: TranslationService,
+  ) {}
 
   close(): void {
     this.modalClose.emit();

@@ -1,1 +1,90 @@
-<p>menu-modal-content works!</p>
+<nav
+  class="menu-modal-content"
+  aria-label="Navegación principal"
+>
+  <a
+    class="menu-modal-content__link"
+    routerLink="/"
+    routerLinkActive="menu-modal-content__link--active"
+    [routerLinkActiveOptions]="{ exact: true }"
+  >
+    <span class="menu-modal-content__text">
+      {{ translationService.translate('navigation.home') }}
+    </span>
+
+    <span
+      class="menu-modal-content__arrow"
+      aria-hidden="true"
+    >
+      →
+    </span>
+  </a>
+
+  <a
+    class="menu-modal-content__link"
+    routerLink="/about-us"
+    routerLinkActive="menu-modal-content__link--active"
+  >
+    <span class="menu-modal-content__text">
+      {{ translationService.translate('navigation.aboutUs') }}
+    </span>
+
+    <span
+      class="menu-modal-content__arrow"
+      aria-hidden="true"
+    >
+      →
+    </span>
+  </a>
+
+  <a
+    class="menu-modal-content__link"
+    routerLink="/our-project"
+    routerLinkActive="menu-modal-content__link--active"
+  >
+    <span class="menu-modal-content__text">
+      {{ translationService.translate('navigation.ourProject') }}
+    </span>
+
+    <span
+      class="menu-modal-content__arrow"
+      aria-hidden="true"
+    >
+      →
+    </span>
+  </a>
+
+  <a
+    class="menu-modal-content__link"
+    routerLink="/tips"
+    routerLinkActive="menu-modal-content__link--active"
+  >
+    <span class="menu-modal-content__text">
+      {{ translationService.translate('navigation.tips') }}
+    </span>
+
+    <span
+      class="menu-modal-content__arrow"
+      aria-hidden="true"
+    >
+      →
+    </span>
+  </a>
+
+  <a
+    class="menu-modal-content__link"
+    routerLink="/contact"
+    routerLinkActive="menu-modal-content__link--active"
+  >
+    <span class="menu-modal-content__text">
+      {{ translationService.translate('navigation.contact') }}
+    </span>
+
+    <span
+      class="menu-modal-content__arrow"
+      aria-hidden="true"
+    >
+      →
+    </span>
+  </a>
+</nav>

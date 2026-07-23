@@ -1,12 +1,11 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-article-modal-content',
   standalone: true,
-  imports: [],
   templateUrl: './article-modal-content.component.html',
-  styleUrl: './article-modal-content.component.scss'
+  styleUrl: './article-modal-content.component.scss',
 })
 export class ArticleModalContentComponent {
-
+  @Input() article: any = {};
 }

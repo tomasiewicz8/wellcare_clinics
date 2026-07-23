@@ -1,1 +1,17 @@
-<p>article-modal-content works!</p>
+<article class="article-modal-content">
+  @if (article?.image) {
+    <img
+      class="article-modal-content__image"
+      [src]="'assets/images/articles/' + article?.image"
+      [alt]="article?.imageAlt || article?.title || article?.shortTitle"
+    />
+  }
+
+  <h2 class="article-modal-content__title">
+    {{ article?.title || article?.shortTitle }}
+  </h2>
+
+  <p class="article-modal-content__text">
+    {{ article?.fullText }}
+  </p>
+</article>

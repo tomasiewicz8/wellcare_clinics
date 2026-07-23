@@ -1,7 +1,4 @@
-<app-navbar
-  [isMobileMenuOpen]="isMenuModalOpen"
-  (menuToggle)="toggleMenuModal()"
-/>
+<app-navbar />
 
 <main class="app-main">
   <router-outlet />
@@ -10,8 +7,18 @@
 <app-footer />
 
 <app-modal
-  [isOpen]="isMenuModalOpen"
-  (modalClose)="closeMenuModal()"
+  [isOpen]="modalService.isOpen()"
+  (modalClose)="modalService.close()"
 >
-  <app-menu-modal-content />
+  @switch (modalService.contentType()) {
+    @case ('menu') {
+      <app-menu-modal-content />
+    }
+
+    @case ('article') {
+      <app-article-modal-content
+        [article]="modalService.contentData()"
+      />
+    }
+  }
 </app-modal>

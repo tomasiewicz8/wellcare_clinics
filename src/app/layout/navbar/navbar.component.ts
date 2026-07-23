@@ -1,6 +1,9 @@
-import { Component, EventEmitter, Input, Output } from '@angular/core';
+import { Component } from '@angular/core';
 import { RouterLink, RouterLinkActive } from '@angular/router';
+
 import { TranslationService } from '../../services/translation.service';
+import { ModalService } from '../../services/modal.service';
+
 import { NavbarMenuButtonComponent } from '../components/navbar-menu-button/navbar-menu-button.component';
 
 @Component({
@@ -15,14 +18,24 @@ import { NavbarMenuButtonComponent } from '../components/navbar-menu-button/navb
   styleUrl: './navbar.component.scss',
 })
 export class NavbarComponent {
-  @Input() isMobileMenuOpen = false;
-  @Output() menuToggle = new EventEmitter<void>();
-
   constructor(
     public translationService: TranslationService,
+    public modalService: ModalService,
   ) {}
 
+  get isMobileMenuOpen(): boolean {
+    return (
+      this.modalService.isOpen() &&
+      this.modalService.contentType() === 'menu'
+    );
+  }
+
   toggleMobileMenu(): void {
-    this.menuToggle.emit();
+    if (this.isMobileMenuOpen) {
+      this.modalService.close();
+      return;
+    }
+
+    this.modalService.openMenu();
   }
 }

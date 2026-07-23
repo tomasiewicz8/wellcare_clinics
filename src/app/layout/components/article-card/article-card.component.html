@@ -1,37 +1,40 @@
 <article class="article-card">
-    <svg
-      class="article-card__background"
-      viewBox="0 0 100 100"
-      preserveAspectRatio="none"
-      aria-hidden="true"
-    >
-      <path
-        class="article-card__curve article-card__curve--odd"
-        d="M0 0 H100 V90 C72 82 32 20 0 10 Z"
-      />
-  
-      <path
-        class="article-card__curve article-card__curve--even"
-        d="M0 0 H100 V10 C68 20 28 82 0 90 Z"
-      />
-    </svg>
-  
-    <div class="article-card__content">
+  <svg
+    class="article-card__background"
+    viewBox="0 0 100 100"
+    preserveAspectRatio="none"
+    aria-hidden="true"
+  >
+    <path
+      class="article-card__curve article-card__curve--odd"
+      d="M0 0 H100 V90 C72 82 32 20 0 10 Z"
+    />
 
-      <div class="article-card__text-content">
-        <h3 class="article-card__title">
-          {{ card?.shortTitle }}
-        </h3>
-  
-        <p class="article-card__text">
-          {{ card?.text }}
-        </p>
-      </div>
+    <path
+      class="article-card__curve article-card__curve--even"
+      d="M0 0 H100 V10 C68 20 28 82 0 90 Z"
+    />
+  </svg>
 
-      <div class="article-card__read-more">
-        <p class="article-card__text_read-more">
-          {{ translationService.translate('articles.readMore') }}
-        </p>
-      </div>
+  <div class="article-card__content">
+    <div class="article-card__text-content">
+      <h3 class="article-card__title">
+        {{ card?.shortTitle }}
+      </h3>
+
+      <p class="article-card__text">
+        {{ card?.text }}
+      </p>
     </div>
-  </article>
+
+    <div class="article-card__read-more">
+      <button
+        class="article-card__text_read-more"
+        type="button"
+        (click)="openArticle()"
+      >
+        {{ translationService.translate('articles.readMore') }}
+      </button>
+    </div>
+  </div>
+</article>

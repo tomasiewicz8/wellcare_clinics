@@ -1,5 +1,7 @@
 import { Component, Input } from '@angular/core';
+
 import { TranslationService } from '../../../services/translation.service';
+import { ModalService } from '../../../services/modal.service';
 
 @Component({
   selector: 'app-article-card',
@@ -8,8 +10,14 @@ import { TranslationService } from '../../../services/translation.service';
   styleUrl: './article-card.component.scss',
 })
 export class ArticleCardComponent {
-  
-  constructor(public translationService: TranslationService) {}
+  @Input() card: any = {};
 
-  @Input() card?: any = {};
+  constructor(
+    public translationService: TranslationService,
+    private modalService: ModalService,
+  ) {}
+
+  openArticle(): void {
+    this.modalService.openArticle(this.card);
+  }
 }

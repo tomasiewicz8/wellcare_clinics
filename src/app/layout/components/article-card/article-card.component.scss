@@ -108,8 +108,12 @@
   }
 }
 
-.article-card__text_read-more {
+  .article-card__text_read-more {
     margin: 0;
+    padding: 0;
+  
+    border: 0;
+    background: transparent;
   
     color: var(--color-primary-soft);
   
@@ -117,7 +121,9 @@
     font-size: var(--article-card-text-size-mobile);
     font-weight: var(--font-weight-regular);
     line-height: var(--line-height-normal);
-
+  
+    text-align: left;
+  
     cursor: pointer;
   
     @include respond-lg {

@@ -1,15 +1,32 @@
 @if (isOpen) {
-    <div
-      class="modal"
-      role="presentation"
-      (click)="onBackdropClick()"
+  <div
+    class="modal"
+    role="presentation"
+    (click)="onBackdropClick()"
+  >
+    <section
+      class="modal__panel"
+      role="dialog"
+      aria-modal="true"
+      (click)="onPanelClick($event)"
     >
-      <section
-        class="modal__panel"
-        role="dialog"
-        aria-modal="true"
-        (click)="onPanelClick($event)"
-      >
+      <header class="modal__header">
+        <a
+          class="modal__brand"
+          routerLink="/"
+          (click)="close()"
+        >
+          <img
+            class="modal__logo"
+            [src]="translationService.translate('brand.logo')"
+            [alt]="translationService.translate('brand.logoAlt')"
+          />
+
+          <span class="modal__brand-name">
+            {{ translationService.translate('brand.name') }}
+          </span>
+        </a>
+
         <button
           class="modal__close"
           type="button"
@@ -18,10 +35,11 @@
         >
           <span aria-hidden="true">×</span>
         </button>
-  
-        <div class="modal__content">
-          <ng-content />
-        </div>
-      </section>
-    </div>
-  }
+      </header>
+
+      <div class="modal__content">
+        <ng-content />
+      </div>
+    </section>
+  </div>
+}

@@ -204,85 +204,94 @@
     "readMore": "Leer más",
     "items": [
       {
-        "image": "",
+        "image": "articles1.png",
         "imageAlt": "",
         "category": "DOLOR LUMBAR:",
         "type": "Blog",
         "title": "Dolor lumbar: causas, síntomas y tratamiento",
         "shortTitle": "Dolor lumbar",
-        "text": "Todo lo que necesitas saber para entender el dolor lumbar y cómo tratarlo de forma efectiva."
+        "text": "Todo lo que necesitas saber para entender el dolor lumbar y cómo tratarlo de forma efectiva.",
+        "fullText": "El dolor lumbar es una de las molestias más frecuentes en adultos y puede aparecer por muchas razones: malas posturas, sobrecarga muscular, sedentarismo, movimientos bruscos, estrés, lesiones deportivas o problemas asociados a la columna vertebral. Aunque muchas veces se trata de un dolor temporal, cuando se repite con frecuencia o limita las actividades del día a día conviene valorarlo con un profesional.\n\nLos síntomas pueden variar desde una sensación de tensión en la zona baja de la espalda hasta un dolor intenso que dificulta caminar, estar sentado o levantarse. En algunos casos, el dolor puede irradiarse hacia los glúteos o las piernas, especialmente si existe irritación nerviosa. También puede aparecer rigidez, pérdida de movilidad o sensación de debilidad muscular.\n\nEl tratamiento depende de la causa y de la evolución del dolor. En fisioterapia se trabaja para reducir la inflamación, mejorar la movilidad, relajar la musculatura y fortalecer la zona lumbar, abdominal y pélvica. Además, se enseñan pautas de higiene postural y ejercicios personalizados para evitar recaídas.\n\nNo siempre es recomendable guardar reposo absoluto. En muchos casos, mantener una actividad suave y controlada ayuda a una recuperación más rápida. Caminar, realizar ejercicios de movilidad y evitar esfuerzos bruscos puede ser beneficioso. Sin embargo, si el dolor es muy intenso, aparece pérdida de fuerza, hormigueo persistente o dificultad para controlar esfínteres, es importante acudir a un profesional sanitario cuanto antes.\n\nEn Wellcare Clinics valoramos cada caso de forma individual para identificar el origen del dolor y diseñar un plan de tratamiento adaptado a las necesidades de cada paciente."
       },
       {
-        "image": "",
+        "image": "articles2.png",
         "imageAlt": "",
         "category": "PREVENCIÓN:",
         "type": "Consejo",
         "title": "Consejos para prevenir lesiones deportivas",
         "shortTitle": "Prevención deportiva",
-        "text": "Recomendaciones clave para entrenar de forma segura y evitar lesiones comunes."
+        "text": "Recomendaciones clave para entrenar de forma segura y evitar lesiones comunes.",
+        "fullText": "La prevención de lesiones deportivas empieza mucho antes del entrenamiento. Preparar el cuerpo de forma adecuada, respetar los tiempos de descanso y utilizar una técnica correcta son claves para reducir el riesgo de molestias musculares, sobrecargas, esguinces o lesiones más graves.\n\nUno de los errores más habituales es comenzar la actividad física sin un calentamiento previo. Dedicar unos minutos a activar la musculatura, movilizar las articulaciones y aumentar progresivamente la intensidad ayuda a que el cuerpo responda mejor al esfuerzo. Del mismo modo, al finalizar el entrenamiento es recomendable realizar una vuelta a la calma con estiramientos suaves y ejercicios de movilidad.\n\nTambién es importante progresar poco a poco. Aumentar de golpe el peso, la distancia, la velocidad o la frecuencia de entrenamiento puede provocar sobrecargas. El cuerpo necesita adaptarse de forma gradual, especialmente si se retoma el ejercicio después de un periodo de inactividad.\n\nLa técnica es otro punto fundamental. Un mal gesto repetido muchas veces puede terminar generando dolor o lesión. Por eso, si practicas deporte con regularidad, es recomendable revisar la postura, el patrón de movimiento y la forma de ejecutar los ejercicios.\n\nEl descanso forma parte del entrenamiento. Dormir bien, alternar días de carga con días de recuperación y escuchar las señales del cuerpo ayuda a prevenir lesiones. Dolor persistente, fatiga excesiva o pérdida de rendimiento pueden ser señales de que necesitas bajar el ritmo.\n\nEn Wellcare Clinics ayudamos a deportistas de todos los niveles a prevenir lesiones mediante valoración funcional, tratamiento fisioterapéutico y pautas de ejercicio adaptadas a cada objetivo."
       },
       {
-        "image": "",
+        "image": "articles3.png",
         "imageAlt": "",
         "category": "FISIOTERAPIA:",
         "type": "Blog",
         "title": "Fisioterapia respiratoria: qué es y cómo ayuda",
         "shortTitle": "Fisioterapia respiratoria",
-        "text": "Descubre cómo mejora la función pulmonar y la calidad de vida en diferentes patologías."
+        "text": "Descubre cómo mejora la función pulmonar y la calidad de vida en diferentes patologías.",
+        "fullText": "La fisioterapia respiratoria es una especialidad de la fisioterapia enfocada en mejorar la función pulmonar, facilitar la eliminación de secreciones y optimizar la forma de respirar. Puede ser útil tanto en adultos como en niños, especialmente cuando existen enfermedades respiratorias, procesos catarrales recurrentes, bronquitis, asma, EPOC o recuperación después de una cirugía.\n\nSu objetivo no es sustituir un tratamiento médico, sino complementarlo. A través de técnicas manuales, ejercicios respiratorios y educación del paciente, se busca mejorar la ventilación, reducir la sensación de ahogo y ayudar al cuerpo a gestionar mejor el esfuerzo físico.\n\nEntre los beneficios más habituales se encuentran una respiración más eficiente, menor acumulación de mucosidad, mejora de la capacidad pulmonar y reducción de la fatiga en actividades cotidianas. En pacientes con patologías crónicas, también puede contribuir a mejorar la calidad de vida y disminuir la frecuencia de algunas complicaciones.\n\nLas sesiones se adaptan a la edad, el estado físico y la situación clínica de cada persona. En algunos casos se enseñan ejercicios para realizar en casa, técnicas de control respiratorio y pautas para reconocer señales de alarma.\n\nLa fisioterapia respiratoria puede ser especialmente recomendable cuando hay tos persistente, sensación de opresión, dificultad para expulsar mucosidad o limitación al caminar o subir escaleras. En Wellcare Clinics realizamos una valoración individual para aplicar las técnicas más adecuadas y acompañar al paciente durante todo el proceso."
       },
       {
-        "image": "",
+        "image": "articles4.png",
         "imageAlt": "",
         "category": "APERTURA:",
         "type": "Noticia",
         "title": "Wellcare Clinics abre su nueva clínica en Valencia",
         "shortTitle": "Nueva clínica",
-        "text": "Seguimos creciendo para estar más cerca de ti y ofrecerte el mejor servicio."
+        "text": "Seguimos creciendo para estar más cerca de ti y ofrecerte el mejor servicio.",
+        "fullText": "Wellcare Clinics continúa creciendo con la apertura de una nueva clínica en Valencia. Este nuevo centro nace con el objetivo de acercar nuestros servicios de salud, fisioterapia y bienestar a más personas, manteniendo la atención cercana y personalizada que caracteriza a nuestro equipo.\n\nLa nueva clínica cuenta con espacios diseñados para ofrecer comodidad, privacidad y una experiencia de tratamiento agradable desde el primer momento. Cada sala ha sido preparada para facilitar una atención individualizada, con equipamiento moderno y un entorno pensado para que el paciente se sienta acompañado durante todo el proceso.\n\nEn este centro se ofrecerán servicios orientados a la recuperación física, el tratamiento del dolor, la prevención de lesiones y la mejora de la movilidad. Nuestro equipo trabajará con una visión integral, valorando cada caso de forma personalizada y proponiendo planes adaptados a las necesidades reales de cada paciente.\n\nLa apertura en Valencia supone un paso importante para Wellcare Clinics. Queremos seguir creciendo sin perder nuestra esencia: escuchar, valorar y tratar a cada persona con profesionalidad, cercanía y compromiso.\n\nMuy pronto compartiremos más información sobre horarios, servicios disponibles y formas de reservar cita. Estamos deseando recibirte en nuestra nueva clínica."
       },
       {
-        "image": "",
+        "image": "articles5.png",
         "imageAlt": "",
         "category": "APERTURA:",
         "type": "Noticia",
         "title": "Wellcare Clinics abre su nueva clínica en Valencia",
         "shortTitle": "Nueva clínica",
-        "text": "Seguimos creciendo para estar más cerca de ti y ofrecerte el mejor servicio."
+        "text": "Seguimos creciendo para estar más cerca de ti y ofrecerte el mejor servicio.",
+        "fullText": "La llegada de Wellcare Clinics a Valencia forma parte de nuestro compromiso por ofrecer una atención sanitaria accesible, profesional y centrada en las personas. Con este nuevo espacio queremos crear un punto de referencia para quienes buscan mejorar su salud, recuperarse de una lesión o prevenir molestias futuras.\n\nEl centro ha sido diseñado para que cada paciente reciba una atención cómoda y personalizada. Desde la primera valoración hasta el seguimiento del tratamiento, nuestro objetivo es que cada persona entienda qué le ocurre, por qué aparece su dolor o limitación y qué pasos puede seguir para mejorar.\n\nEn la nueva clínica se trabajará con tratamientos de fisioterapia, ejercicio terapéutico, educación postural y recuperación funcional. También se ofrecerán pautas adaptadas para el día a día, porque creemos que una buena recuperación no termina en la camilla, sino que continúa en casa, en el trabajo y en la actividad diaria.\n\nNuestro equipo combina experiencia, formación continua y trato cercano. Queremos que cada paciente se sienta escuchado y acompañado, evitando tratamientos genéricos y apostando por soluciones adaptadas a cada caso.\n\nCon esta apertura reforzamos nuestra presencia y damos un paso más en el crecimiento de Wellcare Clinics. Valencia nos abre sus puertas y nosotros llegamos con mucha ilusión."
       },
       {
-        "image": "",
+        "image": "articles6.png",
         "imageAlt": "",
         "category": "APERTURA",
         "type": "Noticia",
         "title": "Wellcare Clinics abre su nueva clínica en Valencia",
         "shortTitle": "Nueva clínica",
-        "text": "Seguimos creciendo para estar más cerca de ti y ofrecerte el mejor servicio."
+        "text": "Seguimos creciendo para estar más cerca de ti y ofrecerte el mejor servicio.",
+        "fullText": "Abrimos una nueva etapa en Wellcare Clinics con la inauguración de nuestra clínica en Valencia. Este nuevo centro representa una oportunidad para seguir ofreciendo tratamientos de calidad, atención personalizada y un enfoque de salud basado en la prevención, la recuperación y el bienestar a largo plazo.\n\nLa clínica nace con una idea clara: ayudar a cada paciente a recuperar su movilidad, reducir el dolor y mejorar su calidad de vida. Para ello, contamos con profesionales especializados que valoran cada situación de forma individual y diseñan planes de tratamiento ajustados a los objetivos de cada persona.\n\nEl espacio ha sido preparado para ofrecer una experiencia cómoda y profesional. Queremos que cada visita sea útil, clara y cercana. Por eso, además del tratamiento, damos importancia a la explicación del problema, la educación en hábitos saludables y la orientación para evitar recaídas.\n\nLa apertura de Valencia nos permite estar más cerca de nuevos pacientes y seguir consolidando nuestra forma de trabajar: tratamientos personalizados, comunicación clara y compromiso con los resultados.\n\nEstamos muy ilusionados con este nuevo comienzo y esperamos que la clínica se convierta en un lugar de confianza para todas las personas que quieran cuidar su salud física."
       },
       {
-        "image": "",
+        "image": "articles7.png",
         "imageAlt": "",
         "category": "APERTURA:",
         "type": "Noticia",
         "title": "Wellcare Clinics abre su nueva clínica en Valencia",
         "shortTitle": "Nueva clínica",
-        "text": "Seguimos creciendo para estar más cerca de ti y ofrecerte el mejor servicio."
+        "text": "Seguimos creciendo para estar más cerca de ti y ofrecerte el mejor servicio.",
+        "fullText": "Wellcare Clinics abre sus puertas en Valencia con un nuevo centro dedicado al cuidado de la salud, la recuperación física y la prevención de lesiones. Esta apertura responde a nuestro deseo de seguir creciendo y ofrecer una atención más cercana a todas aquellas personas que buscan un servicio profesional y personalizado.\n\nEn la nueva clínica trabajaremos con pacientes que presentan dolor muscular o articular, lesiones deportivas, molestias posturales, problemas de movilidad o necesidad de recuperación tras una intervención o periodo de inactividad. Cada tratamiento partirá de una valoración inicial para entender el origen del problema y plantear un plan realista y adaptado.\n\nNuestra filosofía se basa en combinar tratamiento manual, ejercicio terapéutico y educación del paciente. No se trata solo de aliviar el dolor en el momento, sino de ayudar a que la persona comprenda su cuerpo y pueda mantener los resultados en el tiempo.\n\nEl nuevo centro de Valencia ha sido creado con espacios cómodos, funcionales y preparados para ofrecer una atención de calidad. Queremos que cada paciente se sienta acompañado desde la primera visita.\n\nEsta apertura es una gran noticia para nuestro equipo y un paso más en el crecimiento de Wellcare Clinics."
       },
       {
-        "image": "",
+        "image": "articles8.png",
         "imageAlt": "",
         "category": "SALUD:",
         "type": "Consejo",
         "title": "5 ejercicios para aliviar el dolor de espalda en casa",
         "shortTitle": "Ejercicios espalda",
-        "text": "Rutinas sencillas que puedes hacer en casa para reducir el dolor y mejorar tu movilidad."
+        "text": "Rutinas sencillas que puedes hacer en casa para reducir el dolor y mejorar tu movilidad.",
+        "fullText": "El dolor de espalda puede aparecer por pasar muchas horas sentado, cargar peso, dormir en mala postura o realizar movimientos repetitivos. Aunque cada caso debe valorarse de forma individual, existen ejercicios suaves que pueden ayudar a reducir la tensión y mejorar la movilidad.\n\nEl primer ejercicio recomendado es la movilidad lumbar en el suelo. Túmbate boca arriba con las rodillas flexionadas y mueve lentamente las piernas de un lado a otro, sin forzar. Este movimiento ayuda a relajar la zona baja de la espalda.\n\nEl segundo ejercicio es la postura del gato y la vaca. Colócate a cuatro apoyos, arquea suavemente la espalda hacia arriba y después baja el abdomen mientras elevas ligeramente la cabeza. Realízalo de forma lenta y controlada.\n\nEl tercer ejercicio consiste en llevar una rodilla al pecho. Tumbado boca arriba, acerca una rodilla hacia el pecho y mantén la posición unos segundos. Después cambia de pierna. Este ejercicio puede aliviar tensión en la zona lumbar y glútea.\n\nEl cuarto ejercicio es el puente de glúteos. Con las rodillas flexionadas y los pies apoyados, eleva la pelvis lentamente y vuelve a bajar. Ayuda a activar glúteos y zona lumbar de forma segura.\n\nEl quinto ejercicio es la respiración diafragmática. Coloca una mano sobre el abdomen y respira profundamente intentando que el aire mueva la zona abdominal. Respirar mejor puede ayudar a reducir tensión muscular.\n\nEstos ejercicios deben realizarse sin dolor intenso. Si alguna postura aumenta los síntomas, es mejor detenerse. En Wellcare Clinics podemos ayudarte a encontrar los ejercicios más adecuados para tu caso."
       },
       {
-        "image": "",
+        "image": "articles9.png",
         "imageAlt": "",
         "category": "POSTURAS:",
         "type": "Consejo",
         "title": "La importancia de una buena postura en tu día a día",
         "shortTitle": "Buena postura",
-        "text": "Pequeños hábitos que marcan la diferencia en tu salud y ayudan a prevenir lesiones."
+        "text": "Pequeños hábitos que marcan la diferencia en tu salud y ayudan a prevenir lesiones.",
+        "fullText": "La postura influye directamente en la forma en la que se comportan nuestros músculos y articulaciones durante el día. Pasar muchas horas sentado, mirar el móvil con el cuello inclinado, trabajar frente al ordenador sin una buena ergonomía o cargar peso de forma incorrecta puede provocar dolor de espalda, cuello, hombros o cabeza.\n\nUna buena postura no significa estar rígido todo el tiempo. De hecho, el cuerpo necesita movimiento. Lo importante es evitar mantener durante muchas horas posiciones forzadas y aprender a repartir mejor las cargas. Cambiar de postura con frecuencia, levantarse cada cierto tiempo y realizar pequeños ejercicios de movilidad puede marcar una gran diferencia.\n\nEn el trabajo, conviene ajustar la altura de la silla, apoyar bien los pies en el suelo y colocar la pantalla a la altura de los ojos. Si usas portátil durante muchas horas, puede ser útil utilizar un soporte, teclado y ratón externos para evitar tensión cervical.\n\nAl usar el móvil, intenta elevarlo un poco más en lugar de bajar constantemente la cabeza. En actividades domésticas, como limpiar o levantar objetos, es recomendable flexionar las piernas, acercar el peso al cuerpo y evitar giros bruscos de tronco.\n\nTambién es importante fortalecer la musculatura. Una espalda fuerte, un abdomen activo y una buena movilidad ayudan a mantener mejores posturas sin esfuerzo excesivo.\n\nEn Wellcare Clinics trabajamos la educación postural de forma personalizada, ayudando a cada paciente a mejorar sus hábitos diarios y prevenir molestias futuras."
       }
     ]
   }
