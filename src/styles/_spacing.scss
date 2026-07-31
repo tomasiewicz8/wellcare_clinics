@@ -29,7 +29,8 @@
   --cards-carousel-gap: 48px;
   --cards-carousel-padding-y: 20px;
 
-  --container-padding-heght: 20px;
+  --container-padding-footer-mobile: 20px;
+  --container-padding-footer-desktop: 60px;
 
   --container-padding-mobile: 20px;
   --container-padding-desktop: 60px;
@@ -54,5 +55,15 @@
   --article-modal-padding: 12px;
 
   --menu-modal-link-gap: 12px;
-  --menu-modal-link-padding: 14px 14px;
+  --menu-modal-link-padding: 12px 8px 12px 4px;
+
+  /* Help card */
+--help-card-padding-mobile: 24px 20px;
+--help-card-padding-desktop: 48px 64px;
+
+--help-card-header-gap-mobile: 16px;
+--help-card-header-gap-desktop: 32px;
+
+--help-card-content-gap-mobile: 28px;
+--help-card-content-gap-desktop: 52px;
 }

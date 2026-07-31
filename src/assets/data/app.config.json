@@ -1,0 +1,38 @@
+{
+    "brand": {
+      "name": "Wellcare Clinics S.L",
+      "logo": {
+        "src": "assets/images/logo.png",
+        "alt": "Wellcare Clinics S.L"
+      }
+    },
+    "navbar": {
+      "links": [
+        {
+          "label": "Home",
+          "route": "/",
+          "exact": true
+        },
+        {
+          "label": "About Us",
+          "route": "/about-us",
+          "exact": false
+        },
+        {
+          "label": "Our Project",
+          "route": "/our-project",
+          "exact": false
+        },
+        {
+          "label": "Tips",
+          "route": "/tips",
+          "exact": false
+        },
+        {
+          "label": "Contact",
+          "route": "/contact",
+          "exact": false
+        }
+      ]
+    }
+  }

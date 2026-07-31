@@ -8,8 +8,16 @@
     routerLinkActive="menu-modal-content__link--active"
     [routerLinkActiveOptions]="{ exact: true }"
   >
-    <span class="menu-modal-content__text">
-      {{ translationService.translate('navigation.home') }}
+    <span class="menu-modal-content__main">
+      <lucide-icon
+        [img]="houseIcon"
+        class="menu-modal-content__icon"
+        aria-hidden="true"
+      ></lucide-icon>
+
+      <span class="menu-modal-content__text">
+        {{ translationService.translate('navigation.home') }}
+      </span>
     </span>
 
     <span
@@ -25,8 +33,16 @@
     routerLink="/about-us"
     routerLinkActive="menu-modal-content__link--active"
   >
-    <span class="menu-modal-content__text">
-      {{ translationService.translate('navigation.aboutUs') }}
+    <span class="menu-modal-content__main">
+      <lucide-icon
+        [img]="buildingIcon"
+        class="menu-modal-content__icon"
+        aria-hidden="true"
+      ></lucide-icon>
+
+      <span class="menu-modal-content__text">
+        {{ translationService.translate('navigation.aboutUs') }}
+      </span>
     </span>
 
     <span
@@ -42,8 +58,16 @@
     routerLink="/our-project"
     routerLinkActive="menu-modal-content__link--active"
   >
-    <span class="menu-modal-content__text">
-      {{ translationService.translate('navigation.ourProject') }}
+    <span class="menu-modal-content__main">
+      <lucide-icon
+        [img]="fileTextIcon"
+        class="menu-modal-content__icon"
+        aria-hidden="true"
+      ></lucide-icon>
+
+      <span class="menu-modal-content__text">
+        {{ translationService.translate('navigation.ourProject') }}
+      </span>
     </span>
 
     <span
@@ -59,8 +83,16 @@
     routerLink="/tips"
     routerLinkActive="menu-modal-content__link--active"
   >
-    <span class="menu-modal-content__text">
-      {{ translationService.translate('navigation.tips') }}
+    <span class="menu-modal-content__main">
+      <lucide-icon
+        [img]="heartPulseIcon"
+        class="menu-modal-content__icon"
+        aria-hidden="true"
+      ></lucide-icon>
+
+      <span class="menu-modal-content__text">
+        {{ translationService.translate('navigation.tips') }}
+      </span>
     </span>
 
     <span
@@ -76,8 +108,16 @@
     routerLink="/contact"
     routerLinkActive="menu-modal-content__link--active"
   >
-    <span class="menu-modal-content__text">
-      {{ translationService.translate('navigation.contact') }}
+    <span class="menu-modal-content__main">
+      <lucide-icon
+        [img]="mailIcon"
+        class="menu-modal-content__icon"
+        aria-hidden="true"
+      ></lucide-icon>
+
+      <span class="menu-modal-content__text">
+        {{ translationService.translate('navigation.contact') }}
+      </span>
     </span>
 
     <span
@@ -87,4 +127,56 @@
       →
     </span>
   </a>
+
+  <a
+    class="menu-modal-content__link"
+    routerLink="/contact"
+    routerLinkActive="menu-modal-content__link--active"
+  >
+    <span class="menu-modal-content__main">
+      <lucide-icon
+        [img]="globeIcon"
+        class="menu-modal-content__icon"
+        aria-hidden="true"
+      ></lucide-icon>
+
+      <span class="menu-modal-content__text">
+        {{ translationService.translate('actionButton.hereWeAre') }}
+      </span>
+    </span>
+
+    <span
+      class="menu-modal-content__arrow"
+      aria-hidden="true"
+    >
+      →
+    </span>
+  </a>
+
+  <a
+    class="menu-modal-content__link"
+    routerLink="/contact"
+    routerLinkActive="menu-modal-content__link--active"
+  >
+    <span class="menu-modal-content__main">
+      <lucide-icon
+        [img]="briefcaseIcon"
+        class="menu-modal-content__icon"
+        aria-hidden="true"
+      ></lucide-icon>
+
+      <span class="menu-modal-content__text">
+        {{ translationService.translate('actionButton.hireOurServices') }}
+      </span>
+    </span>
+
+    <span
+      class="menu-modal-content__arrow"
+      aria-hidden="true"
+    >
+      →
+    </span>
+  </a>
+
+  <app-help-card></app-help-card>
 </nav>

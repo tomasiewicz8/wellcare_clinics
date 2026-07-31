@@ -8,6 +8,7 @@ import { CardsCarouselComponent } from '../../layout/components/cards-carousel/c
 
 import { TranslationService } from '../../services/translation.service';
 import { ArticleCardComponent } from '../../layout/components/article-card/article-card.component';
+import { SpecializedPhysiotherapyComponent } from '../../layout/components/specialized-physiotherapy/specialized-physiotherapy.component';
 
 @Component({
   selector: 'app-home',
@@ -19,6 +20,7 @@ import { ArticleCardComponent } from '../../layout/components/article-card/artic
     DiagonalCardComponent,
     CardsCarouselComponent,
     ArticleCardComponent,
+    SpecializedPhysiotherapyComponent,
   ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss',

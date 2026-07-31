@@ -1,0 +1,78 @@
+@use '../../../../styles/mixins' as mixins;
+
+:host {
+  display: block;
+  width: 100%;
+  margin: 20px 0px;
+}
+
+.help-card {
+  width: 100%;
+  margin-inline: auto;
+
+  display: flex;
+  flex-direction: column;
+  gap: var(--help-card-content-gap-mobile);
+
+  padding: var(--help-card-padding-mobile);
+
+  background-color: var(--color-surface-blue-opacity);
+  border-radius: var(--help-card-radius);
+  box-shadow: var(--help-card-shadow);
+}
+
+.help-card__header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--help-card-header-gap-mobile);
+}
+
+.help-card__icon {
+  width: var(--help-card-icon-size-mobile);
+  height: var(--help-card-icon-size-mobile);
+  flex-shrink: 0;
+
+  object-fit: contain;
+}
+
+.help-card__title {
+  margin: 0;
+
+  color: var(--color-primary-dark);
+  font-family: var(--font-family-title);
+  font-size: var(--help-card-title-size-mobile);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--help-card-title-line-height);
+}
+
+.help-card__action {
+  display: block;
+  width: 100%;
+
+  justify-content: center;
+
+  --action-button-width-mobile: 100%;
+  --action-button-width: 100%;
+}
+
+@include mixins.respond-md {
+  .help-card {
+    gap: var(--help-card-content-gap-desktop);
+    padding: var(--help-card-padding-desktop);
+  }
+
+  .help-card__header {
+    gap: var(--help-card-header-gap-desktop);
+  }
+
+  .help-card__icon {
+    width: var(--help-card-icon-size-desktop);
+    height: var(--help-card-icon-size-desktop);
+  }
+
+  .help-card__title {
+    font-size: var(--help-card-title-size-desktop);
+  }
+}

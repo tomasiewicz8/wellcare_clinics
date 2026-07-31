@@ -4,11 +4,16 @@
 </app-main-photo>
 
 <app-section-title titleKey="treatments.sectionTitle" />
-<app-cards-carousel>
+<app-cards-carousel
+  [columnsMobile]="articlesArray.length > 1 ? 1.7 : articlesArray.length"
+>
     @for (card of treatmentsArray; track card.title || $index) {
       <app-diagonal-card [card]="card" />
     }
   </app-cards-carousel>
+
+<app-section-title titleKey="specializedPhysiotherapy.sectionTitle" />
+<app-specialized-physiotherapy />
 
 <app-section-title titleKey="articles.news&tips" />
 <app-cards-carousel

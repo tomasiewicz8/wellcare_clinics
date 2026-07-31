@@ -1,0 +1,245 @@
+@use '../../../../styles/mixins' as mixins;
+
+:host {
+  display: block;
+  width: 100%;
+  margin: var(--container-padding-footer-mobile) 0;
+}
+
+.clinic-identity {
+  width: 100%;
+
+  padding-inline: var(--container-padding-mobile);
+}
+
+.clinic-identity__layout {
+  width: 100%;
+  margin-inline: auto;
+
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  grid-template-areas:
+    'introduction'
+    'mission'
+    'image'
+    'values';
+  gap: var(--space-xl);
+}
+
+.clinic-identity__introduction {
+  grid-area: introduction;
+
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-lg);
+}
+
+.clinic-identity__title {
+  margin: 0;
+
+  color: var(--color-primary-dark);
+  font-family: var(--font-family-title);
+  font-size: var(--clinic-identity-title-mobile);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--line-height-tight);
+}
+
+.clinic-identity__description {
+  margin: 0;
+
+  color: var(--color-text-disabled);
+  font-family: var(--font-family-ui);
+  font-size: var(--clinic-identity_description-mobile);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--line-height-normal);
+}
+
+.clinic-identity__card {
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-md);
+
+  padding: var(--space-md);
+
+  overflow: hidden;
+
+  background-color: white;
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+}
+
+.clinic-identity__card::before {
+  content: '';
+
+  position: absolute;
+  z-index: 0;
+  inset: 0 0 auto;
+
+  width: 100%;
+  height: 55%;
+
+  background-color: var(--color-surface-blue-opacity);
+
+  clip-path: polygon(
+    0 0,
+    100% 0,
+    100% 58%,
+    0 100%
+  );
+}
+
+.clinic-identity__mission {
+  grid-area: mission;
+}
+
+.clinic-identity__values {
+  grid-area: values;
+}
+
+.clinic-identity__card-icon {
+  position: relative;
+  z-index: 1;
+
+  width: var(--clinic-identity_card-icon-movile);
+  height: var(--clinic-identity_card-icon-movile);
+
+  flex-shrink: 0;
+
+  object-fit: contain;
+}
+
+.clinic-identity__card-content {
+  position: relative;
+  z-index: 1;
+
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: var(--space-md);
+}
+
+.clinic-identity__card-title {
+  margin: 0;
+
+  color: var(--color-primary-dark);
+  font-family: var(--font-family-ui);
+  font-size: var(--clinic-identity_card-title-mobile);
+  font-weight: var(--font-weight-bold);
+  line-height: var(--line-height-tight);
+}
+
+.clinic-identity__card-text {
+  margin: 0;
+
+  color: var(--color-text-disabled);
+  font-family: var(--font-family-ui);
+  font-size: var(--clinic-identity_card-text-mobile);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--line-height-normal);
+}
+
+.clinic-identity__image-container {
+    position: relative;
+    grid-area: image;
+  
+    min-height: 180px;
+  
+    overflow: hidden;
+  
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-sm);
+  }
+  
+  .clinic-identity__image {
+    position: absolute;
+    inset: 0;
+  
+    display: block;
+  
+    width: 100%;
+    height: 100%;
+  
+    object-fit: cover;
+  }
+
+.clinic-identity__values-list {
+  margin: 0;
+  padding-left: 14px;
+
+  color: var(--color-text-disabled);
+  font-family: var(--font-family-ui);
+  font-size: var(--font-size-hero-text-mobile);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--line-height-normal);
+}
+
+.clinic-identity__values-item::marker {
+  color: var(--color-primary-dark);
+}
+
+@include mixins.respond-lg {
+    :host {
+        margin: var(--container-padding-footer-desktop) 0;
+    }
+
+  .clinic-identity {
+    padding-inline: var(--container-padding-desktop);
+  }
+
+  .clinic-identity__layout {
+    grid-template-columns:
+      minmax(0, 1fr)
+      minmax(0, 1fr);
+
+    grid-template-areas:
+      'introduction image'
+      'mission values';
+
+    gap: var(--space-xl) var(--space-3xl);
+  }
+
+  .clinic-identity__introduction {
+    justify-content: center;
+
+    padding-right: var(--space-lg);
+  }
+
+  .clinic-identity__title {
+    font-size: var(--clinic-identity-title-desktop);
+  }
+
+  .clinic-identity__description {
+    font-size: var(--clinic-identity_description-desktop);
+  }
+
+  .clinic-identity__card {
+    min-height: 160px;
+
+    padding: var(--space-xl) var(--space-3xl);
+  }
+
+  .clinic-identity__card-icon {
+    width: var(--clinic-identity_card-icon-movile);
+    height: var(--clinic-identity_card-icon-movile);
+  }
+
+  .clinic-identity__card-title {
+    font-size: var(--clinic-identity_card-title-desktop);
+  }
+
+  .clinic-identity__card-text,
+  .clinic-identity__values-list {
+    font-size: var(--clinic-identity_card-text-mobile);
+  }
+
+  .clinic-identity__image-container {
+    min-height: 160px;
+  }
+
+  .clinic-identity__image {
+    object-position: center 40%;
+  }
+}

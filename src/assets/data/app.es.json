@@ -1,0 +1,13 @@
+{
+    "brand": {
+      "name": "Wellcare Clinics",
+      "logoAlt": "Logo de Wellcare Clinics"
+    },
+    "navbar": {
+      "home": "Inicio",
+      "aboutUs": "Quiénes somos",
+      "ourProject": "Nuestro proyecto",
+      "tips": "Consejos",
+      "contact": "Contactar"
+    }
+  }

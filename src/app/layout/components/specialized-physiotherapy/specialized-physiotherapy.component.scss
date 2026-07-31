@@ -1,0 +1,172 @@
+@use '../../../../styles/mixins' as mixins;
+
+:host {
+  display: block;
+  width: 100%;
+}
+
+.specialized-physiotherapy {
+  width: 100%;
+
+  padding-inline: var(--container-padding-mobile);
+}
+
+.specialized-physiotherapy__layout {
+  width: 100%;
+  max-width: 1600px;
+  margin-inline: auto;
+
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: var(--space-md);
+}
+
+.specialized-physiotherapy__image {
+  display: block;
+
+  width: 100%;
+  aspect-ratio: 4 / 5;
+
+  object-fit: cover;
+
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+}
+
+.specialized-physiotherapy__content {
+  min-width: 0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: var(--space-2xl);
+
+  padding: var(--space-xl) var(--space-lg);
+
+  background-color: var(--color-surface-blue-opacity);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+}
+
+.specialized-physiotherapy__copy {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xl);
+}
+
+.specialized-physiotherapy__title {
+  margin: 0;
+
+  color: var(--color-primary-dark);
+  font-family: var(--font-family-ui);
+  font-size: var(--font-size-specialized-physiotherapy-title-mobile);
+  font-weight: var(--font-weight-bold);
+  line-height: 1.4;
+}
+
+.specialized-physiotherapy__text {
+  margin: 0;
+
+  color: var(--color-text-disabled);
+  font-family: var(--font-family-ui);
+  font-size: var(--font-size-specialized-physiotherapy-text-mobile);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--line-height-normal);
+}
+
+.specialized-physiotherapy__features {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+
+  gap: var(--space-lg) var(--space-sm);
+  padding: var(--space-lg) var(--space-sm);
+
+  background-color: var(--color-surface-blue-opacity);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+}
+
+.specialized-physiotherapy__feature {
+  min-width: 0;
+
+  display: flex;
+  align-items: center;
+  gap: var(--space-xs);
+}
+
+.specialized-physiotherapy__feature-icon {
+  width: var(--specialized-physiotherapy-icon-mobile);
+  height: var(--specialized-physiotherapy-icon-mobile);
+
+  flex-shrink: 0;
+
+  object-fit: contain;
+}
+
+.specialized-physiotherapy__feature-text {
+  color: var(--color-text-disabled);
+  font-family: var(--font-family-ui);
+  font-size: var(--font-size-specialized-physiotherapy-specialized-mobile);
+  font-weight: var(--font-weight-bold);
+  line-height: var(--line-height-normal);
+}
+
+@include mixins.respond-lg {
+  .specialized-physiotherapy {
+    padding-inline: var(--container-padding-desktop);
+  }
+
+  .specialized-physiotherapy__layout {
+    grid-template-columns:
+      minmax(0, 0.95fr)
+      minmax(0, 1.18fr)
+      minmax(0, 0.95fr);
+
+    align-items: stretch;
+  }
+
+  .specialized-physiotherapy__image {
+    height: 100%;
+    min-height: 560px;
+    aspect-ratio: auto;
+  }
+
+  .specialized-physiotherapy__content {
+    min-height: 560px;
+
+    padding: var(--space-2xl);
+
+    gap: var(--space-2xl);
+  }
+
+  .specialized-physiotherapy__copy {
+    gap: var(--space-2xl);
+  }
+
+  .specialized-physiotherapy__title {
+    font-size: var(--font-size-specialized-physiotherapy-title-desktop);
+  }
+
+  .specialized-physiotherapy__text {
+    font-size: var(--font-size-specialized-physiotherapy-text-desktop);
+  }
+
+  .specialized-physiotherapy__features {
+    gap: var(--space-xl) var(--space-2xl);
+
+    padding: var(--space-xl) var(--space-2xl);
+  }
+
+  .specialized-physiotherapy__feature {
+    gap: var(--space-sm);
+  }
+
+  .specialized-physiotherapy__feature-icon {
+    width: var(--specialized-physiotherapy-icon-desktop);
+    height: var(--specialized-physiotherapy-icon-desktop);
+  }
+
+  .specialized-physiotherapy__feature-text {
+    font-size: var(--font-size-specialized-physiotherapy-specialized-desktop);
+  }
+}

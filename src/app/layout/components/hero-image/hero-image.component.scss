@@ -1,0 +1,86 @@
+@use '../../../../styles/mixins' as *;
+
+.hero-image {
+  position: relative;
+  width: 100%;
+  min-height: 620px;
+  background: var(--color-surface-blue);
+  overflow: hidden;
+}
+
+.hero-image__photo {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 58%;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  z-index: 0;
+}
+
+.hero-image::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+  background: linear-gradient(
+    to bottom,
+    rgba(219, 234, 247, 0) 25%,
+    var(--color-surface-blue) 58%,
+    var(--color-surface-blue) 100%
+  );
+}
+
+.hero-image__content {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  max-width: var(--container-width);
+  min-height: 620px;
+  margin: 0 auto;
+  padding: 330px var(--container-padding-mobile) var(--space-3xl);
+}
+
+.hero-image__content-inner {
+  width: 100%;
+}
+
+@include respond-lg {
+  .hero-image {
+    min-height: 520px;
+  }
+
+  .hero-image__photo {
+    width: 66%;
+    height: 100%;
+    right: 0;
+    top: 0;
+    background-position: center center;
+  }
+
+  .hero-image::after {
+    background: linear-gradient(
+      to right,
+      var(--color-surface-blue) 0%,
+      var(--color-surface-blue) 28%,
+      rgba(219, 234, 247, 0.92) 42%,
+      rgba(219, 234, 247, 0.45) 55%,
+      rgba(219, 234, 247, 0) 75%
+    );
+  }
+
+  .hero-image__content {
+    min-height: 520px;
+    padding: 80px var(--container-padding-desktop);
+    display: flex;
+    align-items: center;
+  }
+
+  .hero-image__content-inner {
+    width: 34%;
+    max-width: 620px;
+  }
+}

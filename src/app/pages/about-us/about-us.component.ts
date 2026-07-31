@@ -7,6 +7,7 @@ import { ProfessionalCardComponent } from '../../layout/components/professional-
 import { TranslationService } from '../../services/translation.service';
 import { CardsCarouselComponent } from '../../layout/components/cards-carousel/cards-carousel.component';
 import { MetricCardComponent } from '../../layout/components/metric-card/metric-card.component';
+import { ClinicIdentityComponent } from '../../layout/components/clinic-identity/clinic-identity.component';
 
 @Component({
   selector: 'app-about-us',
@@ -19,6 +20,7 @@ import { MetricCardComponent } from '../../layout/components/metric-card/metric-
     ProfessionalCardComponent,
     CardsCarouselComponent,
     MetricCardComponent,
+    ClinicIdentityComponent,
   ],
   templateUrl: './about-us.component.html',
   styleUrl: './about-us.component.scss'

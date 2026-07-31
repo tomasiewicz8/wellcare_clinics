@@ -82,7 +82,10 @@
     "goToAboutUs": "Quienes somos",
     "goToOurProject": "Ver tratamientos",
     "goToTips": "Más información",
-    "goToContact": "Trabaja con nosotros"
+    "goToContact": "Trabaja con nosotros",
+    "hereWeAre": "Donde estamos",
+    "hireOurServices": "Contrata nuestros servicios",
+    "helpCard": "¿Necesitas ayuda personalizada?"
   },
   "mail": {
     "recipient": "tomasiewic@gmail.com",
@@ -294,5 +297,66 @@
         "fullText": "La postura influye directamente en la forma en la que se comportan nuestros músculos y articulaciones durante el día. Pasar muchas horas sentado, mirar el móvil con el cuello inclinado, trabajar frente al ordenador sin una buena ergonomía o cargar peso de forma incorrecta puede provocar dolor de espalda, cuello, hombros o cabeza.\n\nUna buena postura no significa estar rígido todo el tiempo. De hecho, el cuerpo necesita movimiento. Lo importante es evitar mantener durante muchas horas posiciones forzadas y aprender a repartir mejor las cargas. Cambiar de postura con frecuencia, levantarse cada cierto tiempo y realizar pequeños ejercicios de movilidad puede marcar una gran diferencia.\n\nEn el trabajo, conviene ajustar la altura de la silla, apoyar bien los pies en el suelo y colocar la pantalla a la altura de los ojos. Si usas portátil durante muchas horas, puede ser útil utilizar un soporte, teclado y ratón externos para evitar tensión cervical.\n\nAl usar el móvil, intenta elevarlo un poco más en lugar de bajar constantemente la cabeza. En actividades domésticas, como limpiar o levantar objetos, es recomendable flexionar las piernas, acercar el peso al cuerpo y evitar giros bruscos de tronco.\n\nTambién es importante fortalecer la musculatura. Una espalda fuerte, un abdomen activo y una buena movilidad ayudan a mantener mejores posturas sin esfuerzo excesivo.\n\nEn Wellcare Clinics trabajamos la educación postural de forma personalizada, ayudando a cada paciente a mejorar sus hábitos diarios y prevenir molestias futuras."
       }
     ]
+  },
+  "specializedPhysiotherapy": {
+    "sectionTitle": "Por qué elegirnos",
+    "leftImage": {
+      "src": "assets/images/specialized-physiotherapy/assisted-rehabilitation-exercise-left.png",
+      "alt": "Fisioterapeuta ayudando a un paciente durante un ejercicio de rehabilitación"
+    },
+    "content": {
+      "title": "Fisioterapia especializada y trato especializado",
+      "text": "Nuestra clínica está enfocada en la rehabilitación y tratamientos específicos para cada condición, combinando experiencia clínica con técnicas avanzadas para mejorar tu bienestar.",
+      "features": [
+        {
+          "icon": "assets/images/specialized-physiotherapy/medical-equipment.png",
+          "iconAlt": "Icono de equipo sanitario",
+          "text": "Equipo especializado"
+        },
+        {
+          "icon": "assets/images/specialized-physiotherapy/advanced-methods.png",
+          "iconAlt": "Icono de métodos de tratamiento",
+          "text": "Métodos avanzados"
+        },
+        {
+          "icon": "assets/images/specialized-physiotherapy/healthcare-professionals.png",
+          "iconAlt": "Icono de profesionales sanitarios",
+          "text": "Profesionales experimentados"
+        },
+        {
+          "icon": "assets/images/specialized-physiotherapy/personalized-treatment.png",
+          "iconAlt": "Icono de tratamiento personalizado",
+          "text": "Tratamientos personalizados"
+        }
+      ]
+    },
+    "rightImage": {
+      "src": "assets/images/specialized-physiotherapy/assisted-rehabilitation-exercise-right.png",
+      "alt": "Fisioterapeuta tratando el hombro de una paciente"
+    }
+  },
+  "clinicIdentity": {
+    "title": "Tu clínica de confianza",
+    "text": "En Wellcare Clinics contamos con un equipo especializado en fisioterapia y tratamientos personalizados, comprometido con tu bienestar en cada sesión. Te acompañamos en todo el proceso para ofrecerte una atención cercana, profesional y adaptada a tus necesidades.",
+    "mission": {
+      "icon": "assets/images/clinic-identity/mission-target.png",
+      "iconAlt": "Icono de objetivo que representa la misión de la clínica",
+      "title": "Nuestra misión",
+      "text": "Mejorar la calidad de vida de nuestros pacientes a través de tratamientos personalizados y efectivos."
+    },
+    "image": {
+      "src": "assets/images/clinic-identity/rehabilitation-corridor.png",
+      "alt": "Paciente realizando rehabilitación mientras camina por el pasillo de una clínica"
+    },
+    "values": {
+      "icon": "assets/images/clinic-identity/values-shield.png",
+      "iconAlt": "Icono de escudo que representa los valores de la clínica",
+      "title": "Nuestros valores",
+      "items": [
+        "Innovación y excelencia",
+        "Compromiso con el paciente",
+        "Empatía y confianza"
+      ]
+    }
   }
 }

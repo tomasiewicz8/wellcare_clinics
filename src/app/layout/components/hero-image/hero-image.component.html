@@ -1,0 +1,14 @@
+<section class="hero-image">
+  <div
+    class="hero-image__photo"
+    [style.background-image]="'url(' + imageSrc + ')'"
+    role="img"
+    [attr.aria-label]="imageAlt"
+  ></div>
+
+  <div class="hero-image__content">
+    <div class="hero-image__content-inner">
+      <ng-content></ng-content>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,74 @@
+<section
+  class="specialized-physiotherapy"
+  aria-labelledby="specialized-physiotherapy-section-title"
+>
+
+  <div class="specialized-physiotherapy__layout">
+    <img
+      class="specialized-physiotherapy__image"
+      [src]="
+        translationService.translate(
+          'specializedPhysiotherapy.leftImage.src'
+        )
+      "
+      [alt]="
+        translationService.translate(
+          'specializedPhysiotherapy.leftImage.alt'
+        )
+      "
+      loading="lazy"
+    >
+
+    <article class="specialized-physiotherapy__content">
+      <div class="specialized-physiotherapy__copy">
+        <h3 class="specialized-physiotherapy__title">
+          {{
+            translationService.translate(
+              'specializedPhysiotherapy.content.title'
+            )
+          }}
+        </h3>
+
+        <p class="specialized-physiotherapy__text">
+          {{
+            translationService.translate(
+              'specializedPhysiotherapy.content.text'
+            )
+          }}
+        </p>
+      </div>
+
+      <div class="specialized-physiotherapy__features">
+        @for (feature of features; track feature.text || $index) {
+          <div class="specialized-physiotherapy__feature">
+            <img
+              class="specialized-physiotherapy__feature-icon"
+              [src]="feature.icon"
+              [alt]="feature.iconAlt"
+              loading="lazy"
+            >
+
+            <span class="specialized-physiotherapy__feature-text">
+              {{ feature.text }}
+            </span>
+          </div>
+        }
+      </div>
+    </article>
+
+    <img
+      class="specialized-physiotherapy__image"
+      [src]="
+        translationService.translate(
+          'specializedPhysiotherapy.rightImage.src'
+        )
+      "
+      [alt]="
+        translationService.translate(
+          'specializedPhysiotherapy.rightImage.alt'
+        )
+      "
+      loading="lazy"
+    >
+  </div>
+</section>
