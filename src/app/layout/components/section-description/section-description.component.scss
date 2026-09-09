@@ -1,0 +1,31 @@
+@use '../../../../styles/mixins' as *;
+
+:host {
+  display: block;
+  width: 100%;
+}
+
+.section-description {
+  width: 100%;
+
+  margin: 0;
+  padding: 0 var(--container-padding-mobile) var(--space-xl) var(--container-padding-mobile);
+
+  color: var(--color-text-disabled);
+
+  font-family: var(--font-family-ui);
+  font-size: var(--section-description-font-size-mobile);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--section-description-line-height);
+
+  text-align: left;
+
+  @include respond-lg {
+    margin-inline: auto;
+    padding: 0 var(--container-padding-desktop) var(--space-xl) var(--container-padding-desktop);
+
+    font-size: var(--section-description-font-size-desktop);
+
+    text-align: center;
+  }
+}

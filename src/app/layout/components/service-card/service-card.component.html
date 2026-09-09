@@ -1,0 +1,42 @@
+<article class="service-card">
+    <svg
+      class="service-card__background"
+      viewBox="0 0 100 100"
+      preserveAspectRatio="none"
+      aria-hidden="true"
+    >
+      <path
+        class="service-card__curve service-card__curve--odd"
+        d="M0 0 H100 V32 C72 34 32 42 0 42 Z"
+      />
+  
+      <path
+        class="service-card__curve service-card__curve--even"
+        d="M0 0 H100 V42 C68 42 28 34 0 32 Z"
+      />
+    </svg>
+  
+    <div class="service-card__visual">
+      <img
+        class="service-card__image"
+        [src]="card.cardImage"
+        [alt]="card.imageAlt || card.title"
+      />
+    </div>
+  
+    <div class="service-card__content">
+      <h3 class="service-card__title">
+        {{ card.title }}
+      </h3>
+  
+      <p class="service-card__text">
+        {{ card.text }}
+      </p>
+    </div>
+  
+    <div class="service-card__footer">
+      <button class="service-card__read-more" type="button" (click)="openReadMore()">
+        {{ translationService.translate('services.readMore') }}
+      </button>
+    </div>
+  </article>

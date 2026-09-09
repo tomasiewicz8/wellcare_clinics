@@ -58,12 +58,18 @@
   --menu-modal-link-padding: 12px 8px 12px 4px;
 
   /* Help card */
---help-card-padding-mobile: 24px 20px;
---help-card-padding-desktop: 48px 64px;
+  --help-card-padding-mobile: 24px 20px;
+  --help-card-padding-desktop: 48px 64px;
 
---help-card-header-gap-mobile: 16px;
---help-card-header-gap-desktop: 32px;
+  --help-card-header-gap-mobile: 16px;
+  --help-card-header-gap-desktop: 32px;
 
---help-card-content-gap-mobile: 28px;
---help-card-content-gap-desktop: 52px;
+  --help-card-content-gap-mobile: 28px;
+  --help-card-content-gap-desktop: 52px;
+
+  --service-card-content-gap-desktop: 10px;
+  --service-card-content-gap-mobile: 20px;
+  --service-card-content-padding-mobile: 20px;
+  --service-card-content-padding-desktop: 10px;
+  --service-card-footer-padding-mobile: 10px;
 }

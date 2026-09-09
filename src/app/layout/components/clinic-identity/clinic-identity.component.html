@@ -24,40 +24,43 @@
       </p>
     </div>
 
-    <article class="clinic-identity__card clinic-identity__mission">
-      <img
-        class="clinic-identity__card-icon"
-        [src]="
-          translationService.translate(
-            'clinicIdentity.mission.icon'
-          )
-        "
-        [alt]="
-          translationService.translate(
-            'clinicIdentity.mission.iconAlt'
-          )
-        "
-        loading="lazy"
+    <app-diagonal-card
+        class="clinic-identity__mission"
+        [horizontal]="true"
       >
-
-      <div class="clinic-identity__card-content">
-        <h3 class="clinic-identity__card-title">
-          {{
+        <img
+          class="clinic-identity__card-icon"
+          [src]="
             translationService.translate(
-              'clinicIdentity.mission.title'
+              'clinicIdentity.mission.icon'
             )
-          }}
-        </h3>
-
-        <p class="clinic-identity__card-text">
-          {{
+          "
+          [alt]="
             translationService.translate(
-              'clinicIdentity.mission.text'
+              'clinicIdentity.mission.iconAlt'
             )
-          }}
-        </p>
-      </div>
-    </article>
+          "
+          loading="lazy"
+        >
+
+        <div class="clinic-identity__card-content">
+          <h3 class="clinic-identity__card-title">
+            {{
+              translationService.translate(
+                'clinicIdentity.mission.title'
+              )
+            }}
+          </h3>
+
+          <p class="clinic-identity__card-text">
+            {{
+              translationService.translate(
+                'clinicIdentity.mission.text'
+              )
+            }}
+          </p>
+        </div>
+      </app-diagonal-card>
 
     <div class="clinic-identity__image-container">
       <img
@@ -76,7 +79,10 @@
       >
     </div>
 
-    <article class="clinic-identity__card clinic-identity__values">
+    <app-diagonal-card
+      class="clinic-identity__values"
+      [horizontal]="true"
+    >
       <img
         class="clinic-identity__card-icon"
         [src]="
@@ -109,6 +115,6 @@
           }
         </ul>
       </div>
-    </article>
+    </app-diagonal-card>
   </div>
 </section>

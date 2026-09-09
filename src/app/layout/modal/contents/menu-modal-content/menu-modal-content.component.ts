@@ -39,4 +39,8 @@ export class MenuModalContentComponent {
     public translationService: TranslationService,
     private modalService: ModalService,
   ) {}
+
+  closeModal(){
+    this.modalService.close();
+  }
 }

@@ -64,7 +64,7 @@
 
   padding: var(--diagonal-card-padding-mobile);
 
-  text-align: flex-start;
+  text-align: left;
 
   @include respond-lg {
     display: grid;
@@ -94,7 +94,7 @@
 .diagonal-card__text-content {
   display: flex;
   flex-direction: column;
-  align-items: left;
+  align-items: flex-start;
   gap: 15px;
   padding: 0 10px;
 

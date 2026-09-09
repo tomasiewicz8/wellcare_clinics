@@ -93,18 +93,22 @@
 
 .clinic-identity__mission {
   grid-area: mission;
+  --diagonal-card-padding-mobile:  var(--space-md) var(--space-2xl);
+  --diagonal-card-padding-desktop: var(--space-lg) var(--space-3xl);
 }
 
 .clinic-identity__values {
   grid-area: values;
+  --diagonal-card-padding-mobile:  var(--space-md) var(--space-2xl);
+  --diagonal-card-padding-desktop: var(--space-lg) var(--space-3xl);
 }
 
 .clinic-identity__card-icon {
   position: relative;
   z-index: 1;
 
-  width: var(--clinic-identity_card-icon-movile);
-  height: var(--clinic-identity_card-icon-movile);
+  width: var(--clinic-identity_card-icon-mobile);
+  height: var(--clinic-identity_card-icon-mobile);
 
   flex-shrink: 0;
 
@@ -116,7 +120,6 @@
   z-index: 1;
 
   display: flex;
-  flex: 1;
   flex-direction: column;
   gap: var(--space-md);
 }
@@ -180,6 +183,15 @@
   color: var(--color-primary-dark);
 }
 
+.diagonal-card__content--horizontal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+  
+    text-align: left;
+  }
+
 @include mixins.respond-lg {
     :host {
         margin: var(--container-padding-footer-desktop) 0;
@@ -222,8 +234,8 @@
   }
 
   .clinic-identity__card-icon {
-    width: var(--clinic-identity_card-icon-movile);
-    height: var(--clinic-identity_card-icon-movile);
+    width: var(--clinic-identity_card-icon-mobile);
+    height: var(--clinic-identity_card-icon-mobile);
   }
 
   .clinic-identity__card-title {

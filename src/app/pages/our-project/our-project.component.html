@@ -5,3 +5,16 @@
         route="/about-us"
     />
   </app-main-photo>
+
+<app-section-title titleKey="services.sectionTitle" />
+<app-section-description textKey="services.text" />
+
+<app-cards-carousel
+  [columnsMobile]="servicesArray.length > 1 ? 1.5 : servicesArray.length"
+  [columnsTablet]="servicesArray.length > 2 ? 2 : servicesArray.length"
+  [columnsDesktop]="servicesArray.length >= 3 ? 3.1 : servicesArray.length"
+>
+    @for (service of servicesArray; track service.title) {
+      <app-service-card [card]="service" />
+    }
+  </app-cards-carousel>

@@ -2,7 +2,7 @@
   @if (article?.image) {
     <img
       class="article-modal-content__image"
-      [src]="'assets/images/articles/' + article?.image"
+      [src]="article?.image"
       [alt]="article?.imageAlt || article?.title || article?.shortTitle"
     />
   }
