@@ -1,0 +1,18 @@
+<article class="personalized-treatments-card">
+    <img
+      class="personalized-treatments-card__image"
+      [src]="card.image"
+      [alt]="card.imageAlt || card.title"
+      loading="lazy"
+    >
+  
+    <div class="personalized-treatments-card__content">
+      <h3 class="personalized-treatments-card__title">
+        {{ card.title }}
+      </h3>
+  
+      <p class="personalized-treatments-card__text">
+        {{ card.text }}
+      </p>
+    </div>
+  </article>

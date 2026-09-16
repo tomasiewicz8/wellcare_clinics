@@ -389,5 +389,35 @@
         "fullText": "La fisioterapia especializada permite abordar diferentes patologías mediante tratamientos adaptados a las características y necesidades de cada persona.\n\nPartimos de una valoración individual para conocer el origen de las molestias, las limitaciones existentes y los objetivos del paciente. A partir de ahí se seleccionan las técnicas y ejercicios más adecuados para mejorar la movilidad, reducir el dolor y recuperar la función.\n\nNuestro enfoque combina tratamiento, ejercicio y educación para que el paciente participe activamente en su recuperación y pueda mantener los resultados a largo plazo."
       }
     ]
+  },
+  "personalizedTreatments": {
+    "title": "Tratamientos especializados para distintas condiciones",
+    "text": "En Wellcare Clinics tratamos una amplia gama de dolencias utilizando técnicas avanzadas y la última tecnología para asegurar los mejores resultados en cada caso.",
+    "items": [
+      {
+        "image": "assets/images/articles/articles6.png",
+        "imageAlt": "Fisioterapeuta tratando la rodilla de un paciente con una lesión deportiva",
+        "title": "Lesiones deportivas",
+        "text": "Lesiones de esguinces, tendinitis, desgarros musculares, entre otras."
+      },
+      {
+        "image": "assets/images/articles/articles7.png",
+        "imageAlt": "Paciente con dolor lumbar mientras recibe fisioterapia",
+        "title": "Dolor lumbar",
+        "text": "Manejo del dolor en la zona baja de la espalda y problemas de ciática."
+      },
+      {
+        "image": "assets/images/articles/articles8.png",
+        "imageAlt": "Paciente realizando fisioterapia respiratoria con ayuda de una profesional",
+        "title": "Problemas respiratorios",
+        "text": "Fisioterapia para afecciones respiratorias, como el asma y procesos post-COVID."
+      },
+      {
+        "image": "assets/images/articles/articles9.png",
+        "imageAlt": "Fisioterapeuta movilizando la mano de una paciente con una enfermedad reumática",
+        "title": "Enfermedades reumáticas",
+        "text": "Tratamientos especializados para reducir inflamación y dolor."
+      }
+    ]
   }
 }

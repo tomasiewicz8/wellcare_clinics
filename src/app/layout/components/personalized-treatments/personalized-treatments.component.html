@@ -1,0 +1,27 @@
+<section
+  class="personalized-treatments"
+  aria-labelledby="personalized-treatments-title"
+>
+  <div class="personalized-treatments__panel">
+    <header class="personalized-treatments__header">
+      <h2
+        id="personalized-treatments-title"
+        class="personalized-treatments__title"
+      >
+        {{ translationService.translate('personalizedTreatments.title') }}
+      </h2>
+
+      <p class="personalized-treatments__text">
+        {{ translationService.translate('personalizedTreatments.text') }}
+      </p>
+    </header>
+
+    <div class="personalized-treatments__grid">
+      @for (treatment of treatments; track treatment.title || $index) {
+        <app-personalized-treatments-card
+          [card]="treatment"
+        />
+      }
+    </div>
+  </div>
+</section>
