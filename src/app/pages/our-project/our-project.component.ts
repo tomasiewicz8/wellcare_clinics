@@ -8,6 +8,7 @@ import { ServiceCardComponent } from '../../layout/components/service-card/servi
 import { TranslationService } from '../../services/translation.service';
 import { CardsCarouselComponent } from '../../layout/components/cards-carousel/cards-carousel.component';
 import { PersonalizedTreatmentsComponent } from '../../layout/components/personalized-treatments/personalized-treatments.component';
+import { ContactCtaComponent } from '../../layout/components/contact-cta/contact-cta.component';
 
 @Component({
   selector: 'app-our-project',
@@ -20,7 +21,8 @@ import { PersonalizedTreatmentsComponent } from '../../layout/components/persona
     SectionDescriptionComponent,
     ServiceCardComponent,
     CardsCarouselComponent,
-    PersonalizedTreatmentsComponent
+    PersonalizedTreatmentsComponent,
+    ContactCtaComponent
   ],
   templateUrl: './our-project.component.html',
   styleUrl: './our-project.component.scss'

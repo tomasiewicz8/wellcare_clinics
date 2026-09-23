@@ -3,33 +3,6 @@
 :host {
   display: block;
   width: 100%;
-
-  --personalized-treatments-section-padding-mobile: 20px;
-  --personalized-treatments-section-padding-desktop: 40px 60px;
-
-  --personalized-treatments-panel-padding-mobile: 20px;
-  --personalized-treatments-panel-padding-desktop: 30px 20px;
-  --personalized-treatments-panel-radius: 12px;
-  --personalized-treatments-panel-shadow: var(--shadow-sm);
-
-  --personalized-treatments-header-gap-mobile: 20px;
-  --personalized-treatments-header-gap-desktop: 10px;
-
-  --personalized-treatments-grid-columns-mobile: 1;
-  --personalized-treatments-grid-columns-tablet: 2;
-  --personalized-treatments-grid-columns-desktop: 4;
-
-  --personalized-treatments-grid-gap-mobile: 20px;
-  --personalized-treatments-grid-gap-desktop: 20px;
-
-  --personalized-treatments-grid-margin-top-mobile: 30px;
-  --personalized-treatments-grid-margin-top-desktop: 30px;
-
-  --personalized-treatments-title-size-mobile: 28px;
-  --personalized-treatments-title-size-desktop: 28px;
-
-  --personalized-treatments-text-size-mobile: 18px;
-  --personalized-treatments-text-size-desktop: 18px;
 }
 
 .personalized-treatments {
@@ -44,7 +17,7 @@
 
   background-color: var(--color-surface-blue-opacity);
   border-radius: var(--personalized-treatments-panel-radius);
-  box-shadow: var(--personalized-treatments-panel-shadow);
+  box-shadow: var(--shadow-sm);
 }
 
 .personalized-treatments__header {

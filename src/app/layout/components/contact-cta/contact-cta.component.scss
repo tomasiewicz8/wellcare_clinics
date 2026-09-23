@@ -1,0 +1,77 @@
+@use '../../../../styles/mixins' as *;
+
+:host {
+  display: block;
+  width: 100%;
+}
+
+.contact-cta {
+  width: 100%;
+  padding: var(--contact-cta-padding-mobile);
+
+  background-color: var(--color-white);
+}
+
+.contact-cta__content {
+  width: 100%;
+  margin-inline: auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--contact-cta-content-gap-mobile);
+
+  text-align: center;
+}
+
+.contact-cta__title {
+  margin: 0;
+
+  color: var(--color-primary-dark);
+  font-family: var(--font-family-title);
+  font-size: var(--contact-cta-title-size-mobile);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--line-height-tight);
+}
+
+.contact-cta__text {
+  margin: 0;
+
+  color: var(--color-text-disabled);
+  font-family: var(--font-family-ui);
+  font-size: var(--contact-cta-text-size-mobile);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--line-height-normal);
+}
+
+.contact-cta__action {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+
+  --action-button-width-mobile: var(
+    --contact-cta-button-width-mobile
+  );
+
+  --action-button-width: var(
+    --contact-cta-button-width-desktop
+  );
+}
+
+@include respond-lg {
+  .contact-cta {
+    padding: var(--contact-cta-padding-desktop);
+  }
+
+  .contact-cta__content {
+    gap: var(--contact-cta-content-gap-desktop);
+  }
+
+  .contact-cta__title {
+    font-size: var(--contact-cta-title-size-desktop);
+  }
+
+  .contact-cta__text {
+    font-size: var(--contact-cta-text-size-desktop);
+  }
+}
