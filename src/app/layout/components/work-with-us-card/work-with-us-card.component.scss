@@ -1,0 +1,88 @@
+@use '../../../../styles/mixins' as *;
+
+:host {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.work-with-us-card {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--work-with-us-card-content-gap-mobile);
+
+  padding: var(--work-with-us-card-padding-mobile);
+
+  background-color: var(--color-white);
+
+  border: var(--work-with-us-card-border-width) solid var(--color-border-soft);
+  border-radius: var(--work-with-us-card-radius);
+
+  box-shadow: var(--shadow-sm);
+
+  text-align: center;
+}
+
+.work-with-us-card__icon {
+  display: block;
+
+  width: var(--work-with-us-card-icon-size-mobile);
+  height: var(--work-with-us-card-icon-size-mobile);
+
+  object-fit: contain;
+}
+
+.work-with-us-card__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--work-with-us-card-content-gap-mobile);
+}
+
+.work-with-us-card__title {
+  margin: 0;
+
+  color: var(--color-text-disabled);
+  font-family: var(--font-family-ui);
+  font-size: var(--work-with-us-card-title-size-mobile);
+  font-weight: var(--font-weight-semibold);
+  line-height: var(--line-height-tight);
+}
+
+.work-with-us-card__text {
+  margin: 0;
+
+  color: var(--color-text-disabled);
+  font-family: var(--font-family-ui);
+  font-size: var(--work-with-us-card-text-size-mobile);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--line-height-normal);
+}
+
+@include respond-lg {
+  .work-with-us-card {
+    gap: var(--work-with-us-card-content-gap-desktop);
+    padding: var(--work-with-us-card-padding-desktop);
+  }
+
+  .work-with-us-card__icon {
+    width: var(--work-with-us-card-icon-size-desktop);
+    height: var(--work-with-us-card-icon-size-desktop);
+  }
+
+  .work-with-us-card__content {
+    gap: var(--work-with-us-card-content-gap-desktop);
+  }
+
+  .work-with-us-card__title {
+    font-size: var(--work-with-us-card-title-size-desktop);
+  }
+
+  .work-with-us-card__text {
+    font-size: var(--work-with-us-card-text-size-desktop);
+  }
+}

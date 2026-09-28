@@ -1,0 +1,17 @@
+<article class="work-with-us-card">
+    <img
+      class="work-with-us-card__icon"
+      [src]="card.icon"
+      [alt]="card.iconAlt || card.title"
+    >
+  
+    <div class="work-with-us-card__content">
+      <h3 class="work-with-us-card__title">
+        {{ card.title }}
+      </h3>
+  
+      <p class="work-with-us-card__text">
+        {{ card.text }}
+      </p>
+    </div>
+  </article>

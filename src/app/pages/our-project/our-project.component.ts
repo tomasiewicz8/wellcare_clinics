@@ -9,6 +9,7 @@ import { TranslationService } from '../../services/translation.service';
 import { CardsCarouselComponent } from '../../layout/components/cards-carousel/cards-carousel.component';
 import { PersonalizedTreatmentsComponent } from '../../layout/components/personalized-treatments/personalized-treatments.component';
 import { ContactCtaComponent } from '../../layout/components/contact-cta/contact-cta.component';
+import { SendCvComponent } from '../../layout/components/send-cv/send-cv.component';
 
 @Component({
   selector: 'app-our-project',
@@ -22,7 +23,7 @@ import { ContactCtaComponent } from '../../layout/components/contact-cta/contact
     ServiceCardComponent,
     CardsCarouselComponent,
     PersonalizedTreatmentsComponent,
-    ContactCtaComponent
+    ContactCtaComponent,
   ],
   templateUrl: './our-project.component.html',
   styleUrl: './our-project.component.scss'

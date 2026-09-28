@@ -1,0 +1,7 @@
+<div class="work-with-us">
+    <div class="work-with-us__grid">
+      @for (card of workWithUsArray; track card.title || $index) {
+        <app-work-with-us-card [card]="card" />
+      }
+    </div>
+  </div>

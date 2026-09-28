@@ -423,5 +423,46 @@
   "contactCta": {
     "title": "¿Necesitas más información?",
     "text": "Contacta con nosotros para saber más sobre nuestros servicios y cómo podemos ayudarte."
+  },
+  "workWithUs": {
+    "sectionTitle": "¿Por qué trabajar en Wellcare Clinics?",
+    "text": "Ofrecemos un entorno donde podrás desarrollarte profesionalmente y marcar la diferencia cada día.",
+    "items": [
+      {
+        "icon": "assets/images/work-with-us/purpose.png",
+        "iconAlt": "Icono de propósito",
+        "title": "Propósito",
+        "text": "Contribuye al bienestar y mejora la calidad de vida de nuestros pacientes."
+      },
+      {
+        "icon": "assets/images/work-with-us/development.png",
+        "iconAlt": "Icono de desarrollo profesional",
+        "title": "Desarrollo",
+        "text": "Formación continua y posibilidades reales de crecimiento profesional."
+      },
+      {
+        "icon": "assets/images/work-with-us/team.png",
+        "iconAlt": "Icono de equipo",
+        "title": "Equipo",
+        "text": "Trabaja con un equipo cercano, colaborativo y apasionado por lo que hace."
+      },
+      {
+        "icon": "assets/images/work-with-us/wellbeing.png",
+        "iconAlt": "Icono de bienestar",
+        "title": "Bienestar",
+        "text": "Valoramos tu bienestar con flexibilidad, apoyo y un ambiente saludable."
+      }
+    ]
+  },
+  "sendCv": {
+    "image": "assets/images/send-cv.jpg",
+    "imageAlt": "Fisioterapeuta atendiendo a un paciente",
+    "title": "Envía tu currículum",
+    "text": "Buscamos profesionales comprometidos, con vocación y ganas de seguir creciendo junto a nosotros",
+    "items": [
+      "Fisioterapeutas",
+      "Traumatólogos",
+      "Personal de grupo y administrativos"
+    ]
   }
 }

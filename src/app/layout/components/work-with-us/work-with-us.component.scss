@@ -1,0 +1,52 @@
+@use '../../../../styles/mixins' as *;
+
+:host {
+  display: block;
+  width: 100%;
+}
+
+.work-with-us {
+  width: 100%;
+  padding: 0 var(--container-padding-mobile);
+}
+
+.work-with-us__grid {
+  display: grid;
+  grid-template-columns: repeat(
+    var(--work-with-us-grid-columns-mobile),
+    minmax(0, 1fr)
+  );
+  gap: var(--work-with-us-grid-gap-mobile);
+  margin-top: var(--work-with-us-grid-margin-top-mobile);
+  align-items: stretch;
+}
+
+@include respond-md {
+  .work-with-us__grid {
+    grid-template-columns: repeat(
+      var(--work-with-us-grid-columns-tablet),
+      minmax(0, 1fr)
+    );
+    gap: var(--work-with-us-grid-gap-mobile);
+  }
+}
+
+@include respond-lg {
+  .work-with-us {
+    padding: 0 var(--container-padding-desktop);
+  }
+
+  .work-with-us__grid {
+    gap: var(--work-with-us-grid-gap-desktop);
+    margin-top: var(--work-with-us-grid-margin-top-desktop);
+  }
+}
+
+@include respond-xl {
+  .work-with-us__grid {
+    grid-template-columns: repeat(
+      var(--work-with-us-grid-columns-desktop),
+      minmax(0, 1fr)
+    );
+  }
+}

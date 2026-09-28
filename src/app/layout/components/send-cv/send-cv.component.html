@@ -1,0 +1,34 @@
+<section class="send-cv">
+    <div class="send-cv__image-wrapper">
+      <img
+        class="send-cv__image"
+        [src]="translationService.translate('sendCv.image')"
+        [alt]="translationService.translate('sendCv.imageAlt')"
+      >
+    </div>
+  
+    <div class="send-cv__content">
+      <h2 class="send-cv__title">
+        {{ translationService.translate('sendCv.title') }}
+      </h2>
+  
+      <p class="send-cv__text">
+        {{ translationService.translate('sendCv.text') }}
+      </p>
+  
+      <ul class="send-cv__list">
+        @for (item of sendCvArray; track item) {
+          <li class="send-cv__list-item">
+            <span class="send-cv__check" aria-hidden="true">✓</span>
+            <span>{{ item }}</span>
+          </li>
+        }
+      </ul>
+  
+      <app-action-button
+        class="send-cv__action"
+        buttonKey="actionButton.sendCv"
+        mailMode="cv"
+      />
+    </div>
+  </section>
