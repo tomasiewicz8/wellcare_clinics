@@ -464,5 +464,38 @@
       "Traumatólogos",
       "Personal de grupo y administrativos"
     ]
+  },
+  "locations": {
+    "sectionTitle": "¿Dónde estamos?",
+    "text": "Contamos con varias clínicas para estar siempre cerca de ti.",
+  
+    "map": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Wellcare+Clinics",
+      "linkText": "Ver todas las clínicas en Google Maps"
+    },
+  
+    "phoneLabel": "Teléfono:",
+    "mapLinkText": "Ver en Google Maps",
+  
+    "items": [
+      {
+        "city": "Madrid",
+        "address": "Calle de Alcalá 120, 28009 Madrid",
+        "phone": "910 123 456",
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=Calle+de+Alcala+120%2C+28009+Madrid"
+      },
+      {
+        "city": "Barcelona",
+        "address": "Carrer de Mallorca 401, 08013 Barcelona",
+        "phone": "930 123 456",
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=Carrer+de+Mallorca+401%2C+08013+Barcelona"
+      },
+      {
+        "city": "Valencia",
+        "address": "Gran Vía del Marqués del Turia 49, 46005 Valencia",
+        "phone": "960 123 456",
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=Gran+Via+del+Marques+del+Turia+49%2C+46005+Valencia"
+      }
+    ]
   }
 }
