@@ -1,0 +1,52 @@
+<article class="article-extended-card">
+    @if (card.image) {
+      <img
+        class="article-extended-card__image"
+        [src]="card.image"
+        [alt]="card.imageAlt || ''"
+        loading="lazy"
+      />
+    }
+  
+    <div class="article-extended-card__content">
+      <div class="article-extended-card__header">
+        <div class="article-extended-card__meta">
+          <span class="article-extended-card__category">
+            {{ card.category }}
+          </span>
+  
+          <span class="article-extended-card__type">
+            #{{ card.type }}
+          </span>
+        </div>
+  
+        <h3 class="article-extended-card__title">
+          {{ card.title }}
+        </h3>
+  
+        <p class="article-extended-card__text">
+          {{ card.text }}
+        </p>
+      </div>
+  
+      <div class="article-extended-card__body">
+        <button
+          type="button"
+          class="article-extended-card__read-more"
+          aria-haspopup="dialog"
+          [attr.aria-label]="translationService.translate('articles.readMore') + ': ' + card.title"
+          (click)="openArticle()"
+        >
+          <span>
+            {{ translationService.translate('articles.readMore') }}
+          </span>
+  
+          <lucide-icon
+            [img]="arrowRightIcon"
+            class="article-extended-card__arrow"
+            aria-hidden="true"
+          ></lucide-icon>
+        </button>
+      </div>
+    </div>
+  </article>

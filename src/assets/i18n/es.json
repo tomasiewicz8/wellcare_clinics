@@ -200,6 +200,7 @@
   },
   "articles": {
     "sectionTitle": "Explora nuestros artículos.",
+    "all": "Todos",
     "blogs": "Blogs",
     "news": "Noticias",
     "tips": "Consejos",
@@ -209,7 +210,7 @@
       {
         "image": "assets/images/articles/articles1.png",
         "imageAlt": "",
-        "category": "DOLOR LUMBAR:",
+        "category": "DOLOR LUMBAR",
         "type": "Blog",
         "title": "Dolor lumbar: causas, síntomas y tratamiento",
         "shortTitle": "Dolor lumbar",
@@ -219,7 +220,7 @@
       {
         "image": "assets/images/articles/articles2.png",
         "imageAlt": "",
-        "category": "PREVENCIÓN:",
+        "category": "PREVENCIÓN",
         "type": "Consejo",
         "title": "Consejos para prevenir lesiones deportivas",
         "shortTitle": "Prevención deportiva",
@@ -229,7 +230,7 @@
       {
         "image": "assets/images/articles/articles3.png",
         "imageAlt": "",
-        "category": "FISIOTERAPIA:",
+        "category": "FISIOTERAPIA",
         "type": "Blog",
         "title": "Fisioterapia respiratoria: qué es y cómo ayuda",
         "shortTitle": "Fisioterapia respiratoria",
@@ -239,7 +240,7 @@
       {
         "image": "assets/images/articles/articles4.png",
         "imageAlt": "",
-        "category": "APERTURA:",
+        "category": "APERTURA",
         "type": "Noticia",
         "title": "Wellcare Clinics abre su nueva clínica en Valencia",
         "shortTitle": "Nueva clínica",
@@ -249,7 +250,7 @@
       {
         "image": "assets/images/articles/articles5.png",
         "imageAlt": "",
-        "category": "APERTURA:",
+        "category": "APERTURA",
         "type": "Noticia",
         "title": "Wellcare Clinics abre su nueva clínica en Valencia",
         "shortTitle": "Nueva clínica",
@@ -269,7 +270,7 @@
       {
         "image": "assets/images/articles/articles7.png",
         "imageAlt": "",
-        "category": "APERTURA:",
+        "category": "APERTURA",
         "type": "Noticia",
         "title": "Wellcare Clinics abre su nueva clínica en Valencia",
         "shortTitle": "Nueva clínica",
@@ -279,7 +280,7 @@
       {
         "image": "assets/images/articles/articles8.png",
         "imageAlt": "",
-        "category": "SALUD:",
+        "category": "SALUD",
         "type": "Consejo",
         "title": "5 ejercicios para aliviar el dolor de espalda en casa",
         "shortTitle": "Ejercicios espalda",
@@ -289,7 +290,7 @@
       {
         "image": "assets/images/articles/articles9.png",
         "imageAlt": "",
-        "category": "POSTURAS:",
+        "category": "POSTURAS",
         "type": "Consejo",
         "title": "La importancia de una buena postura en tu día a día",
         "shortTitle": "Buena postura",

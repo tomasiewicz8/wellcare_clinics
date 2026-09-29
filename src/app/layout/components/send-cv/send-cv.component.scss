@@ -13,7 +13,7 @@
   align-items: center;
   gap: var(--send-cv-layout-gap-mobile);
 
-  margin: var(--container-padding-mobile);
+  margin: var(--container-padding-mobile) var(--container-padding-mobile) 0 var(--container-padding-mobile);
 
   padding: var(--send-cv-section-padding-mobile);
 
@@ -116,7 +116,7 @@
     grid-template-columns: var(--send-cv-image-width-desktop) minmax(0, 1fr);
     gap: var(--send-cv-layout-gap-desktop);
 
-    margin: var(--container-padding-desktop);
+    margin: var(--container-padding-desktop) var(--container-padding-desktop) 0 var(--container-padding-desktop);
 
     padding: var(--send-cv-section-padding-desktop);
   }

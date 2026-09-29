@@ -1,0 +1,152 @@
+@use '../../../../styles/mixins' as *;
+
+:host {
+    display: block;
+    width: 100%;
+
+    --articles-section-filters-columns-mobile: 2;
+    --articles-section-filters-columns-desktop: 4;
+
+    --articles-section-filters-gap-mobile: 20px;
+    --articles-section-filters-gap-desktop: 40px;
+
+    --articles-section-filter-height-mobile: 44px;
+    --articles-section-filter-height-desktop: 44px;
+
+    --articles-section-filter-radius: 10px;
+
+    --articles-section-filter-text-size-mobile: 18px;
+    --articles-section-filter-text-size-desktop: 18px;
+
+
+
+    --articles-section-grid-columns-mobile: 1;
+    --articles-section-grid-columns-desktop: 2;
+
+    --articles-section-grid-gap-mobile: 20px;
+    --articles-section-grid-gap-desktop: 40px;
+
+    --articles-section-grid-margin-top-mobile: 30px;
+    --articles-section-grid-margin-top-desktop: 40px;
+
+    --articles-section-grid-padding-bottom-mobile: 20px;
+    --articles-section-grid-padding-bottom-desktop: 40px;
+}
+
+.articles-section {
+  width: 100%;
+}
+
+.articles-section__filters {
+  display: grid;
+  grid-template-columns: repeat(
+    var(--articles-section-filters-columns-mobile),
+    minmax(0, 1fr)
+  );
+  gap: var(--articles-section-filters-gap-mobile);
+
+  padding: 0 var(--container-padding-mobile);
+}
+
+/* Ajustes de diagonal-card únicamente dentro de estos filtros. */
+.articles-section__filters > app-diagonal-card {
+  min-width: 0;
+  height: var(--articles-section-filter-height-mobile);
+
+  --diagonal-card-radius: var(--articles-section-filter-radius);
+  --diagonal-card-padding-mobile: 0;
+  --diagonal-card-padding-desktop: 0;
+}
+
+.articles-section__filter {
+  position: absolute;
+  inset: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  height: 100%;
+
+  margin: 0;
+  padding: 0;
+  border: 0;
+
+  background: transparent;
+  color: var(--color-text-disabled);
+
+  font-family: var(--font-family-ui);
+  font-size: var(--articles-section-filter-text-size-mobile);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--line-height-normal);
+  text-align: center;
+
+  cursor: pointer;
+}
+
+.articles-section__filter--active {
+  background-color: var(--color-primary-dark);
+  color: var(--color-white);
+}
+
+.articles-section__filter:focus-visible {
+  outline: 2px solid var(--color-primary-dark);
+  outline-offset: -4px;
+}
+
+.articles-section__filter--active:focus-visible {
+  outline-color: var(--color-white);
+}
+
+.articles-section__grid {
+    display: grid;
+    grid-template-columns: repeat(
+      var(--articles-section-grid-columns-mobile),
+      minmax(0, 1fr)
+    );
+    gap: var(--articles-section-grid-gap-mobile);
+    align-items: stretch;
+  
+    margin-top: var(--articles-section-grid-margin-top-mobile);
+  
+    padding:
+      0
+      var(--container-padding-mobile)
+      var(--articles-section-grid-padding-bottom-mobile);
+  }
+
+@include respond-lg {
+  .articles-section__filters {
+    grid-template-columns: repeat(
+      var(--articles-section-filters-columns-desktop),
+      minmax(0, 1fr)
+    );
+    gap: var(--articles-section-filters-gap-desktop);
+
+    padding: 0 var(--container-padding-desktop);
+  }
+
+  .articles-section__filters > app-diagonal-card {
+    height: var(--articles-section-filter-height-desktop);
+  }
+
+  .articles-section__filter {
+    font-size: var(--articles-section-filter-text-size-desktop);
+  }
+
+  .articles-section__grid {
+    grid-template-columns: repeat(
+      var(--articles-section-grid-columns-desktop),
+      minmax(0, 1fr)
+    );
+    gap: var(--articles-section-grid-gap-desktop);
+  
+    margin-top: var(--articles-section-grid-margin-top-desktop);
+  
+    padding:
+      0
+      var(--container-padding-desktop)
+      var(--articles-section-grid-padding-bottom-desktop);
+  }
+}

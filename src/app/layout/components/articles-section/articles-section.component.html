@@ -1,0 +1,22 @@
+<section class="articles-section">
+    <div class="articles-section__filters">
+      @for (filter of filters; track filter.type) {
+        <app-diagonal-card>
+          <button
+            type="button"
+            class="articles-section__filter"
+            [class.articles-section__filter--active]="selectedType === filter.type"
+            [attr.aria-pressed]="selectedType === filter.type"
+            (click)="selectType(filter.type)"
+          >
+            {{ translationService.translate(filter.textKey) }}
+          </button>
+        </app-diagonal-card>
+      }
+    </div>
+    <div class="articles-section__grid">
+        @for (card of filteredArticles; track card) {
+          <app-article-extended-card [card]="card" />
+        }
+    </div>
+</section>

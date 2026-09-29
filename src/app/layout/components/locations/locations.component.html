@@ -1,1 +1,20 @@
-<p>locations works!</p>
+<section class="locations">
+    <iframe
+        class="locations__map"
+        [src]="mapEmbedUrl"
+        title="Mapa de las clínicas Wellcare Clinics"
+        loading="lazy"
+        allowfullscreen
+        referrerpolicy="strict-origin-when-cross-origin"
+    ></iframe>
+  
+    <div class="locations__list">
+      @for (location of locationsArray; track location.city) {
+        <app-location-card
+          [location]="location"
+          [phoneLabel]="translationService.translate('locations.phoneLabel')"
+          [mapLinkText]="translationService.translate('locations.mapLinkText')"
+        />
+      }
+    </div>
+  </section>

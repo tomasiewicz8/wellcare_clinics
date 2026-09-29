@@ -1,1 +1,39 @@
-<p>location-card works!</p>
+<a
+  class="location-card"
+  [href]="location.mapUrl"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <div class="location-card__main">
+    <lucide-icon
+      [img]="mapPinIcon"
+      class="location-card__icon"
+      aria-hidden="true"
+    ></lucide-icon>
+
+    <div class="location-card__info">
+      <h3 class="location-card__city">
+        {{ location.city }}
+      </h3>
+
+      <p class="location-card__address">
+        {{ location.address }}
+      </p>
+
+      <p class="location-card__phone">
+        <span>{{ phoneLabel }}</span>
+        <span>{{ location.phone }}</span>
+      </p>
+    </div>
+  </div>
+
+  <span class="location-card__map-link">
+    <span>{{ mapLinkText }}</span>
+
+    <lucide-icon
+      [img]="chevronRightIcon"
+      class="location-card__arrow"
+      aria-hidden="true"
+    ></lucide-icon>
+  </span>
+</a>

@@ -8,6 +8,7 @@ import { SectionDescriptionComponent } from '../../layout/components/section-des
 import { WorkWithUsCardComponent } from '../../layout/components/work-with-us-card/work-with-us-card.component';
 import { WorkWithUsComponent } from '../../layout/components/work-with-us/work-with-us.component';
 import { SendCvComponent } from '../../layout/components/send-cv/send-cv.component';
+import { LocationsComponent } from '../../layout/components/locations/locations.component';
 
 @Component({
   selector: 'app-contact',
@@ -20,6 +21,7 @@ import { SendCvComponent } from '../../layout/components/send-cv/send-cv.compone
     SectionDescriptionComponent,
     WorkWithUsComponent,
     SendCvComponent,
+    LocationsComponent,
   ],
   templateUrl: './contact.component.html',
   styleUrl: './contact.component.scss'
