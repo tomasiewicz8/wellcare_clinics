@@ -2,8 +2,14 @@
 
 :host {
   display: block;
-  width: 100%;
-  margin: 20px 0px;
+  margin: 20px 20px;
+
+  --help-card-padding-desktop: 24px 40px;
+  --help-card-content-gap-desktop: 40px;
+  --help-card-header-gap-desktop: 32px;
+  --help-card-icon-size-desktop: 80px;
+  --help-card-title-size-desktop: 28px;
+  --help-card-action-width-desktop: 220px;
 }
 
 .help-card {
@@ -12,9 +18,9 @@
 
   display: flex;
   flex-direction: column;
-  gap: var(--help-card-content-gap-mobile);
+  gap: 20px;
 
-  padding: var(--help-card-padding-mobile);
+  padding: 20px;
 
   background-color: var(--color-surface-blue-opacity);
   border-radius: var(--help-card-radius);
@@ -25,7 +31,7 @@
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   gap: var(--help-card-header-gap-mobile);
 }
 
@@ -45,6 +51,9 @@
   font-size: var(--help-card-title-size-mobile);
   font-weight: var(--font-weight-regular);
   line-height: var(--help-card-title-line-height);
+
+  max-width: 18ch;
+  text-align: center;
 }
 
 .help-card__action {
@@ -57,22 +66,41 @@
   --action-button-width: 100%;
 }
 
-@include mixins.respond-md {
-  .help-card {
+@include mixins.respond-lg {
+  .help-card--banner {
+    width: 50%;
+    height: auto;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     gap: var(--help-card-content-gap-desktop);
+
     padding: var(--help-card-padding-desktop);
   }
 
-  .help-card__header {
+  .help-card--banner .help-card__header {
+    flex: 0 1 auto;
+    justify-content: center;
     gap: var(--help-card-header-gap-desktop);
   }
 
-  .help-card__icon {
+  .help-card--banner .help-card__icon {
     width: var(--help-card-icon-size-desktop);
     height: var(--help-card-icon-size-desktop);
   }
 
-  .help-card__title {
+  .help-card--banner .help-card__title {
+    flex: 0 1 auto;
+
     font-size: var(--help-card-title-size-desktop);
+    text-align: center;
+  }
+
+  .help-card--banner .help-card__action {
+    flex-shrink: 0;
+    width: var(--help-card-action-width-desktop);
+
+    --action-button-width-mobile: 100%;
+    --action-button-width: 100%;
   }
 }

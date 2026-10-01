@@ -1,4 +1,8 @@
-<article class="help-card">
+<article
+  class="help-card"
+  [class.help-card--compact]="variant === 'compact'"
+  [class.help-card--banner]="variant === 'banner'"
+>
     <div class="help-card__header">
       <img
         class="help-card__icon"

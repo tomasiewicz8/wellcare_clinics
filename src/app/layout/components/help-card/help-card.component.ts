@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { ActionButtonComponent } from '../action-button/action-button.component';
 import { TranslationService } from '../../../services/translation.service';
 
@@ -12,4 +12,6 @@ import { TranslationService } from '../../../services/translation.service';
 export class HelpCardComponent {
 
   constructor(public translationService: TranslationService) {}
+
+  @Input() variant: 'compact' | 'banner' = 'banner';
 }

@@ -86,7 +86,7 @@
 .footer__subtitle {
   grid-area: subtitle;
 
-  margin: 0 0 var(--space-xl);
+  margin: 0 0 10px 0;
 
   color: var(--color-text-disabled);
   font-family: var(--font-family-base);
@@ -95,7 +95,7 @@
   line-height: var(--line-height-normal);
 
   @include respond-lg {
-    margin-bottom: var(--space-sm);
+    margin-bottom: var(--space-xl);
   }
 }
 
