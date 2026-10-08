@@ -13,7 +13,7 @@
   },
   "footer": {
     "brand": {
-      "subtitle": "Fisioterapia especializada y atención sanitaria personalizada.",
+      "subtitle": "Rehabilitación y Fisioterapia Avanzada",
       "description": "Cuidamos tu salud con un enfoque cercano, global y adaptado a las necesidades de cada persona."
     },
     "navigation": {
@@ -23,7 +23,7 @@
       "title": "Servicios",
       "traumatology": "Traumatología",
       "rehabilitation": "Rehabilitación",
-      "physiotherapy": "Fisioterapia",
+      "physiotherapy": "Fisioterapia Avanzada",
       "chronicPain": "Dolor crónico"
     },
     "information": {
@@ -53,8 +53,8 @@
     "aboutUs": {
       "image": "assets/images/hero/about-us.png",
       "imageAlt": "Clínica de fisioterapia Wellcare Clinics",
-      "title": "Tu clinica de confianza",
-      "text": "En Wellcare Clinics contamos con un equipo especializado en diversas técnicas de fisioterapia y tratamientos, comprometido con tu bienestar."
+      "title": "Tu clínica de confianza",
+      "text": "En Wellcare Clinics contamos con un equipo especializado en diversas técnicas de fisioterapia y tratamientos, comprometido en el cuidado de la salud con una atención personalizada."
     },
     "ourProject": {
       "image": "assets/images/hero/our-project.png",
@@ -78,30 +78,30 @@
   "actionButton": {
     "sendCv": "Enviar currículum",
     "contact": "Contactar",
-    "goToHome": "ir a contacto",
-    "goToAboutUs": "Quienes somos",
+    "goToHome": "Ir a contacto",
+    "goToAboutUs": "Quiénes somos",
     "goToOurProject": "Ver tratamientos",
     "goToTips": "Más información",
     "goToContact": "Trabaja con nosotros",
-    "hereWeAre": "Donde estamos",
+    "hereWeAre": "Dónde estamos",
     "hireOurServices": "Contrata nuestros servicios",
     "helpCard": "¿Necesitas ayuda personalizada?"
   },
   "mail": {
-    "recipient": "tomasiewic@gmail.com",
+    "recipient": "gestionwellcare@ouloock.es",
     "cv": {
       "subject": "Candidatura para Wellcare Clinics SL",
       "body": "Hola,\n\nHe visto vuestra web y me gustaría enviaros mi CV para posibles candidaturas en Wellcare Clinics SL.\n\n¡¡¡NO OLVIDES ADJUNTAR TU CURRÍCULUM EN ESTE CORREO!!!"
     }
   },
   "treatments": {
-    "sectionTitle": "Tratamientos",
+    "sectionTitle": "Nuestros tratamientos",
     "items": [
       {
         "image": "assets/images/knee.png",
         "imageAlt": "",
-        "title": "Traumatología",
-        "text": "Tratamientos para lesiones musculares, articulares y procesos de recuperación."
+        "title": "Traumatología y Rehabilitación",
+        "text": "Tratamiento para todo tipo de lesiones musculo-esqueléticas remitidos por su especialista en traumatología, neurocirugía, reumatología u otras especialidades"
       },
       {
         "image": "assets/images/back.png",
@@ -112,20 +112,14 @@
       {
         "image": "assets/images/pelvis.png",
         "imageAlt": "",
-        "title": "Suelo pélvico",
-        "text": "Rehabilitación especializada para mejorar la función y el control del suelo pélvico."
+        "title": "Fisioterapia especializada en Suelo Pélvico",
+        "text": "Rehabilitación del suelo pélvico desde un punto de vista integral utilizando terapia manual, osteopatía y electroterapia. Tratamientos de incontinecia urinaria, dolor crónico del suelo pélvico, disfunciones sexuales, postparto, prolapso de órganos del suelo pélvico."
       },
       {
         "image": "assets/images/lungs.png",
         "imageAlt": "",
         "title": "Fisioterapia respiratoria",
-        "text": "Tratamientos para mejorar la función pulmonar y favorecer una respiración eficaz."
-      },
-      {
-        "image": "assets/images/knee.png",
-        "imageAlt": "",
-        "title": "Traumatología",
-        "text": "Tratamientos para lesiones musculares, articulares y procesos de recuperación."
+        "text": "Técnicas basadas en el conocimiento de la fisiopatología respiratoria, junto con el conocimiento psicoemocional del paciente, para prevenir, curar o, algunas veces, tan sólo estabilizar las alteraciones que afectan al sistema toracopulmonar. Aerosolterapia, inspirómetro de incentico, vibración, tos, tos y expectoración, tos asistida."
       }
     ]
   },
@@ -169,31 +163,19 @@
       {
         "image": "assets/images/metrics/1.png",
         "imageAlt": "Icono de experiencia",
-        "title": "+10",
+        "title": "+20",
         "text": "Años de experiencia"
       },
       {
         "image": "assets/images/metrics/2.png",
-        "imageAlt": "Icono de pacientes",
-        "title": "+1000",
-        "text": "Pacientes tratados"
+        "imageAlt": "Icono de profesionales",
+        "title": "+16",
+        "text": "Profesionales cualificados"
       },
       {
         "image": "assets/images/metrics/3.png",
         "imageAlt": "Icono de pacientes",
-        "title": "+1000",
-        "text": "Pacientes tratados"
-      },
-      {
-        "image": "assets/images/metrics/1.png",
-        "imageAlt": "Icono de experiencia",
-        "title": "+10",
-        "text": "Años de experiencia"
-      },
-      {
-        "image": "assets/images/metrics/2.png",
-        "imageAlt": "Icono de pacientes",
-        "title": "+1000",
+        "title": "+100000",
         "text": "Pacientes tratados"
       }
     ]
@@ -242,40 +224,40 @@
         "imageAlt": "",
         "category": "APERTURA",
         "type": "Noticia",
-        "title": "Wellcare Clinics abre su nueva clínica en Valencia",
+        "title": "Wellcare Clinics abre su nueva clínica en Madrid",
         "shortTitle": "Nueva clínica",
         "text": "Seguimos creciendo para estar más cerca de ti y ofrecerte el mejor servicio.",
-        "fullText": "Wellcare Clinics continúa creciendo con la apertura de una nueva clínica en Valencia. Este nuevo centro nace con el objetivo de acercar nuestros servicios de salud, fisioterapia y bienestar a más personas, manteniendo la atención cercana y personalizada que caracteriza a nuestro equipo.\n\nLa nueva clínica cuenta con espacios diseñados para ofrecer comodidad, privacidad y una experiencia de tratamiento agradable desde el primer momento. Cada sala ha sido preparada para facilitar una atención individualizada, con equipamiento moderno y un entorno pensado para que el paciente se sienta acompañado durante todo el proceso.\n\nEn este centro se ofrecerán servicios orientados a la recuperación física, el tratamiento del dolor, la prevención de lesiones y la mejora de la movilidad. Nuestro equipo trabajará con una visión integral, valorando cada caso de forma personalizada y proponiendo planes adaptados a las necesidades reales de cada paciente.\n\nLa apertura en Valencia supone un paso importante para Wellcare Clinics. Queremos seguir creciendo sin perder nuestra esencia: escuchar, valorar y tratar a cada persona con profesionalidad, cercanía y compromiso.\n\nMuy pronto compartiremos más información sobre horarios, servicios disponibles y formas de reservar cita. Estamos deseando recibirte en nuestra nueva clínica."
+        "fullText": "Wellcare Clinics continúa creciendo con la apertura de una nueva clínica en Madrid. Este nuevo centro nace con el objetivo de acercar nuestros servicios de salud, fisioterapia y bienestar a más personas, manteniendo la atención cercana y personalizada que caracteriza a nuestro equipo.\n\nLa nueva clínica cuenta con espacios diseñados para ofrecer comodidad, privacidad y una experiencia de tratamiento agradable desde el primer momento. Cada sala ha sido preparada para facilitar una atención individualizada, con equipamiento moderno y un entorno pensado para que el paciente se sienta acompañado durante todo el proceso.\n\nEn este centro se ofrecerán servicios orientados a la recuperación física, el tratamiento del dolor, la prevención de lesiones y la mejora de la movilidad. Nuestro equipo trabajará con una visión integral, valorando cada caso de forma personalizada y proponiendo planes adaptados a las necesidades reales de cada paciente.\n\nLa apertura en Madrid supone un paso importante para Wellcare Clinics. Queremos seguir creciendo sin perder nuestra esencia: escuchar, valorar y tratar a cada persona con profesionalidad, cercanía y compromiso.\n\nMuy pronto compartiremos más información sobre horarios, servicios disponibles y formas de reservar cita. Estamos deseando recibirte en nuestra nueva clínica."
       },
       {
         "image": "assets/images/articles/articles5.png",
         "imageAlt": "",
         "category": "APERTURA",
         "type": "Noticia",
-        "title": "Wellcare Clinics abre su nueva clínica en Valencia",
+        "title": "Wellcare Clinics abre su nueva clínica en Madrid",
         "shortTitle": "Nueva clínica",
         "text": "Seguimos creciendo para estar más cerca de ti y ofrecerte el mejor servicio.",
-        "fullText": "La llegada de Wellcare Clinics a Valencia forma parte de nuestro compromiso por ofrecer una atención sanitaria accesible, profesional y centrada en las personas. Con este nuevo espacio queremos crear un punto de referencia para quienes buscan mejorar su salud, recuperarse de una lesión o prevenir molestias futuras.\n\nEl centro ha sido diseñado para que cada paciente reciba una atención cómoda y personalizada. Desde la primera valoración hasta el seguimiento del tratamiento, nuestro objetivo es que cada persona entienda qué le ocurre, por qué aparece su dolor o limitación y qué pasos puede seguir para mejorar.\n\nEn la nueva clínica se trabajará con tratamientos de fisioterapia, ejercicio terapéutico, educación postural y recuperación funcional. También se ofrecerán pautas adaptadas para el día a día, porque creemos que una buena recuperación no termina en la camilla, sino que continúa en casa, en el trabajo y en la actividad diaria.\n\nNuestro equipo combina experiencia, formación continua y trato cercano. Queremos que cada paciente se sienta escuchado y acompañado, evitando tratamientos genéricos y apostando por soluciones adaptadas a cada caso.\n\nCon esta apertura reforzamos nuestra presencia y damos un paso más en el crecimiento de Wellcare Clinics. Valencia nos abre sus puertas y nosotros llegamos con mucha ilusión."
+        "fullText": "La llegada de Wellcare Clinics a Madrid forma parte de nuestro compromiso por ofrecer una atención sanitaria accesible, profesional y centrada en las personas. Con este nuevo espacio queremos crear un punto de referencia para quienes buscan mejorar su salud, recuperarse de una lesión o prevenir molestias futuras.\n\nEl centro ha sido diseñado para que cada paciente reciba una atención cómoda y personalizada. Desde la primera valoración hasta el seguimiento del tratamiento, nuestro objetivo es que cada persona entienda qué le ocurre, por qué aparece su dolor o limitación y qué pasos puede seguir para mejorar.\n\nEn la nueva clínica se trabajará con tratamientos de fisioterapia, ejercicio terapéutico, educación postural y recuperación funcional. También se ofrecerán pautas adaptadas para el día a día, porque creemos que una buena recuperación no termina en la camilla, sino que continúa en casa, en el trabajo y en la actividad diaria.\n\nNuestro equipo combina experiencia, formación continua y trato cercano. Queremos que cada paciente se sienta escuchado y acompañado, evitando tratamientos genéricos y apostando por soluciones adaptadas a cada caso.\n\nCon esta apertura reforzamos nuestra presencia y damos un paso más en el crecimiento de Wellcare Clinics. Madrid nos abre sus puertas y nosotros llegamos con mucha ilusión."
       },
       {
         "image": "assets/images/articles/articles6.png",
         "imageAlt": "",
         "category": "APERTURA",
         "type": "Noticia",
-        "title": "Wellcare Clinics abre su nueva clínica en Valencia",
+        "title": "Wellcare Clinics abre su nueva clínica en Madrid",
         "shortTitle": "Nueva clínica",
         "text": "Seguimos creciendo para estar más cerca de ti y ofrecerte el mejor servicio.",
-        "fullText": "Abrimos una nueva etapa en Wellcare Clinics con la inauguración de nuestra clínica en Valencia. Este nuevo centro representa una oportunidad para seguir ofreciendo tratamientos de calidad, atención personalizada y un enfoque de salud basado en la prevención, la recuperación y el bienestar a largo plazo.\n\nLa clínica nace con una idea clara: ayudar a cada paciente a recuperar su movilidad, reducir el dolor y mejorar su calidad de vida. Para ello, contamos con profesionales especializados que valoran cada situación de forma individual y diseñan planes de tratamiento ajustados a los objetivos de cada persona.\n\nEl espacio ha sido preparado para ofrecer una experiencia cómoda y profesional. Queremos que cada visita sea útil, clara y cercana. Por eso, además del tratamiento, damos importancia a la explicación del problema, la educación en hábitos saludables y la orientación para evitar recaídas.\n\nLa apertura de Valencia nos permite estar más cerca de nuevos pacientes y seguir consolidando nuestra forma de trabajar: tratamientos personalizados, comunicación clara y compromiso con los resultados.\n\nEstamos muy ilusionados con este nuevo comienzo y esperamos que la clínica se convierta en un lugar de confianza para todas las personas que quieran cuidar su salud física."
+        "fullText": "Abrimos una nueva etapa en Wellcare Clinics con la inauguración de nuestra clínica en Madrid. Este nuevo centro representa una oportunidad para seguir ofreciendo tratamientos de calidad, atención personalizada y un enfoque de salud basado en la prevención, la recuperación y el bienestar a largo plazo.\n\nLa clínica nace con una idea clara: ayudar a cada paciente a recuperar su movilidad, reducir el dolor y mejorar su calidad de vida. Para ello, contamos con profesionales especializados que valoran cada situación de forma individual y diseñan planes de tratamiento ajustados a los objetivos de cada persona.\n\nEl espacio ha sido preparado para ofrecer una experiencia cómoda y profesional. Queremos que cada visita sea útil, clara y cercana. Por eso, además del tratamiento, damos importancia a la explicación del problema, la educación en hábitos saludables y la orientación para evitar recaídas.\n\nLa apertura de Madrid nos permite estar más cerca de nuevos pacientes y seguir consolidando nuestra forma de trabajar: tratamientos personalizados, comunicación clara y compromiso con los resultados.\n\nEstamos muy ilusionados con este nuevo comienzo y esperamos que la clínica se convierta en un lugar de confianza para todas las personas que quieran cuidar su salud física."
       },
       {
         "image": "assets/images/articles/articles7.png",
         "imageAlt": "",
         "category": "APERTURA",
         "type": "Noticia",
-        "title": "Wellcare Clinics abre su nueva clínica en Valencia",
+        "title": "Wellcare Clinics abre su nueva clínica en Madrid",
         "shortTitle": "Nueva clínica",
         "text": "Seguimos creciendo para estar más cerca de ti y ofrecerte el mejor servicio.",
-        "fullText": "Wellcare Clinics abre sus puertas en Valencia con un nuevo centro dedicado al cuidado de la salud, la recuperación física y la prevención de lesiones. Esta apertura responde a nuestro deseo de seguir creciendo y ofrecer una atención más cercana a todas aquellas personas que buscan un servicio profesional y personalizado.\n\nEn la nueva clínica trabajaremos con pacientes que presentan dolor muscular o articular, lesiones deportivas, molestias posturales, problemas de movilidad o necesidad de recuperación tras una intervención o periodo de inactividad. Cada tratamiento partirá de una valoración inicial para entender el origen del problema y plantear un plan realista y adaptado.\n\nNuestra filosofía se basa en combinar tratamiento manual, ejercicio terapéutico y educación del paciente. No se trata solo de aliviar el dolor en el momento, sino de ayudar a que la persona comprenda su cuerpo y pueda mantener los resultados en el tiempo.\n\nEl nuevo centro de Valencia ha sido creado con espacios cómodos, funcionales y preparados para ofrecer una atención de calidad. Queremos que cada paciente se sienta acompañado desde la primera visita.\n\nEsta apertura es una gran noticia para nuestro equipo y un paso más en el crecimiento de Wellcare Clinics."
+        "fullText": "Wellcare Clinics abre sus puertas en Madrid con un nuevo centro dedicado al cuidado de la salud, la recuperación física y la prevención de lesiones. Esta apertura responde a nuestro deseo de seguir creciendo y ofrecer una atención más cercana a todas aquellas personas que buscan un servicio profesional y personalizado.\n\nEn la nueva clínica trabajaremos con pacientes que presentan dolor muscular o articular, lesiones deportivas, molestias posturales, problemas de movilidad o necesidad de recuperación tras una intervención o periodo de inactividad. Cada tratamiento partirá de una valoración inicial para entender el origen del problema y plantear un plan realista y adaptado.\n\nNuestra filosofía se basa en combinar tratamiento manual, ejercicio terapéutico y educación del paciente. No se trata solo de aliviar el dolor en el momento, sino de ayudar a que la persona comprenda su cuerpo y pueda mantener los resultados en el tiempo.\n\nEl nuevo centro de Madrid ha sido creado con espacios cómodos, funcionales y preparados para ofrecer una atención de calidad. Queremos que cada paciente se sienta acompañado desde la primera visita.\n\nEsta apertura es una gran noticia para nuestro equipo y un paso más en el crecimiento de Wellcare Clinics."
       },
       {
         "image": "assets/images/articles/articles8.png",
@@ -306,8 +288,8 @@
       "alt": "Fisioterapeuta ayudando a un paciente durante un ejercicio de rehabilitación"
     },
     "content": {
-      "title": "Fisioterapia especializada y trato especializado",
-      "text": "Nuestra clínica está enfocada en la rehabilitación y tratamientos específicos para cada condición, combinando experiencia clínica con técnicas avanzadas para mejorar tu bienestar.",
+      "title": "Fisioterapia personalizada a cada paciente y trato especializado",
+      "text": "Nuestra clínica está enfocada al tratamiento de diversas patologías mediante las últimas técnicas avanzadas de Fisioterapia para la recuperación del paciente.",
       "features": [
         {
           "icon": "assets/images/specialized-physiotherapy/medical-equipment.png",
@@ -338,7 +320,7 @@
   },
   "clinicIdentity": {
     "title": "Tu clínica de confianza",
-    "text": "En Wellcare Clinics contamos con un equipo especializado en fisioterapia y tratamientos personalizados, comprometido con tu bienestar en cada sesión. Te acompañamos en todo el proceso para ofrecerte una atención cercana, profesional y adaptada a tus necesidades.",
+    "text": "En Wellcare Clinics contamos con un equipo especializado en Fisioterapia avanzada, comprometido con tu bienestar en cada sesión. Te acompañamos en todo el proceso para ofrecerte una atención cercana, profesional y adaptada a tus necesidades.",
     "mission": {
       "icon": "assets/images/clinic-identity/mission-target.png",
       "iconAlt": "Icono de objetivo que representa la misión de la clínica",
@@ -370,7 +352,7 @@
         "image": "assets/images/articles/articles2.png",
         "imageAlt": "Ilustración de una articulación de la rodilla",
         "title": "Traumatología",
-        "text": "Diagnóstico y tratamiento de lesiones musculoesqueléticas, fracturas y problemas articulares.",
+        "text": "Diagnostico y tratamiento de lesiones musculoesqueléticas, lesiones deportivas y traumatologia.",
         "fullText": "Nuestro servicio de traumatología está orientado al diagnóstico, tratamiento y seguimiento de lesiones que afectan al sistema musculoesquelético. Atendemos problemas relacionados con músculos, articulaciones, huesos, tendones y ligamentos, adaptando el tratamiento a las necesidades de cada paciente.\n\nRealizamos una valoración individual para identificar el origen de la lesión y establecer el tratamiento más adecuado. Trabajamos con lesiones deportivas, problemas articulares, fracturas, sobrecargas musculares y otras patologías que pueden limitar el movimiento o provocar dolor.\n\nNuestro objetivo es ayudarte a reducir las molestias, recuperar la movilidad y volver progresivamente a tus actividades habituales con seguridad."
       },
       {
@@ -386,14 +368,14 @@
         "image": "assets/images/articles/articles9.png",
         "imageAlt": "Ilustración de la columna vertebral",
         "title": "Fisioterapia especializada",
-        "text": "Terapia personalizada adaptada a dolores y patologías específicas.",
+        "text": "Fisioterapia avanzada: tratamiento suelo pélvico, deportivo, Fisioterapia invasiva, respiratorio, drenaje linfático manual.",
         "fullText": "La fisioterapia especializada permite abordar diferentes patologías mediante tratamientos adaptados a las características y necesidades de cada persona.\n\nPartimos de una valoración individual para conocer el origen de las molestias, las limitaciones existentes y los objetivos del paciente. A partir de ahí se seleccionan las técnicas y ejercicios más adecuados para mejorar la movilidad, reducir el dolor y recuperar la función.\n\nNuestro enfoque combina tratamiento, ejercicio y educación para que el paciente participe activamente en su recuperación y pueda mantener los resultados a largo plazo."
       }
     ]
   },
   "personalizedTreatments": {
-    "title": "Tratamientos especializados para distintas condiciones",
-    "text": "En Wellcare Clinics tratamos una amplia gama de dolencias utilizando técnicas avanzadas y la última tecnología para asegurar los mejores resultados en cada caso.",
+    "title": "Tratamientos avanzados para distintas patologías.",
+    "text": "En Wellcare Clinics tratamos una diversas patologías utilizando técnicas avanzadas y la última tecnología para asegurar los mejores resultados en cada caso.",
     "items": [
       {
         "image": "assets/images/articles/articles6.png",
@@ -469,15 +451,12 @@
   "locations": {
     "sectionTitle": "¿Dónde estamos?",
     "text": "Contamos con varias clínicas para estar siempre cerca de ti.",
-  
     "map": {
       "url": "https://www.google.com/maps/search/?api=1&query=Wellcare+Clinics",
       "linkText": "Ver todas las clínicas en Google Maps"
     },
-  
     "phoneLabel": "Teléfono:",
     "mapLinkText": "Ver en Google Maps",
-  
     "items": [
       {
         "city": "Madrid",

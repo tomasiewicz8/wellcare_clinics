@@ -21,7 +21,7 @@ export class LocationsComponent {
     private sanitizer: DomSanitizer,
   ) {
     this.mapEmbedUrl = this.sanitizer.bypassSecurityTrustResourceUrl(
-      `https://www.google.com/maps/embed/v1/search?key=${environment.googleMapsApiKey}&q=Madrid%2C+Spain`,
+      environment.googleMapsEmbedUrl,
     );
   }
 
