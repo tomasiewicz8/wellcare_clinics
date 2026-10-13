@@ -7,10 +7,10 @@ import { OurProjectComponent } from './pages/our-project/our-project.component';
 import { TipsComponent } from './pages/tips/tips.component';
 
 export const routes: Routes = [
-  { path: '', component: HomeComponent, title: 'Home | Wellcare Clinics' },
-  { path: 'about-us', component: AboutUsComponent, title: 'About Us | Wellcare Clinics' },
-  { path: 'our-project', component: OurProjectComponent, title: 'Our Project | Wellcare Clinics' },
-  { path: 'tips', component: TipsComponent, title: 'Tips | Wellcare Clinics' },
-  { path: 'contact', component: ContactComponent, title: 'Contact | Wellcare Clinics' },
+  { path: '', component: HomeComponent, title: 'Wellcare Clinics' },
+  { path: 'about-us', component: AboutUsComponent, title: 'Wellcare Clinics | Quiénes somos' },
+  { path: 'our-project', component: OurProjectComponent, title: 'Wellcare Clinics | Nuestro proyecto' },
+  { path: 'tips', component: TipsComponent, title: 'Wellcare Clinics | Consejos de salud' },
+  { path: 'contact', component: ContactComponent, title: 'Wellcare Clinics' },
   { path: '**', redirectTo: '' },
 ];
