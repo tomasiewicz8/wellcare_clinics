@@ -44,4 +44,12 @@ export class TranslationService {
   getCurrentLang(): string {
     return this.currentLang;
   }
+
+  getAvailableLanguages() {
+    return Object.values<{
+      code: string;
+      label: string;
+      icon: string;
+    }>(this.translations['languages'] ?? {});
+  }
 }

@@ -5,7 +5,7 @@
 
 <app-section-title titleKey="treatments.sectionTitle" />
 <app-cards-carousel
-  [columnsMobile]="articlesArray.length > 1 ? 1.7 : articlesArray.length"
+  [columnsMobile]="articlesArray.length > 1 ? 1.8 : articlesArray.length"
 >
     @for (card of treatmentsArray; track card.title || $index) {
       <app-diagonal-card [card]="card" />

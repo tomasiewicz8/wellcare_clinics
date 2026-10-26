@@ -185,5 +185,21 @@
     </span>
   </a>
 
+  <div class="menu-modal-content__language">
+    <span class="menu-modal-content__main">
+      <lucide-icon
+        [img]="languageIcon"
+        class="menu-modal-content__icon"
+        aria-hidden="true"
+      ></lucide-icon>
+  
+      <span class="menu-modal-content__text">
+        {{ translationService.translate('navigation.language') }}
+      </span>
+    </span>
+  
+    <app-language-selector />
+  </div>
+
   <app-help-card variant="compact" />
 </nav>

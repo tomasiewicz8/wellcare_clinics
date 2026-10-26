@@ -1,0 +1,499 @@
+{
+  "brand": {
+    "name": "Wellcare Clinics S.L",
+    "logo": "assets/images/wellcare.png",
+    "logoAlt": "Wellcare Clinics logo"
+  },
+  "languages": {
+    "spanish": {
+      "code": "es",
+      "label": "Español",
+      "icon": "assets/images/languages/es.png"
+    },
+    "english": {
+      "code": "en",
+      "label": "English",
+      "icon": "assets/images/languages/en.png"
+    },
+    "french": {
+      "code": "fr",
+      "label": "Français",
+      "icon": "assets/images/languages/fr.png"
+    }
+  },
+  "navigation": {
+    "home": "Home",
+    "aboutUs": "About us",
+    "ourProject": "Our project",
+    "tips": "Tips",
+    "contact": "Contact",
+    "language": "Language"
+  },
+  "footer": {
+    "brand": {
+      "subtitle": "Rehabilitation and Advanced Physiotherapy",
+      "description": "We care for your health with a friendly, holistic approach tailored to each person’s needs."
+    },
+    "navigation": {
+      "title": "Navigation"
+    },
+    "services": {
+      "title": "Services",
+      "traumatology": "Orthopaedics",
+      "rehabilitation": "Rehabilitation",
+      "physiotherapy": "Advanced Physiotherapy",
+      "chronicPain": "Chronic pain"
+    },
+    "information": {
+      "title": "Information",
+      "tips": "Tips",
+      "faq": "Frequently asked questions",
+      "privacyPolicy": "Privacy policy",
+      "termsOfService": "Terms of service"
+    },
+    "bottom": {
+      "copyright": "© 2024 Wellcare Clinics. All rights reserved.",
+      "privacyPolicy": "Privacy policy",
+      "termsOfService": "Terms of service"
+    },
+    "badges": {
+      "healthAlt": "Health icon",
+      "logoAlt": "Wellcare Clinics logo"
+    }
+  },
+  "hero": {
+    "home": {
+      "image": "assets/images/hero/home.png",
+      "imageAlt": "Personalised physiotherapy treatment",
+      "title": "Your wellbeing is our commitment",
+      "text": "Personalised treatments in orthopaedics, rehabilitation and specialist physiotherapy."
+    },
+    "aboutUs": {
+      "image": "assets/images/hero/about-us.png",
+      "imageAlt": "Wellcare Clinics physiotherapy clinic",
+      "title": "Your trusted clinic",
+      "text": "At Wellcare Clinics, our team specialises in a wide range of physiotherapy techniques and treatments, with a commitment to your health through personalised care."
+    },
+    "ourProject": {
+      "image": "assets/images/hero/our-project.png",
+      "imageAlt": "Personalised physiotherapy and wellbeing project",
+      "title": "Our project",
+      "text": "Personalised, effective treatments to support your wellbeing at every stage of your recovery."
+    },
+    "workWithUs": {
+      "image": "assets/images/hero/work-with-us.png",
+      "imageAlt": "Professional physiotherapy team working in a clinic",
+      "title": "Work with us",
+      "text": "Join our team of professionals and send us your CV for future opportunities at Wellcare Clinics."
+    },
+    "healthTips": {
+      "image": "assets/images/hero/health-tips.png",
+      "imageAlt": "Health and wellbeing tips for patients",
+      "title": "Health tips",
+      "text": "Articles, tips and blog posts to help you look after your health and wellbeing."
+    }
+  },
+  "actionButton": {
+    "sendCv": "Send your CV",
+    "contact": "Contact us",
+    "goToHome": "Go to contact",
+    "goToAboutUs": "About us",
+    "goToOurProject": "View treatments",
+    "goToTips": "Learn more",
+    "goToContact": "Work with us",
+    "hereWeAre": "Find us",
+    "hireOurServices": "Book our services",
+    "helpCard": "Need personalised help?"
+  },
+  "mail": {
+    "recipient": "gestionwellcare@outloock.es",
+    "cv": {
+      "subject": "Job application for Wellcare Clinics SL",
+      "body": "Hello,\n\nI have visited your website and would like to send you my CV for potential job opportunities at Wellcare Clinics SL.\n\nDON’T FORGET TO ATTACH YOUR CV TO THIS EMAIL!!!"
+    }
+  },
+  "treatments": {
+    "sectionTitle": "Our treatments",
+    "items": [
+      {
+        "image": "assets/images/knee.png",
+        "imageAlt": "",
+        "title": "Orthopaedics and Rehabilitation",
+        "text": "Treatment for all types of musculoskeletal injuries referred by your specialist in orthopaedics, neurosurgery, rheumatology or other fields."
+      },
+      {
+        "image": "assets/images/back.png",
+        "imageAlt": "",
+        "title": "Chronic pain",
+        "text": "Treatments focused on relieving persistent pain and improving quality of life."
+      },
+      {
+        "image": "assets/images/pelvis.png",
+        "imageAlt": "",
+        "title": "Specialist Pelvic Floor Physiotherapy",
+        "text": "Pelvic floor rehabilitation using a holistic approach that combines manual therapy, osteopathy and electrotherapy. Treatment for urinary incontinence, chronic pelvic floor pain, sexual dysfunction, postnatal recovery and pelvic organ prolapse."
+      },
+      {
+        "image": "assets/images/lungs.png",
+        "imageAlt": "",
+        "title": "Respiratory physiotherapy",
+        "text": "Techniques based on an understanding of respiratory pathophysiology, together with the patient’s psychological and emotional needs, to prevent, treat or, in some cases, simply stabilise conditions affecting the chest and lungs. Aerosol therapy, incentive spirometry, vibration, coughing, coughing and expectoration, and assisted coughing."
+      }
+    ]
+  },
+  "team": {
+    "sectionTitle": "Our professional team",
+    "items": [
+      {
+        "image": "assets/images/team/2.png",
+        "imageAlt": "Photo of Dr Laura González",
+        "title": "Dr Laura González",
+        "text": "Physiotherapist"
+      },
+      {
+        "image": "assets/images/team/4.png",
+        "imageAlt": "Photo of Dr Martin Pérez",
+        "title": "Dr Martin Pérez",
+        "text": "Orthopaedic specialist"
+      },
+      {
+        "image": "assets/images/team/3.png",
+        "imageAlt": "Photo of Ana López",
+        "title": "Ana López",
+        "text": "Physiotherapist"
+      },
+      {
+        "image": "assets/images/team/1.png",
+        "imageAlt": "Photo of José Rodríguez",
+        "title": "José Rodríguez",
+        "text": "Rehabilitation specialist"
+      },
+      {
+        "image": "assets/images/team/5.png",
+        "imageAlt": "Photo of Pedro Sánchez",
+        "title": "Pedro Sánchez",
+        "text": "Physiotherapist"
+      }
+    ]
+  },
+  "metrics": {
+    "items": [
+      {
+        "image": "assets/images/metrics/1.png",
+        "imageAlt": "Experience icon",
+        "title": "+20",
+        "text": "Years of experience"
+      },
+      {
+        "image": "assets/images/metrics/2.png",
+        "imageAlt": "Professionals icon",
+        "title": "+16",
+        "text": "Qualified professionals"
+      },
+      {
+        "image": "assets/images/metrics/3.png",
+        "imageAlt": "Patients icon",
+        "title": "+100000",
+        "text": "Patients treated"
+      }
+    ]
+  },
+  "articles": {
+    "sectionTitle": "Explore our articles.",
+    "all": "All",
+    "blogs": "Blogs",
+    "news": "News",
+    "tips": "Tips",
+    "news&tips": "Tips & News",
+    "readMore": "Read more",
+    "items": [
+      {
+        "image": "assets/images/articles/articles1.png",
+        "imageAlt": "",
+        "category": "LOWER BACK PAIN",
+        "type": "Blog",
+        "title": "Lower back pain: causes, symptoms and treatment",
+        "shortTitle": "Lower back pain",
+        "text": "Everything you need to know to understand lower back pain and how to treat it effectively.",
+        "fullText": "Lower back pain is one of the most common complaints among adults and can develop for many reasons: poor posture, muscle overload, a sedentary lifestyle, sudden movements, stress, sports injuries or spinal problems. Although the pain is often temporary, it is advisable to seek a professional assessment if it recurs frequently or limits everyday activities.\n\nSymptoms can range from a feeling of tension in the lower back to severe pain that makes it difficult to walk, sit or stand up. In some cases, the pain may radiate into the buttocks or legs, especially if there is nerve irritation. Stiffness, reduced mobility or a feeling of muscle weakness may also occur.\n\nTreatment depends on the cause and how the pain develops. Physiotherapy aims to reduce inflammation, improve mobility, relax the muscles and strengthen the lower back, abdominal and pelvic areas. Patients are also taught good posture habits and personalised exercises to help prevent the problem from recurring.\n\nComplete rest is not always advisable. In many cases, gentle, controlled activity helps speed up recovery. Walking, doing mobility exercises and avoiding sudden exertion can be beneficial. However, if the pain is very severe, or you experience loss of strength, persistent tingling or difficulty controlling your bladder or bowels, it is important to seek medical attention as soon as possible.\n\nAt Wellcare Clinics, we assess each case individually to identify the source of the pain and design a treatment plan tailored to each patient’s needs."
+      },
+      {
+        "image": "assets/images/articles/articles2.png",
+        "imageAlt": "",
+        "category": "PREVENTION",
+        "type": "Tip",
+        "title": "Tips for preventing sports injuries",
+        "shortTitle": "Sports injury prevention",
+        "text": "Key recommendations for training safely and avoiding common injuries.",
+        "fullText": "Preventing sports injuries starts long before training. Preparing your body properly, allowing enough recovery time and using the right technique are key to reducing the risk of muscle discomfort, overuse problems, sprains or more serious injuries.\n\nOne of the most common mistakes is starting physical activity without warming up first. Spending a few minutes activating your muscles, mobilising your joints and gradually increasing the intensity helps your body respond better to exercise. Likewise, it is advisable to cool down after training with gentle stretches and mobility exercises.\n\nIt is also important to progress gradually. Suddenly increasing the weight, distance, speed or frequency of training can lead to overuse injuries. Your body needs to adapt gradually, especially when returning to exercise after a period of inactivity.\n\nTechnique is another essential factor. Repeating an incorrect movement many times can eventually lead to pain or injury. If you exercise regularly, it is therefore advisable to review your posture, movement patterns and exercise technique.\n\nRest is part of training. Sleeping well, alternating demanding training days with recovery days and listening to your body’s signals help prevent injuries. Persistent pain, excessive fatigue or a drop in performance may be signs that you need to slow down.\n\nAt Wellcare Clinics, we help athletes of all levels prevent injuries through functional assessment, physiotherapy treatment and exercise guidance tailored to their goals."
+      },
+      {
+        "image": "assets/images/articles/articles3.png",
+        "imageAlt": "",
+        "category": "PHYSIOTHERAPY",
+        "type": "Blog",
+        "title": "Respiratory physiotherapy: what it is and how it helps",
+        "shortTitle": "Respiratory physiotherapy",
+        "text": "Discover how it improves lung function and quality of life in people with a range of conditions.",
+        "fullText": "Respiratory physiotherapy is a branch of physiotherapy focused on improving lung function, helping clear secretions and optimising breathing patterns. It can be useful for both adults and children, particularly in cases of respiratory disease, recurrent colds, bronchitis, asthma, COPD or recovery after surgery.\n\nIts aim is to complement medical treatment rather than replace it. Through manual techniques, breathing exercises and patient education, it seeks to improve ventilation, reduce breathlessness and help the body cope better with physical exertion.\n\nThe most common benefits include more efficient breathing, less mucus build-up, improved lung capacity and reduced fatigue during everyday activities. For patients with chronic conditions, it may also help improve quality of life and reduce the frequency of certain complications.\n\nSessions are adapted to each person’s age, physical condition and clinical circumstances. In some cases, patients are taught exercises to do at home, breathing control techniques and how to recognise warning signs.\n\nRespiratory physiotherapy may be particularly advisable when there is a persistent cough, a feeling of tightness, difficulty clearing mucus or limitations when walking or climbing stairs. At Wellcare Clinics, we carry out an individual assessment to select the most suitable techniques and support the patient throughout the process."
+      },
+      {
+        "image": "assets/images/articles/articles4.png",
+        "imageAlt": "",
+        "category": "OPENING",
+        "type": "News",
+        "title": "Wellcare Clinics opens its new clinic in Madrid",
+        "shortTitle": "New clinic",
+        "text": "We keep growing to be closer to you and offer you the best service.",
+        "fullText": "Wellcare Clinics continues to grow with the opening of a new clinic in Madrid. This new centre aims to bring our health, physiotherapy and wellbeing services to more people, while maintaining the friendly, personalised care that defines our team.\n\nThe new clinic features spaces designed to offer comfort, privacy and a pleasant treatment experience from the very beginning. Each room has been prepared to support individual care, with modern equipment and an environment designed to make patients feel supported throughout the process.\n\nThis centre will offer services focused on physical recovery, pain management, injury prevention and improved mobility. Our team will take a holistic approach, assessing each case individually and proposing plans tailored to each patient’s actual needs.\n\nThe opening in Madrid marks an important step for Wellcare Clinics. We want to keep growing while staying true to who we are: listening to, assessing and treating each person with professionalism, warmth and commitment.\n\nWe will soon share more information about opening hours, available services and how to book an appointment. We look forward to welcoming you to our new clinic."
+      },
+      {
+        "image": "assets/images/articles/articles5.png",
+        "imageAlt": "",
+        "category": "OPENING",
+        "type": "News",
+        "title": "Wellcare Clinics opens its new clinic in Madrid",
+        "shortTitle": "New clinic",
+        "text": "We keep growing to be closer to you and offer you the best service.",
+        "fullText": "The arrival of Wellcare Clinics in Madrid is part of our commitment to offering accessible, professional, person-centred healthcare. With this new space, we aim to become a trusted destination for anyone looking to improve their health, recover from an injury or prevent future discomfort.\n\nThe centre has been designed to ensure that every patient receives comfortable, personalised care. From the initial assessment to treatment follow-up, our goal is for each person to understand what is happening, why they are experiencing pain or limitations and what steps they can take to improve.\n\nThe new clinic will provide physiotherapy treatments, therapeutic exercise, posture education and functional rehabilitation. We will also offer guidance tailored to everyday life, because we believe that a good recovery does not end on the treatment table: it continues at home, at work and in daily activities.\n\nOur team combines experience, ongoing training and a friendly approach. We want every patient to feel heard and supported, avoiding generic treatments and focusing on solutions tailored to each case.\n\nWith this opening, we strengthen our presence and take another step in the growth of Wellcare Clinics. Madrid is opening its doors to us, and we are excited to be here."
+      },
+      {
+        "image": "assets/images/articles/articles6.png",
+        "imageAlt": "",
+        "category": "OPENING",
+        "type": "News",
+        "title": "Wellcare Clinics opens its new clinic in Madrid",
+        "shortTitle": "New clinic",
+        "text": "We keep growing to be closer to you and offer you the best service.",
+        "fullText": "We are beginning a new chapter at Wellcare Clinics with the opening of our clinic in Madrid. This new centre gives us the opportunity to continue offering quality treatments, personalised care and an approach to health based on prevention, recovery and long-term wellbeing.\n\nThe clinic was founded with a clear aim: to help every patient regain mobility, reduce pain and improve their quality of life. To achieve this, our specialist professionals assess each situation individually and design treatment plans tailored to each person’s goals.\n\nThe space has been prepared to offer a comfortable, professional experience. We want every visit to be helpful, clear and welcoming. Alongside treatment, we therefore place importance on explaining the problem, providing education on healthy habits and offering guidance to help prevent recurrence.\n\nOpening in Madrid allows us to be closer to new patients and further strengthen our way of working: personalised treatments, clear communication and a commitment to results.\n\nWe are very excited about this new beginning and hope the clinic will become a trusted place for anyone who wants to look after their physical health."
+      },
+      {
+        "image": "assets/images/articles/articles7.png",
+        "imageAlt": "",
+        "category": "OPENING",
+        "type": "News",
+        "title": "Wellcare Clinics opens its new clinic in Madrid",
+        "shortTitle": "New clinic",
+        "text": "We keep growing to be closer to you and offer you the best service.",
+        "fullText": "Wellcare Clinics is opening its doors in Madrid with a new centre dedicated to healthcare, physical recovery and injury prevention. This opening reflects our wish to continue growing and bring care closer to everyone looking for a professional, personalised service.\n\nAt the new clinic, we will work with patients experiencing muscle or joint pain, sports injuries, posture-related discomfort, mobility problems or a need for rehabilitation after surgery or a period of inactivity. Every treatment will begin with an initial assessment to understand the source of the problem and develop a realistic, tailored plan.\n\nOur philosophy is based on combining manual treatment, therapeutic exercise and patient education. It is not just about relieving pain in the moment, but also helping people understand their bodies and maintain their results over time.\n\nThe new Madrid centre has been created with comfortable, functional spaces equipped to provide quality care. We want every patient to feel supported from their very first visit.\n\nThis opening is great news for our team and another step in the growth of Wellcare Clinics."
+      },
+      {
+        "image": "assets/images/articles/articles8.png",
+        "imageAlt": "",
+        "category": "HEALTH",
+        "type": "Tip",
+        "title": "5 exercises to relieve back pain at home",
+        "shortTitle": "Back exercises",
+        "text": "Simple routines you can do at home to reduce pain and improve your mobility.",
+        "fullText": "Back pain can develop from sitting for long periods, lifting heavy objects, sleeping in an awkward position or performing repetitive movements. Although each case should be assessed individually, there are gentle exercises that can help reduce tension and improve mobility.\n\nThe first recommended exercise is a lower back mobility exercise on the floor. Lie on your back with your knees bent and slowly move your legs from side to side without forcing the movement. This helps relax the lower back.\n\nThe second exercise is the cat–cow stretch. Start on all fours, gently arch your back upwards, then lower your abdomen while slightly raising your head. Move slowly and with control.\n\nThe third exercise involves bringing one knee to your chest. Lying on your back, draw one knee towards your chest and hold the position for a few seconds. Then switch legs. This exercise can relieve tension in the lower back and buttocks.\n\nThe fourth exercise is the glute bridge. With your knees bent and your feet flat on the floor, slowly lift your pelvis and lower it again. This helps safely activate the glutes and lower back.\n\nThe fifth exercise is diaphragmatic breathing. Place one hand on your abdomen and breathe deeply, aiming to let your abdomen rise as you breathe in. Breathing more effectively can help reduce muscle tension.\n\nThese exercises should be performed without severe pain. If any position worsens your symptoms, it is best to stop. At Wellcare Clinics, we can help you find the most suitable exercises for your situation."
+      },
+      {
+        "image": "assets/images/articles/articles9.png",
+        "imageAlt": "",
+        "category": "POSTURE",
+        "type": "Tip",
+        "title": "The importance of good posture in everyday life",
+        "shortTitle": "Good posture",
+        "text": "Small habits that make a difference to your health and help prevent injuries.",
+        "fullText": "Posture directly influences how our muscles and joints function throughout the day. Spending many hours sitting, looking at your phone with your neck bent, working at a computer without good ergonomics or lifting objects incorrectly can cause back, neck or shoulder pain, as well as headaches.\n\nGood posture does not mean staying rigid all the time. In fact, the body needs movement. What matters is avoiding awkward positions for long periods and learning to distribute loads more evenly. Changing position frequently, getting up regularly and doing short mobility exercises can make a big difference.\n\nAt work, it is advisable to adjust your chair height, keep your feet firmly on the floor and position your screen at eye level. If you use a laptop for many hours, a stand and an external keyboard and mouse can help prevent neck strain.\n\nWhen using your phone, try holding it a little higher instead of constantly lowering your head. During household activities such as cleaning or lifting objects, it is advisable to bend your knees, keep the load close to your body and avoid sudden twisting movements.\n\nStrengthening your muscles is also important. A strong back, active core muscles and good mobility help you maintain better posture without excessive effort.\n\nAt Wellcare Clinics, we provide personalised posture education, helping each patient improve their daily habits and prevent future discomfort."
+      }
+    ]
+  },
+  "specializedPhysiotherapy": {
+    "sectionTitle": "Why choose us",
+    "leftImage": {
+      "src": "assets/images/specialized-physiotherapy/assisted-rehabilitation-exercise-left.png",
+      "alt": "Physiotherapist helping a patient during a rehabilitation exercise"
+    },
+    "content": {
+      "title": "Physiotherapy tailored to each patient, with specialist care",
+      "text": "Our clinic focuses on treating a range of conditions using the latest advanced physiotherapy techniques to support patient recovery.",
+      "features": [
+        {
+          "icon": "assets/images/specialized-physiotherapy/medical-equipment.png",
+          "iconAlt": "Medical equipment icon",
+          "text": "Specialist team"
+        },
+        {
+          "icon": "assets/images/specialized-physiotherapy/advanced-methods.png",
+          "iconAlt": "Treatment methods icon",
+          "text": "Advanced methods"
+        },
+        {
+          "icon": "assets/images/specialized-physiotherapy/healthcare-professionals.png",
+          "iconAlt": "Healthcare professionals icon",
+          "text": "Experienced professionals"
+        },
+        {
+          "icon": "assets/images/specialized-physiotherapy/personalized-treatment.png",
+          "iconAlt": "Personalised treatment icon",
+          "text": "Personalised treatments"
+        }
+      ]
+    },
+    "rightImage": {
+      "src": "assets/images/specialized-physiotherapy/assisted-rehabilitation-exercise-right.png",
+      "alt": "Physiotherapist treating a patient’s shoulder"
+    }
+  },
+  "clinicIdentity": {
+    "title": "Your trusted clinic",
+    "text": "At Wellcare Clinics, our team specialises in advanced physiotherapy and is committed to your wellbeing in every session. We support you throughout the process, offering friendly, professional care tailored to your needs.",
+    "mission": {
+      "icon": "assets/images/clinic-identity/mission-target.png",
+      "iconAlt": "Target icon representing the clinic’s mission",
+      "title": "Our mission",
+      "text": "To improve our patients’ quality of life through personalised, effective treatments."
+    },
+    "image": {
+      "src": "assets/images/clinic-identity/rehabilitation-corridor.png",
+      "alt": "Patient undergoing rehabilitation while walking along a clinic corridor"
+    },
+    "values": {
+      "icon": "assets/images/clinic-identity/values-shield.png",
+      "iconAlt": "Shield icon representing the clinic’s values",
+      "title": "Our values",
+      "items": [
+        "Innovation and excellence",
+        "Commitment to the patient",
+        "Empathy and trust"
+      ]
+    }
+  },
+  "services": {
+    "sectionTitle": "Our services",
+    "text": "At Wellcare Clinics, we specialise in offering personalised, effective treatments for a wide range of conditions.",
+    "readMore": "Learn more",
+    "items": [
+      {
+        "cardImage": "assets/images/services/traumatology.png",
+        "image": "assets/images/articles/articles2.png",
+        "imageAlt": "Illustration of a knee joint",
+        "title": "Orthopaedics",
+        "text": "Diagnosis and treatment of musculoskeletal injuries, sports injuries and traumatic injuries.",
+        "fullText": "Our orthopaedics service focuses on the diagnosis, treatment and follow-up of injuries affecting the musculoskeletal system. We treat problems involving muscles, joints, bones, tendons and ligaments, adapting treatment to each patient’s needs.\n\nWe carry out an individual assessment to identify the source of the injury and determine the most appropriate treatment. We work with sports injuries, joint problems, fractures, muscle overload and other conditions that may restrict movement or cause pain.\n\nOur aim is to help you reduce discomfort, regain mobility and gradually return to your usual activities safely."
+      },
+      {
+        "cardImage": "assets/images/services/rehabilitation.png",
+        "image": "assets/images/articles/articles1.png",
+        "imageAlt": "Illustration of the pelvis and lower back",
+        "title": "Rehabilitation",
+        "text": "Functional recovery and restoration of movement after surgery or injury.",
+        "fullText": "Rehabilitation aims to gradually restore mobility, strength and function after an injury, surgery or a prolonged period of inactivity.\n\nEvery recovery process is different, so we carry out an initial assessment to set realistic goals and design a programme adapted to each patient’s progress.\n\nDuring treatment, we may combine manual therapy, therapeutic exercise, mobility work and strengthening exercises to promote a safe recovery and help patients regain their independence in everyday activities."
+      },
+      {
+        "cardImage": "assets/images/services/specialized-physiotherapy.png",
+        "image": "assets/images/articles/articles9.png",
+        "imageAlt": "Illustration of the spine",
+        "title": "Specialist physiotherapy",
+        "text": "Advanced physiotherapy: pelvic floor treatment, sports physiotherapy, invasive physiotherapy, respiratory physiotherapy and manual lymphatic drainage.",
+        "fullText": "Specialist physiotherapy addresses a range of conditions through treatments adapted to each person’s individual characteristics and needs.\n\nWe begin with an individual assessment to understand the source of the discomfort, any existing limitations and the patient’s goals. We then select the most suitable techniques and exercises to improve mobility, reduce pain and restore function.\n\nOur approach combines treatment, exercise and education so that patients can take an active role in their recovery and maintain their results in the long term."
+      }
+    ]
+  },
+  "personalizedTreatments": {
+    "title": "Advanced treatments for a range of conditions.",
+    "text": "At Wellcare Clinics, we treat a range of conditions using advanced techniques and the latest technology to ensure the best results in every case.",
+    "items": [
+      {
+        "image": "assets/images/articles/articles6.png",
+        "imageAlt": "Physiotherapist treating the knee of a patient with a sports injury",
+        "title": "Sports injuries",
+        "text": "Injuries such as sprains, tendinitis and muscle tears, among others."
+      },
+      {
+        "image": "assets/images/articles/articles7.png",
+        "imageAlt": "Patient with lower back pain receiving physiotherapy",
+        "title": "Lower back pain",
+        "text": "Management of lower back pain and sciatica."
+      },
+      {
+        "image": "assets/images/articles/articles8.png",
+        "imageAlt": "Patient undergoing respiratory physiotherapy with professional assistance",
+        "title": "Respiratory problems",
+        "text": "Physiotherapy for respiratory conditions such as asthma and post-COVID conditions."
+      },
+      {
+        "image": "assets/images/articles/articles9.png",
+        "imageAlt": "Physiotherapist mobilising the hand of a patient with a rheumatic condition",
+        "title": "Rheumatic conditions",
+        "text": "Specialist treatments to reduce inflammation and pain."
+      }
+    ]
+  },
+  "contactCta": {
+    "title": "Need more information?",
+    "text": "Contact us to find out more about our services and how we can help you."
+  },
+  "workWithUs": {
+    "sectionTitle": "Why work at Wellcare Clinics?",
+    "text": "We offer an environment where you can develop professionally and make a difference every day.",
+    "items": [
+      {
+        "icon": "assets/images/work-with-us/purpose.png",
+        "iconAlt": "Purpose icon",
+        "title": "Purpose",
+        "text": "Contribute to our patients’ wellbeing and improve their quality of life."
+      },
+      {
+        "icon": "assets/images/work-with-us/development.png",
+        "iconAlt": "Professional development icon",
+        "title": "Development",
+        "text": "Ongoing training and real opportunities for professional growth."
+      },
+      {
+        "icon": "assets/images/work-with-us/team.png",
+        "iconAlt": "Team icon",
+        "title": "Team",
+        "text": "Work with a friendly, collaborative team that is passionate about what it does."
+      },
+      {
+        "icon": "assets/images/work-with-us/wellbeing.png",
+        "iconAlt": "Wellbeing icon",
+        "title": "Wellbeing",
+        "text": "We value your wellbeing through flexibility, support and a healthy working environment."
+      }
+    ]
+  },
+  "sendCv": {
+    "image": "assets/images/send-cv.jpg",
+    "imageAlt": "Physiotherapist treating a patient",
+    "title": "Send us your CV",
+    "text": "We are looking for dedicated professionals with a passion for their work and a desire to keep growing with us.",
+    "items": [
+      "Physiotherapists",
+      "Orthopaedic specialists",
+      "Team members and administrative staff"
+    ]
+  },
+  "locations": {
+    "sectionTitle": "Where are we?",
+    "text": "We have several clinics so that we can always be close to you.",
+    "map": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Wellcare+Clinics",
+      "linkText": "View all clinics on Google Maps"
+    },
+    "phoneLabel": "Phone:",
+    "mapLinkText": "View on Google Maps",
+    "items": [
+      {
+        "city": "Madrid",
+        "address": "Calle de Alcalá 120, 28009 Madrid",
+        "phone": "910 123 456",
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=Calle+de+Alcala+120%2C+28009+Madrid"
+      },
+      {
+        "city": "Barcelona",
+        "address": "Carrer de Mallorca 401, 08013 Barcelona",
+        "phone": "930 123 456",
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=Carrer+de+Mallorca+401%2C+08013+Barcelona"
+      },
+      {
+        "city": "Valencia",
+        "address": "Gran Vía del Marqués del Turia 49, 46005 Valencia",
+        "phone": "960 123 456",
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=Gran+Via+del+Marques+del+Turia+49%2C+46005+Valencia"
+      }
+    ]
+  }
+}

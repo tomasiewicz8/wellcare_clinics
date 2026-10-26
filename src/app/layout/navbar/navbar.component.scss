@@ -128,4 +128,13 @@
       font-size: var(--font-size-footer-brand);
     }
   }
+
+  .navbar__language {
+    display: none;
+    flex-shrink: 0;
+  
+    @include respond-lg {
+      display: inline-block;
+    }
+  }
 }

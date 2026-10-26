@@ -4,12 +4,30 @@
     "logo": "assets/images/wellcare.png",
     "logoAlt": "Logo de Wellcare Clinics"
   },
+  "languages": {
+    "spanish": {
+      "code": "es",
+      "label": "Español",
+      "icon": "assets/images/languages/es.png"
+    },
+    "english": {
+      "code": "en",
+      "label": "English",
+      "icon": "assets/images/languages/en.png"
+    },
+    "french": {
+      "code": "fr",
+      "label": "Français",
+      "icon": "assets/images/languages/fr.png"
+    }
+  },
   "navigation": {
     "home": "Inicio",
     "aboutUs": "Quiénes somos",
     "ourProject": "Nuestro proyecto",
     "tips": "Consejos",
-    "contact": "Contacto"
+    "contact": "Contacto",
+    "language": "Idioma"
   },
   "footer": {
     "brand": {

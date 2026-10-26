@@ -68,3 +68,19 @@
 .menu-modal-content__link--active .menu-modal-content__text {
   font-weight: var(--font-weight-bold);
 }
+
+.menu-modal-content__language {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--menu-modal-link-gap);
+
+  padding: 10px var(--container-padding-mobile);
+
+  color: var(--color-primary-dark);
+
+  border-bottom:
+    var(--menu-modal-link-border-width)
+    solid
+    var(--color-border-soft);
+}

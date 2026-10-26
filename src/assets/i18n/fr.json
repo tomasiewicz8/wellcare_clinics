@@ -1,0 +1,499 @@
+{
+  "brand": {
+    "name": "Wellcare Clinics S.L",
+    "logo": "assets/images/wellcare.png",
+    "logoAlt": "Logo de Wellcare Clinics"
+  },
+  "languages": {
+    "spanish": {
+      "code": "es",
+      "label": "Espagnol",
+      "icon": "assets/images/languages/es.png"
+    },
+    "english": {
+      "code": "en",
+      "label": "Anglais",
+      "icon": "assets/images/languages/en.png"
+    },
+    "french": {
+      "code": "fr",
+      "label": "Français",
+      "icon": "assets/images/languages/fr.png"
+    }
+  },
+  "navigation": {
+    "home": "Accueil",
+    "aboutUs": "Qui sommes-nous ?",
+    "ourProject": "Notre projet",
+    "tips": "Conseils",
+    "contact": "Contact",
+    "language": "Langue"
+  },
+  "footer": {
+    "brand": {
+      "subtitle": "Rééducation et kinésithérapie avancée",
+      "description": "Nous prenons soin de votre santé avec une approche chaleureuse, globale et adaptée aux besoins de chaque personne."
+    },
+    "navigation": {
+      "title": "Navigation"
+    },
+    "services": {
+      "title": "Services",
+      "traumatology": "Traumatologie",
+      "rehabilitation": "Rééducation",
+      "physiotherapy": "Kinésithérapie avancée",
+      "chronicPain": "Douleur chronique"
+    },
+    "information": {
+      "title": "Informations",
+      "tips": "Conseils",
+      "faq": "Questions fréquentes",
+      "privacyPolicy": "Politique de confidentialité",
+      "termsOfService": "Conditions d’utilisation"
+    },
+    "bottom": {
+      "copyright": "© 2024 Wellcare Clinics. Tous droits réservés.",
+      "privacyPolicy": "Politique de confidentialité",
+      "termsOfService": "Conditions d’utilisation"
+    },
+    "badges": {
+      "healthAlt": "Icône de santé",
+      "logoAlt": "Logo de Wellcare Clinics"
+    }
+  },
+  "hero": {
+    "home": {
+      "image": "assets/images/hero/home.png",
+      "imageAlt": "Séance de kinésithérapie personnalisée",
+      "title": "Votre bien-être est notre engagement",
+      "text": "Des traitements personnalisés en traumatologie, rééducation et kinésithérapie spécialisée."
+    },
+    "aboutUs": {
+      "image": "assets/images/hero/about-us.png",
+      "imageAlt": "Clinique de kinésithérapie Wellcare Clinics",
+      "title": "Votre clinique de confiance",
+      "text": "Chez Wellcare Clinics, notre équipe est spécialisée dans diverses techniques de kinésithérapie et différents traitements, et s’engage à prendre soin de votre santé grâce à une prise en charge personnalisée."
+    },
+    "ourProject": {
+      "image": "assets/images/hero/our-project.png",
+      "imageAlt": "Projet de kinésithérapie et de bien-être personnalisé",
+      "title": "Notre projet",
+      "text": "Des traitements personnalisés et efficaces pour prendre soin de votre bien-être à chaque étape de votre rétablissement."
+    },
+    "workWithUs": {
+      "image": "assets/images/hero/work-with-us.png",
+      "imageAlt": "Équipe de professionnels de la kinésithérapie travaillant en clinique",
+      "title": "Rejoignez-nous",
+      "text": "Rejoignez notre équipe de professionnels et envoyez-nous votre CV pour de futures opportunités chez Wellcare Clinics."
+    },
+    "healthTips": {
+      "image": "assets/images/hero/health-tips.png",
+      "imageAlt": "Conseils de santé et de bien-être pour les patients",
+      "title": "Conseils santé",
+      "text": "Des articles, des conseils et des billets de blog pour prendre soin de votre santé et de votre bien-être."
+    }
+  },
+  "actionButton": {
+    "sendCv": "Envoyer mon CV",
+    "contact": "Nous contacter",
+    "goToHome": "Aller à la page contact",
+    "goToAboutUs": "Qui sommes-nous ?",
+    "goToOurProject": "Voir les traitements",
+    "goToTips": "En savoir plus",
+    "goToContact": "Rejoignez-nous",
+    "hereWeAre": "Où nous trouver",
+    "hireOurServices": "Réserver nos services",
+    "helpCard": "Besoin d’une aide personnalisée ?"
+  },
+  "mail": {
+    "recipient": "gestionwellcare@outloock.es",
+    "cv": {
+      "subject": "Candidature pour Wellcare Clinics SL",
+      "body": "Bonjour,\n\nJ’ai consulté votre site et je souhaiterais vous envoyer mon CV pour d’éventuelles opportunités chez Wellcare Clinics SL.\n\nN’OUBLIEZ PAS DE JOINDRE VOTRE CV À CET E-MAIL !!!"
+    }
+  },
+  "treatments": {
+    "sectionTitle": "Nos traitements",
+    "items": [
+      {
+        "image": "assets/images/knee.png",
+        "imageAlt": "",
+        "title": "Traumatologie et rééducation",
+        "text": "Prise en charge de tous types de lésions musculosquelettiques sur orientation de votre spécialiste en traumatologie, neurochirurgie, rhumatologie ou d’autres spécialités."
+      },
+      {
+        "image": "assets/images/back.png",
+        "imageAlt": "",
+        "title": "Douleur chronique",
+        "text": "Des traitements visant à soulager les douleurs persistantes et à améliorer la qualité de vie."
+      },
+      {
+        "image": "assets/images/pelvis.png",
+        "imageAlt": "",
+        "title": "Kinésithérapie spécialisée du plancher pelvien",
+        "text": "Rééducation du plancher pelvien selon une approche globale associant thérapie manuelle, ostéopathie et électrothérapie. Prise en charge de l’incontinence urinaire, des douleurs chroniques du plancher pelvien, des dysfonctions sexuelles, du post-partum et du prolapsus des organes pelviens."
+      },
+      {
+        "image": "assets/images/lungs.png",
+        "imageAlt": "",
+        "title": "Kinésithérapie respiratoire",
+        "text": "Des techniques fondées sur la connaissance de la physiopathologie respiratoire et de l’état psychoémotionnel du patient, afin de prévenir, traiter ou, parfois, simplement stabiliser les troubles touchant le système thoracopulmonaire. Aérosolthérapie, spirométrie incitative, vibrations, toux, toux et expectoration, toux assistée."
+      }
+    ]
+  },
+  "team": {
+    "sectionTitle": "Notre équipe de professionnels",
+    "items": [
+      {
+        "image": "assets/images/team/2.png",
+        "imageAlt": "Photo de la Dre Laura González",
+        "title": "Dre Laura González",
+        "text": "Kinésithérapeute"
+      },
+      {
+        "image": "assets/images/team/4.png",
+        "imageAlt": "Photo du Dr Martin Pérez",
+        "title": "Dr Martin Pérez",
+        "text": "Traumatologue"
+      },
+      {
+        "image": "assets/images/team/3.png",
+        "imageAlt": "Photo d’Ana López",
+        "title": "Ana López",
+        "text": "Kinésithérapeute"
+      },
+      {
+        "image": "assets/images/team/1.png",
+        "imageAlt": "Photo de José Rodríguez",
+        "title": "José Rodríguez",
+        "text": "Spécialiste en rééducation"
+      },
+      {
+        "image": "assets/images/team/5.png",
+        "imageAlt": "Photo de Pedro Sánchez",
+        "title": "Pedro Sánchez",
+        "text": "Kinésithérapeute"
+      }
+    ]
+  },
+  "metrics": {
+    "items": [
+      {
+        "image": "assets/images/metrics/1.png",
+        "imageAlt": "Icône d’expérience",
+        "title": "+20",
+        "text": "Années d’expérience"
+      },
+      {
+        "image": "assets/images/metrics/2.png",
+        "imageAlt": "Icône de professionnels",
+        "title": "+16",
+        "text": "Professionnels qualifiés"
+      },
+      {
+        "image": "assets/images/metrics/3.png",
+        "imageAlt": "Icône de patients",
+        "title": "+100000",
+        "text": "Patients pris en charge"
+      }
+    ]
+  },
+  "articles": {
+    "sectionTitle": "Découvrez nos articles.",
+    "all": "Tous",
+    "blogs": "Blogs",
+    "news": "Actualités",
+    "tips": "Conseils",
+    "news&tips": "Conseils et actualités",
+    "readMore": "Lire la suite",
+    "items": [
+      {
+        "image": "assets/images/articles/articles1.png",
+        "imageAlt": "",
+        "category": "LOMBALGIE",
+        "type": "Blog",
+        "title": "Lombalgie : causes, symptômes et traitement",
+        "shortTitle": "Lombalgie",
+        "text": "Tout ce qu’il faut savoir pour comprendre la lombalgie et la traiter efficacement.",
+        "fullText": "La lombalgie est l’une des douleurs les plus fréquentes chez l’adulte et peut apparaître pour de nombreuses raisons : mauvaises postures, surcharge musculaire, sédentarité, mouvements brusques, stress, blessures sportives ou problèmes liés à la colonne vertébrale. Même s’il s’agit souvent d’une douleur passagère, il est conseillé de consulter un professionnel lorsqu’elle revient fréquemment ou limite les activités du quotidien.\n\nLes symptômes peuvent aller d’une sensation de tension dans le bas du dos à une douleur intense qui rend difficiles la marche, la position assise ou le fait de se lever. Dans certains cas, la douleur peut irradier vers les fesses ou les jambes, notamment en présence d’une irritation nerveuse. Une raideur, une diminution de la mobilité ou une sensation de faiblesse musculaire peuvent également apparaître.\n\nLe traitement dépend de la cause et de l’évolution de la douleur. La kinésithérapie vise à réduire l’inflammation, à améliorer la mobilité, à détendre les muscles et à renforcer les régions lombaire, abdominale et pelvienne. Des conseils de posture et des exercices personnalisés sont également proposés pour éviter les récidives.\n\nLe repos complet n’est pas toujours recommandé. Dans de nombreux cas, maintenir une activité douce et contrôlée favorise une récupération plus rapide. Marcher, faire des exercices de mobilité et éviter les efforts brusques peuvent être bénéfiques. Cependant, si la douleur est très intense, ou si vous présentez une perte de force, des fourmillements persistants ou des difficultés à contrôler votre vessie ou vos intestins, il est important de consulter un professionnel de santé au plus vite.\n\nChez Wellcare Clinics, nous évaluons chaque situation individuellement afin d’identifier l’origine de la douleur et de concevoir un programme de traitement adapté aux besoins de chaque patient."
+      },
+      {
+        "image": "assets/images/articles/articles2.png",
+        "imageAlt": "",
+        "category": "PRÉVENTION",
+        "type": "Conseil",
+        "title": "Conseils pour prévenir les blessures sportives",
+        "shortTitle": "Prévention des blessures sportives",
+        "text": "Des recommandations essentielles pour s’entraîner en toute sécurité et éviter les blessures courantes.",
+        "fullText": "La prévention des blessures sportives commence bien avant l’entraînement. Bien préparer son corps, respecter les temps de repos et utiliser une technique correcte sont essentiels pour réduire le risque de douleurs musculaires, de surcharges, d’entorses ou de blessures plus graves.\n\nL’une des erreurs les plus fréquentes consiste à commencer une activité physique sans échauffement préalable. Consacrer quelques minutes à activer les muscles, à mobiliser les articulations et à augmenter progressivement l’intensité aide le corps à mieux répondre à l’effort. De même, à la fin de l’entraînement, il est recommandé de prévoir un retour au calme avec des étirements doux et des exercices de mobilité.\n\nIl est également important de progresser petit à petit. Augmenter brutalement la charge, la distance, la vitesse ou la fréquence des entraînements peut provoquer des surcharges. Le corps a besoin de s’adapter progressivement, surtout lors d’une reprise après une période d’inactivité.\n\nLa technique est un autre élément fondamental. Un mauvais geste répété de nombreuses fois peut finir par entraîner une douleur ou une blessure. Si vous pratiquez régulièrement un sport, il est donc conseillé de vérifier votre posture, vos schémas de mouvement et la manière dont vous réalisez les exercices.\n\nLe repos fait partie de l’entraînement. Bien dormir, alterner les jours d’effort avec les jours de récupération et écouter les signaux de son corps aident à prévenir les blessures. Une douleur persistante, une fatigue excessive ou une baisse des performances peuvent indiquer qu’il est nécessaire de ralentir.\n\nChez Wellcare Clinics, nous aidons les sportifs de tous niveaux à prévenir les blessures grâce à une évaluation fonctionnelle, à des traitements de kinésithérapie et à des conseils d’exercice adaptés à leurs objectifs."
+      },
+      {
+        "image": "assets/images/articles/articles3.png",
+        "imageAlt": "",
+        "category": "KINÉSITHÉRAPIE",
+        "type": "Blog",
+        "title": "Kinésithérapie respiratoire : en quoi consiste-t-elle et comment aide-t-elle ?",
+        "shortTitle": "Kinésithérapie respiratoire",
+        "text": "Découvrez comment elle améliore la fonction pulmonaire et la qualité de vie dans différentes pathologies.",
+        "fullText": "La kinésithérapie respiratoire est une spécialité de la kinésithérapie qui vise à améliorer la fonction pulmonaire, à faciliter l’évacuation des sécrétions et à optimiser la respiration. Elle peut être utile chez l’adulte comme chez l’enfant, notamment en cas de maladies respiratoires, de rhumes à répétition, de bronchite, d’asthme, de BPCO ou lors de la récupération après une intervention chirurgicale.\n\nSon objectif est de compléter un traitement médical, sans s’y substituer. Grâce à des techniques manuelles, à des exercices respiratoires et à l’éducation du patient, elle cherche à améliorer la ventilation, à réduire la sensation d’essoufflement et à aider le corps à mieux gérer l’effort physique.\n\nParmi les bénéfices les plus fréquents figurent une respiration plus efficace, une moindre accumulation de mucus, une amélioration de la capacité pulmonaire et une diminution de la fatigue dans les activités quotidiennes. Chez les patients atteints de pathologies chroniques, elle peut aussi contribuer à améliorer la qualité de vie et à réduire la fréquence de certaines complications.\n\nLes séances sont adaptées à l’âge, à la condition physique et à la situation clinique de chaque personne. Dans certains cas, des exercices à réaliser à domicile, des techniques de contrôle de la respiration et des conseils pour reconnaître les signes d’alerte sont enseignés.\n\nLa kinésithérapie respiratoire peut être particulièrement indiquée en cas de toux persistante, de sensation d’oppression, de difficulté à évacuer le mucus ou de limitation lors de la marche ou de la montée des escaliers. Chez Wellcare Clinics, nous réalisons une évaluation individuelle afin d’appliquer les techniques les plus adaptées et d’accompagner le patient tout au long de sa prise en charge."
+      },
+      {
+        "image": "assets/images/articles/articles4.png",
+        "imageAlt": "",
+        "category": "OUVERTURE",
+        "type": "Actualité",
+        "title": "Wellcare Clinics ouvre sa nouvelle clinique à Madrid",
+        "shortTitle": "Nouvelle clinique",
+        "text": "Nous continuons à grandir pour être plus proches de vous et vous offrir le meilleur service.",
+        "fullText": "Wellcare Clinics poursuit son développement avec l’ouverture d’une nouvelle clinique à Madrid. Ce nouveau centre a pour objectif de rendre nos services de santé, de kinésithérapie et de bien-être accessibles à davantage de personnes, tout en conservant l’accueil chaleureux et la prise en charge personnalisée qui caractérisent notre équipe.\n\nLa nouvelle clinique dispose d’espaces conçus pour offrir confort, intimité et une expérience de soins agréable dès le premier instant. Chaque salle a été aménagée pour faciliter une prise en charge individuelle, avec des équipements modernes et un environnement pensé pour que le patient se sente accompagné tout au long de son parcours.\n\nCe centre proposera des services axés sur la récupération physique, le traitement de la douleur, la prévention des blessures et l’amélioration de la mobilité. Notre équipe adoptera une approche globale, en évaluant chaque situation individuellement et en proposant des programmes adaptés aux besoins réels de chaque patient.\n\nL’ouverture à Madrid représente une étape importante pour Wellcare Clinics. Nous souhaitons poursuivre notre développement tout en restant fidèles à nos valeurs : écouter, évaluer et soigner chaque personne avec professionnalisme, proximité et engagement.\n\nNous partagerons très prochainement davantage d’informations sur les horaires, les services disponibles et les modalités de prise de rendez-vous. Nous avons hâte de vous accueillir dans notre nouvelle clinique."
+      },
+      {
+        "image": "assets/images/articles/articles5.png",
+        "imageAlt": "",
+        "category": "OUVERTURE",
+        "type": "Actualité",
+        "title": "Wellcare Clinics ouvre sa nouvelle clinique à Madrid",
+        "shortTitle": "Nouvelle clinique",
+        "text": "Nous continuons à grandir pour être plus proches de vous et vous offrir le meilleur service.",
+        "fullText": "L’arrivée de Wellcare Clinics à Madrid s’inscrit dans notre engagement à proposer des soins accessibles, professionnels et centrés sur la personne. Avec ce nouvel espace, nous souhaitons créer un lieu de référence pour celles et ceux qui veulent améliorer leur santé, se remettre d’une blessure ou prévenir de futures douleurs.\n\nLe centre a été conçu pour que chaque patient bénéficie d’une prise en charge confortable et personnalisée. De la première évaluation au suivi du traitement, notre objectif est que chacun comprenne ce qui lui arrive, pourquoi une douleur ou une limitation apparaît et quelles démarches peuvent l’aider à aller mieux.\n\nLa nouvelle clinique proposera des traitements de kinésithérapie, de l’exercice thérapeutique, de l’éducation posturale et de la rééducation fonctionnelle. Des conseils adaptés à la vie quotidienne seront également proposés, car nous pensons qu’une bonne récupération ne s’arrête pas à la table de soins : elle se poursuit à la maison, au travail et dans les activités de tous les jours.\n\nNotre équipe allie expérience, formation continue et proximité. Nous souhaitons que chaque patient se sente écouté et accompagné, en évitant les traitements standardisés et en privilégiant des solutions adaptées à chaque situation.\n\nAvec cette ouverture, nous renforçons notre présence et franchissons une nouvelle étape dans le développement de Wellcare Clinics. Madrid nous ouvre ses portes, et c’est avec beaucoup d’enthousiasme que nous nous y installons."
+      },
+      {
+        "image": "assets/images/articles/articles6.png",
+        "imageAlt": "",
+        "category": "OUVERTURE",
+        "type": "Actualité",
+        "title": "Wellcare Clinics ouvre sa nouvelle clinique à Madrid",
+        "shortTitle": "Nouvelle clinique",
+        "text": "Nous continuons à grandir pour être plus proches de vous et vous offrir le meilleur service.",
+        "fullText": "Une nouvelle étape commence chez Wellcare Clinics avec l’inauguration de notre clinique à Madrid. Ce nouveau centre nous permet de continuer à proposer des traitements de qualité, une prise en charge personnalisée et une approche de la santé fondée sur la prévention, la récupération et le bien-être à long terme.\n\nLa clinique est née d’une idée claire : aider chaque patient à retrouver sa mobilité, à réduire sa douleur et à améliorer sa qualité de vie. Pour cela, nos professionnels spécialisés évaluent chaque situation individuellement et conçoivent des programmes de traitement adaptés aux objectifs de chacun.\n\nLes locaux ont été aménagés pour offrir une expérience confortable et professionnelle. Nous souhaitons que chaque visite soit utile, claire et chaleureuse. C’est pourquoi, au-delà du traitement, nous accordons de l’importance à l’explication du problème, à l’éducation aux bonnes habitudes de santé et aux conseils pour éviter les récidives.\n\nL’ouverture à Madrid nous permet de nous rapprocher de nouveaux patients et de continuer à renforcer notre manière de travailler : des traitements personnalisés, une communication claire et un engagement envers les résultats.\n\nNous sommes très enthousiastes à l’idée de ce nouveau départ et espérons que la clinique deviendra un lieu de confiance pour toutes les personnes souhaitant prendre soin de leur santé physique."
+      },
+      {
+        "image": "assets/images/articles/articles7.png",
+        "imageAlt": "",
+        "category": "OUVERTURE",
+        "type": "Actualité",
+        "title": "Wellcare Clinics ouvre sa nouvelle clinique à Madrid",
+        "shortTitle": "Nouvelle clinique",
+        "text": "Nous continuons à grandir pour être plus proches de vous et vous offrir le meilleur service.",
+        "fullText": "Wellcare Clinics ouvre ses portes à Madrid avec un nouveau centre consacré à la santé, à la récupération physique et à la prévention des blessures. Cette ouverture répond à notre volonté de poursuivre notre développement et de proposer des soins de proximité à toutes les personnes à la recherche d’un service professionnel et personnalisé.\n\nDans cette nouvelle clinique, nous accompagnerons des patients présentant des douleurs musculaires ou articulaires, des blessures sportives, des douleurs liées à la posture, des problèmes de mobilité ou un besoin de rééducation après une intervention ou une période d’inactivité. Chaque traitement commencera par une évaluation initiale afin de comprendre l’origine du problème et de proposer un programme réaliste et adapté.\n\nNotre philosophie repose sur l’association du traitement manuel, de l’exercice thérapeutique et de l’éducation du patient. Il ne s’agit pas seulement de soulager la douleur sur le moment, mais aussi d’aider chacun à comprendre son corps et à maintenir les résultats dans la durée.\n\nLe nouveau centre de Madrid a été créé avec des espaces confortables, fonctionnels et équipés pour offrir des soins de qualité. Nous souhaitons que chaque patient se sente accompagné dès sa première visite.\n\nCette ouverture est une excellente nouvelle pour notre équipe et une nouvelle étape dans le développement de Wellcare Clinics."
+      },
+      {
+        "image": "assets/images/articles/articles8.png",
+        "imageAlt": "",
+        "category": "SANTÉ",
+        "type": "Conseil",
+        "title": "5 exercices pour soulager le mal de dos à la maison",
+        "shortTitle": "Exercices pour le dos",
+        "text": "Des exercices simples à faire chez vous pour réduire la douleur et améliorer votre mobilité.",
+        "fullText": "Le mal de dos peut apparaître après de longues heures en position assise, le port de charges, une mauvaise position pendant le sommeil ou des mouvements répétitifs. Même si chaque situation doit être évaluée individuellement, certains exercices doux peuvent aider à réduire les tensions et à améliorer la mobilité.\n\nLe premier exercice recommandé consiste à mobiliser la région lombaire au sol. Allongez-vous sur le dos, les genoux fléchis, et déplacez lentement les jambes d’un côté à l’autre, sans forcer. Ce mouvement aide à détendre le bas du dos.\n\nLe deuxième exercice est la posture du chat et de la vache. Mettez-vous à quatre pattes, arrondissez doucement le dos vers le haut, puis abaissez l’abdomen en relevant légèrement la tête. Réalisez le mouvement lentement et de manière contrôlée.\n\nLe troisième exercice consiste à ramener un genou vers la poitrine. Allongé sur le dos, rapprochez un genou de la poitrine et maintenez la position quelques secondes. Changez ensuite de jambe. Cet exercice peut soulager les tensions dans le bas du dos et les fessiers.\n\nLe quatrième exercice est le pont fessier. Les genoux fléchis et les pieds au sol, soulevez lentement le bassin, puis redescendez. Il aide à activer les fessiers et la région lombaire en toute sécurité.\n\nLe cinquième exercice est la respiration diaphragmatique. Placez une main sur l’abdomen et respirez profondément en cherchant à faire bouger la région abdominale à l’inspiration. Mieux respirer peut aider à réduire les tensions musculaires.\n\nCes exercices doivent être réalisés sans douleur intense. Si une posture aggrave les symptômes, il vaut mieux s’arrêter. Chez Wellcare Clinics, nous pouvons vous aider à trouver les exercices les plus adaptés à votre situation."
+      },
+      {
+        "image": "assets/images/articles/articles9.png",
+        "imageAlt": "",
+        "category": "POSTURE",
+        "type": "Conseil",
+        "title": "L’importance d’une bonne posture au quotidien",
+        "shortTitle": "Bonne posture",
+        "text": "De petites habitudes qui font la différence pour votre santé et aident à prévenir les blessures.",
+        "fullText": "La posture influence directement le fonctionnement de nos muscles et de nos articulations au cours de la journée. Rester assis de longues heures, regarder son téléphone avec la nuque penchée, travailler devant un ordinateur sans une bonne ergonomie ou porter des charges de manière incorrecte peut provoquer des douleurs au dos, au cou, aux épaules ou à la tête.\n\nUne bonne posture ne signifie pas rester rigide en permanence. Au contraire, le corps a besoin de mouvement. L’essentiel est d’éviter de conserver des positions contraignantes pendant de longues heures et d’apprendre à mieux répartir les charges. Changer souvent de position, se lever régulièrement et effectuer de petits exercices de mobilité peuvent faire une grande différence.\n\nAu travail, il est conseillé d’ajuster la hauteur de sa chaise, de bien poser les pieds au sol et de placer l’écran à hauteur des yeux. Si vous utilisez un ordinateur portable pendant de longues heures, un support ainsi qu’un clavier et une souris externes peuvent être utiles pour éviter les tensions cervicales.\n\nLorsque vous utilisez votre téléphone, essayez de le relever légèrement plutôt que de baisser constamment la tête. Pour les tâches ménagères, comme le nettoyage ou le soulèvement d’objets, il est recommandé de fléchir les jambes, de garder la charge près du corps et d’éviter les rotations brusques du tronc.\n\nIl est également important de renforcer les muscles. Un dos solide, une sangle abdominale active et une bonne mobilité aident à maintenir de meilleures postures sans effort excessif.\n\nChez Wellcare Clinics, nous proposons une éducation posturale personnalisée afin d’aider chaque patient à améliorer ses habitudes quotidiennes et à prévenir de futures douleurs."
+      }
+    ]
+  },
+  "specializedPhysiotherapy": {
+    "sectionTitle": "Pourquoi nous choisir",
+    "leftImage": {
+      "src": "assets/images/specialized-physiotherapy/assisted-rehabilitation-exercise-left.png",
+      "alt": "Kinésithérapeute aidant un patient pendant un exercice de rééducation"
+    },
+    "content": {
+      "title": "Une kinésithérapie adaptée à chaque patient et une prise en charge spécialisée",
+      "text": "Notre clinique se consacre au traitement de diverses pathologies à l’aide des techniques avancées les plus récentes en kinésithérapie, afin de favoriser le rétablissement du patient.",
+      "features": [
+        {
+          "icon": "assets/images/specialized-physiotherapy/medical-equipment.png",
+          "iconAlt": "Icône d’équipement médical",
+          "text": "Équipe spécialisée"
+        },
+        {
+          "icon": "assets/images/specialized-physiotherapy/advanced-methods.png",
+          "iconAlt": "Icône de méthodes de traitement",
+          "text": "Méthodes avancées"
+        },
+        {
+          "icon": "assets/images/specialized-physiotherapy/healthcare-professionals.png",
+          "iconAlt": "Icône de professionnels de santé",
+          "text": "Professionnels expérimentés"
+        },
+        {
+          "icon": "assets/images/specialized-physiotherapy/personalized-treatment.png",
+          "iconAlt": "Icône de traitement personnalisé",
+          "text": "Traitements personnalisés"
+        }
+      ]
+    },
+    "rightImage": {
+      "src": "assets/images/specialized-physiotherapy/assisted-rehabilitation-exercise-right.png",
+      "alt": "Kinésithérapeute traitant l’épaule d’une patiente"
+    }
+  },
+  "clinicIdentity": {
+    "title": "Votre clinique de confiance",
+    "text": "Chez Wellcare Clinics, notre équipe est spécialisée en kinésithérapie avancée et s’engage pour votre bien-être à chaque séance. Nous vous accompagnons tout au long du parcours pour vous offrir une prise en charge chaleureuse, professionnelle et adaptée à vos besoins.",
+    "mission": {
+      "icon": "assets/images/clinic-identity/mission-target.png",
+      "iconAlt": "Icône de cible représentant la mission de la clinique",
+      "title": "Notre mission",
+      "text": "Améliorer la qualité de vie de nos patients grâce à des traitements personnalisés et efficaces."
+    },
+    "image": {
+      "src": "assets/images/clinic-identity/rehabilitation-corridor.png",
+      "alt": "Patient en rééducation marchant dans le couloir d’une clinique"
+    },
+    "values": {
+      "icon": "assets/images/clinic-identity/values-shield.png",
+      "iconAlt": "Icône de bouclier représentant les valeurs de la clinique",
+      "title": "Nos valeurs",
+      "items": [
+        "Innovation et excellence",
+        "Engagement envers le patient",
+        "Empathie et confiance"
+      ]
+    }
+  },
+  "services": {
+    "sectionTitle": "Nos services",
+    "text": "Chez Wellcare Clinics, nous sommes spécialisés dans les traitements personnalisés et efficaces pour un large éventail de pathologies.",
+    "readMore": "En savoir plus",
+    "items": [
+      {
+        "cardImage": "assets/images/services/traumatology.png",
+        "image": "assets/images/articles/articles2.png",
+        "imageAlt": "Illustration d’une articulation du genou",
+        "title": "Traumatologie",
+        "text": "Diagnostic et traitement des lésions musculosquelettiques, des blessures sportives et des traumatismes.",
+        "fullText": "Notre service de traumatologie se consacre au diagnostic, au traitement et au suivi des lésions de l’appareil musculosquelettique. Nous prenons en charge les problèmes touchant les muscles, les articulations, les os, les tendons et les ligaments, en adaptant le traitement aux besoins de chaque patient.\n\nNous réalisons une évaluation individuelle pour identifier l’origine de la lésion et déterminer le traitement le plus approprié. Nous prenons en charge les blessures sportives, les problèmes articulaires, les fractures, les surcharges musculaires et d’autres pathologies pouvant limiter les mouvements ou provoquer des douleurs.\n\nNotre objectif est de vous aider à réduire les douleurs, à retrouver votre mobilité et à reprendre progressivement vos activités habituelles en toute sécurité."
+      },
+      {
+        "cardImage": "assets/images/services/rehabilitation.png",
+        "image": "assets/images/articles/articles1.png",
+        "imageAlt": "Illustration du bassin et de la région lombaire",
+        "title": "Rééducation",
+        "text": "Récupération fonctionnelle et restauration du mouvement après une intervention chirurgicale ou une blessure.",
+        "fullText": "La rééducation a pour objectif de retrouver progressivement la mobilité, la force et les capacités fonctionnelles après une blessure, une intervention chirurgicale ou une période prolongée d’inactivité.\n\nChaque parcours de récupération étant différent, nous réalisons une évaluation initiale pour définir des objectifs réalistes et concevoir un programme adapté à l’évolution de chaque patient.\n\nAu cours du traitement, nous pouvons associer thérapie manuelle, exercice thérapeutique, travail de mobilité et renforcement musculaire afin de favoriser une récupération en toute sécurité et d’aider le patient à retrouver son autonomie dans les activités du quotidien."
+      },
+      {
+        "cardImage": "assets/images/services/specialized-physiotherapy.png",
+        "image": "assets/images/articles/articles9.png",
+        "imageAlt": "Illustration de la colonne vertébrale",
+        "title": "Kinésithérapie spécialisée",
+        "text": "Kinésithérapie avancée : rééducation du plancher pelvien, kinésithérapie du sport, kinésithérapie invasive, kinésithérapie respiratoire et drainage lymphatique manuel.",
+        "fullText": "La kinésithérapie spécialisée permet de prendre en charge différentes pathologies grâce à des traitements adaptés aux caractéristiques et aux besoins de chaque personne.\n\nNous commençons par une évaluation individuelle afin de comprendre l’origine des douleurs, les limitations existantes et les objectifs du patient. Nous sélectionnons ensuite les techniques et les exercices les plus adaptés pour améliorer la mobilité, réduire la douleur et restaurer la fonction.\n\nNotre approche associe traitement, exercice et éducation afin que le patient participe activement à sa récupération et puisse maintenir les résultats à long terme."
+      }
+    ]
+  },
+  "personalizedTreatments": {
+    "title": "Des traitements avancés pour différentes pathologies.",
+    "text": "Chez Wellcare Clinics, nous traitons diverses pathologies à l’aide de techniques avancées et des technologies les plus récentes pour garantir les meilleurs résultats dans chaque cas.",
+    "items": [
+      {
+        "image": "assets/images/articles/articles6.png",
+        "imageAlt": "Kinésithérapeute traitant le genou d’un patient présentant une blessure sportive",
+        "title": "Blessures sportives",
+        "text": "Entorses, tendinites, déchirures musculaires et autres blessures."
+      },
+      {
+        "image": "assets/images/articles/articles7.png",
+        "imageAlt": "Patient souffrant de lombalgie pendant une séance de kinésithérapie",
+        "title": "Lombalgie",
+        "text": "Prise en charge des douleurs du bas du dos et des problèmes de sciatique."
+      },
+      {
+        "image": "assets/images/articles/articles8.png",
+        "imageAlt": "Patient réalisant une séance de kinésithérapie respiratoire avec l’aide d’une professionnelle",
+        "title": "Problèmes respiratoires",
+        "text": "Kinésithérapie pour les affections respiratoires, comme l’asthme et les troubles post-COVID."
+      },
+      {
+        "image": "assets/images/articles/articles9.png",
+        "imageAlt": "Kinésithérapeute mobilisant la main d’une patiente atteinte d’une maladie rhumatismale",
+        "title": "Maladies rhumatismales",
+        "text": "Des traitements spécialisés pour réduire l’inflammation et la douleur."
+      }
+    ]
+  },
+  "contactCta": {
+    "title": "Besoin de plus d’informations ?",
+    "text": "Contactez-nous pour en savoir plus sur nos services et sur la façon dont nous pouvons vous aider."
+  },
+  "workWithUs": {
+    "sectionTitle": "Pourquoi travailler chez Wellcare Clinics ?",
+    "text": "Nous vous offrons un environnement où vous pourrez évoluer professionnellement et faire la différence chaque jour.",
+    "items": [
+      {
+        "icon": "assets/images/work-with-us/purpose.png",
+        "iconAlt": "Icône de vocation",
+        "title": "Vocation",
+        "text": "Contribuez au bien-être de nos patients et améliorez leur qualité de vie."
+      },
+      {
+        "icon": "assets/images/work-with-us/development.png",
+        "iconAlt": "Icône de développement professionnel",
+        "title": "Développement",
+        "text": "Une formation continue et de réelles possibilités d’évolution professionnelle."
+      },
+      {
+        "icon": "assets/images/work-with-us/team.png",
+        "iconAlt": "Icône d’équipe",
+        "title": "Équipe",
+        "text": "Travaillez avec une équipe chaleureuse, collaborative et passionnée par son métier."
+      },
+      {
+        "icon": "assets/images/work-with-us/wellbeing.png",
+        "iconAlt": "Icône de bien-être",
+        "title": "Bien-être",
+        "text": "Nous veillons à votre bien-être en vous offrant flexibilité, soutien et un environnement de travail sain."
+      }
+    ]
+  },
+  "sendCv": {
+    "image": "assets/images/send-cv.jpg",
+    "imageAlt": "Kinésithérapeute prenant en charge un patient",
+    "title": "Envoyez-nous votre CV",
+    "text": "Nous recherchons des professionnels engagés, passionnés par leur métier et désireux de continuer à évoluer à nos côtés.",
+    "items": [
+      "Kinésithérapeutes",
+      "Traumatologues",
+      "Personnel du groupe et personnel administratif"
+    ]
+  },
+  "locations": {
+    "sectionTitle": "Où sommes-nous ?",
+    "text": "Nous disposons de plusieurs cliniques pour être toujours proches de vous.",
+    "map": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Wellcare+Clinics",
+      "linkText": "Voir toutes les cliniques sur Google Maps"
+    },
+    "phoneLabel": "Téléphone :",
+    "mapLinkText": "Voir sur Google Maps",
+    "items": [
+      {
+        "city": "Madrid",
+        "address": "Calle de Alcalá 120, 28009 Madrid",
+        "phone": "910 123 456",
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=Calle+de+Alcala+120%2C+28009+Madrid"
+      },
+      {
+        "city": "Barcelona",
+        "address": "Carrer de Mallorca 401, 08013 Barcelona",
+        "phone": "930 123 456",
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=Carrer+de+Mallorca+401%2C+08013+Barcelona"
+      },
+      {
+        "city": "Valencia",
+        "address": "Gran Vía del Marqués del Turia 49, 46005 Valencia",
+        "phone": "960 123 456",
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=Gran+Via+del+Marques+del+Turia+49%2C+46005+Valencia"
+      }
+    ]
+  }
+}

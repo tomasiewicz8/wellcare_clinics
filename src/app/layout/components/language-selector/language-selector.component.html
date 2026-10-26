@@ -1,0 +1,58 @@
+<div class="language-selector">
+    @for (
+      language of translationService.getAvailableLanguages();
+      track language.code
+    ) {
+      @if (language.code === translationService.getCurrentLang()) {
+        <button
+          type="button"
+          class="language-selector__button"
+          [attr.aria-label]="language.label"
+          [attr.aria-expanded]="isOpen"
+          (click)="toggleDropdown()"
+        >
+          <img
+            class="language-selector__icon"
+            [src]="language.icon"
+            alt=""
+          />
+  
+          <span>{{ language.code.toUpperCase() }}</span>
+  
+          <span aria-hidden="true">▾</span>
+        </button>
+      }
+    }
+  
+    @if (isOpen) {
+      <div class="language-selector__dropdown">
+        @for (
+          language of translationService.getAvailableLanguages();
+          track language.code
+        ) {
+          <button
+            type="button"
+            class="language-selector__option"
+            [class.language-selector__option--active]="
+              language.code === translationService.getCurrentLang()
+            "
+            [attr.aria-pressed]="
+              language.code === translationService.getCurrentLang()
+            "
+            (click)="
+              translationService.loadLanguage(language.code).subscribe();
+              isOpen = false
+            "
+          >
+            <img
+              class="language-selector__icon"
+              [src]="language.icon"
+              alt=""
+            />
+  
+            <span>{{ language.label }}</span>
+          </button>
+        }
+      </div>
+    }
+  </div>

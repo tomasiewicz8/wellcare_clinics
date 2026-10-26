@@ -5,6 +5,7 @@ import { TranslationService } from '../../services/translation.service';
 import { ModalService } from '../../services/modal.service';
 
 import { NavbarMenuButtonComponent } from '../components/navbar-menu-button/navbar-menu-button.component';
+import { LanguageSelectorComponent } from '../components/language-selector/language-selector.component';
 
 @Component({
   selector: 'app-navbar',
@@ -13,6 +14,7 @@ import { NavbarMenuButtonComponent } from '../components/navbar-menu-button/navb
     RouterLink,
     RouterLinkActive,
     NavbarMenuButtonComponent,
+    LanguageSelectorComponent,
   ],
   templateUrl: './navbar.component.html',
   styleUrl: './navbar.component.scss',

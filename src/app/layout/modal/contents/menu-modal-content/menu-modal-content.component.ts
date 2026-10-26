@@ -9,10 +9,12 @@ import {
   House,
   LucideAngularModule,
   Mail,
+  Languages,
 } from 'lucide-angular';
 import { ModalService } from '../../../../services/modal.service';
 import { TranslationService } from '../../../../services/translation.service';
 import { HelpCardComponent } from '../../../components/help-card/help-card.component';
+import { LanguageSelectorComponent } from '../../../components/language-selector/language-selector.component';
 
 @Component({
   selector: 'app-menu-modal-content',
@@ -22,6 +24,7 @@ import { HelpCardComponent } from '../../../components/help-card/help-card.compo
     RouterLinkActive,
     LucideAngularModule,
     HelpCardComponent,
+    LanguageSelectorComponent,
   ],
   templateUrl: './menu-modal-content.component.html',
   styleUrl: './menu-modal-content.component.scss',
@@ -34,6 +37,7 @@ export class MenuModalContentComponent {
   readonly mailIcon = Mail;
   readonly globeIcon = Globe;
   readonly briefcaseIcon = BriefcaseBusiness;
+  readonly languageIcon = Languages;
 
   constructor(
     public translationService: TranslationService,
