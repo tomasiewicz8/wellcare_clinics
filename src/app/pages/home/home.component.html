@@ -5,7 +5,9 @@
 
 <app-section-title titleKey="treatments.sectionTitle" />
 <app-cards-carousel
-  [columnsMobile]="articlesArray.length > 1 ? 1.8 : articlesArray.length"
+  [columnsMobile]="treatmentsArray.length < 1 ? 1.4 : 1.4"
+  [columnsTablet]="treatmentsArray.length < 3 ? 2.6 : 2.6"
+  [columnsDesktop]="treatmentsArray.length < 4.5 ? (4 + 0.1) : 3.8"
 >
     @for (card of treatmentsArray; track card.title || $index) {
       <app-diagonal-card [card]="card" />
@@ -17,9 +19,9 @@
 
 <app-section-title titleKey="articles.news&tips" />
 <app-cards-carousel
-  [columnsMobile]="articlesArray.length > 1 ? 1.2 : articlesArray.length"
-  [columnsTablet]="articlesArray.length > 1 ? 2 : articlesArray.length"
-  [columnsDesktop]="articlesArray.length > 1 ? 4 : articlesArray.length"
+  [columnsMobile]="articlesArray.length > 1 ? 1.4 : 1.05"
+  [columnsTablet]="articlesArray.length > 2.5 ? 2.4 : 2.05"
+  [columnsDesktop]="articlesArray.length > 3.5 ? 3.4 : 3.1"
 >
   @for (card of articlesArray; track card.title || $index) {
     <app-article-card [card]="card" />

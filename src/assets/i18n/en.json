@@ -4,6 +4,31 @@
     "logo": "assets/images/wellcare.png",
     "logoAlt": "Wellcare Clinics logo"
   },
+
+  "mail": {
+    "recipient": "gestionwellcare@outloock.es",
+    "cv": {
+      "subject": "Job application for Wellcare Clinics SL",
+      "body": "Hello,\n\nI have visited your website and would like to send you my CV for potential job opportunities at Wellcare Clinics SL.\n\nDON’T FORGET TO ATTACH YOUR CV TO THIS EMAIL!!!"
+    }
+  },
+  "contactCta": {
+    "title": "Need more information?",
+    "text": "Contact us to find out more about our services and how we can help you."
+  },
+
+  "sendCv": {
+    "image": "assets/images/send-cv.jpg",
+    "imageAlt": "Physiotherapist treating a patient",
+    "title": "Send us your CV",
+    "text": "We are looking for dedicated professionals with a passion for their work and a desire to keep growing with us.",
+    "items": [
+      "Physiotherapists",
+      "Orthopaedic specialists",
+      "Team members and administrative staff"
+    ]
+  },
+
   "languages": {
     "spanish": {
       "code": "es",
@@ -21,6 +46,7 @@
       "icon": "assets/images/languages/fr.png"
     }
   },
+
   "navigation": {
     "home": "Home",
     "aboutUs": "About us",
@@ -29,6 +55,7 @@
     "contact": "Contact",
     "language": "Language"
   },
+
   "footer": {
     "brand": {
       "subtitle": "Rehabilitation and Advanced Physiotherapy",
@@ -61,6 +88,22 @@
       "logoAlt": "Wellcare Clinics logo"
     }
   },
+
+
+  "actionButton": {
+    "sendCv": "Send your CV",
+    "contact": "Contact us",
+    "goToHome": "Go to contact",
+    "goToAboutUs": "About us",
+    "goToOurProject": "View treatments",
+    "goToTips": "Learn more",
+    "goToContact": "Work with us",
+    "hereWeAre": "Find us",
+    "hireOurServices": "Book our services",
+    "helpCard": "Need personalised help?"
+  },
+
+
   "hero": {
     "home": {
       "image": "assets/images/hero/home.png",
@@ -93,28 +136,14 @@
       "text": "Articles, tips and blog posts to help you look after your health and wellbeing."
     }
   },
-  "actionButton": {
-    "sendCv": "Send your CV",
-    "contact": "Contact us",
-    "goToHome": "Go to contact",
-    "goToAboutUs": "About us",
-    "goToOurProject": "View treatments",
-    "goToTips": "Learn more",
-    "goToContact": "Work with us",
-    "hereWeAre": "Find us",
-    "hireOurServices": "Book our services",
-    "helpCard": "Need personalised help?"
-  },
-  "mail": {
-    "recipient": "gestionwellcare@outloock.es",
-    "cv": {
-      "subject": "Job application for Wellcare Clinics SL",
-      "body": "Hello,\n\nI have visited your website and would like to send you my CV for potential job opportunities at Wellcare Clinics SL.\n\nDON’T FORGET TO ATTACH YOUR CV TO THIS EMAIL!!!"
-    }
-  },
+
+
+  
+  
   "treatments": {
     "sectionTitle": "Our treatments",
     "items": [
+      
       {
         "image": "assets/images/knee.png",
         "imageAlt": "",
@@ -141,6 +170,8 @@
       }
     ]
   },
+
+
   "team": {
     "sectionTitle": "Our professional team",
     "items": [
@@ -176,6 +207,8 @@
       }
     ]
   },
+
+
   "metrics": {
     "items": [
       {
@@ -198,6 +231,8 @@
       }
     ]
   },
+
+
   "articles": {
     "sectionTitle": "Explore our articles.",
     "all": "All",
@@ -299,6 +334,8 @@
       }
     ]
   },
+
+
   "specializedPhysiotherapy": {
     "sectionTitle": "Why choose us",
     "leftImage": {
@@ -336,6 +373,8 @@
       "alt": "Physiotherapist treating a patient’s shoulder"
     }
   },
+
+
   "clinicIdentity": {
     "title": "Your trusted clinic",
     "text": "At Wellcare Clinics, our team specialises in advanced physiotherapy and is committed to your wellbeing in every session. We support you throughout the process, offering friendly, professional care tailored to your needs.",
@@ -360,6 +399,8 @@
       ]
     }
   },
+
+
   "services": {
     "sectionTitle": "Our services",
     "text": "At Wellcare Clinics, we specialise in offering personalised, effective treatments for a wide range of conditions.",
@@ -391,6 +432,8 @@
       }
     ]
   },
+
+
   "personalizedTreatments": {
     "title": "Advanced treatments for a range of conditions.",
     "text": "At Wellcare Clinics, we treat a range of conditions using advanced techniques and the latest technology to ensure the best results in every case.",
@@ -421,10 +464,8 @@
       }
     ]
   },
-  "contactCta": {
-    "title": "Need more information?",
-    "text": "Contact us to find out more about our services and how we can help you."
-  },
+
+
   "workWithUs": {
     "sectionTitle": "Why work at Wellcare Clinics?",
     "text": "We offer an environment where you can develop professionally and make a difference every day.",
@@ -455,17 +496,9 @@
       }
     ]
   },
-  "sendCv": {
-    "image": "assets/images/send-cv.jpg",
-    "imageAlt": "Physiotherapist treating a patient",
-    "title": "Send us your CV",
-    "text": "We are looking for dedicated professionals with a passion for their work and a desire to keep growing with us.",
-    "items": [
-      "Physiotherapists",
-      "Orthopaedic specialists",
-      "Team members and administrative staff"
-    ]
-  },
+
+
+  
   "locations": {
     "sectionTitle": "Where are we?",
     "text": "We have several clinics so that we can always be close to you.",

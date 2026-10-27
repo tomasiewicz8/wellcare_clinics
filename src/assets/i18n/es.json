@@ -4,6 +4,31 @@
     "logo": "assets/images/wellcare.png",
     "logoAlt": "Logo de Wellcare Clinics"
   },
+
+  "mail": {
+    "recipient": "gestionwellcare@outloock.es",
+    "cv": {
+      "subject": "Candidatura para Wellcare Clinics SL",
+      "body": "Hola,\n\nHe visto vuestra web y me gustaría enviaros mi CV para posibles candidaturas en Wellcare Clinics SL.\n\n¡¡¡NO OLVIDES ADJUNTAR TU CURRÍCULUM EN ESTE CORREO!!!"
+    }
+  },
+  "contactCta": {
+    "title": "¿Necesitas más información?",
+    "text": "Contacta con nosotros para saber más sobre nuestros servicios y cómo podemos ayudarte."
+  },
+
+  "sendCv": {
+    "image": "assets/images/send-cv.jpg",
+    "imageAlt": "Fisioterapeuta atendiendo a un paciente",
+    "title": "Envía tu currículum",
+    "text": "Buscamos profesionales comprometidos, con vocación y ganas de seguir creciendo junto a nosotros",
+    "items": [
+      "Fisioterapeutas",
+      "Traumatólogos",
+      "Personal de grupo y administrativos"
+    ]
+  },
+
   "languages": {
     "spanish": {
       "code": "es",
@@ -21,6 +46,7 @@
       "icon": "assets/images/languages/fr.png"
     }
   },
+
   "navigation": {
     "home": "Inicio",
     "aboutUs": "Quiénes somos",
@@ -29,6 +55,7 @@
     "contact": "Contacto",
     "language": "Idioma"
   },
+
   "footer": {
     "brand": {
       "subtitle": "Rehabilitación y Fisioterapia Avanzada",
@@ -61,6 +88,22 @@
       "logoAlt": "Logo de Wellcare Clinics"
     }
   },
+
+
+  "actionButton": {
+    "sendCv": "Enviar currículum",
+    "contact": "Contactar",
+    "goToHome": "Ir a contacto",
+    "goToAboutUs": "Quiénes somos",
+    "goToOurProject": "Ver tratamientos",
+    "goToTips": "Más información",
+    "goToContact": "Trabaja con nosotros",
+    "hereWeAre": "Dónde estamos",
+    "hireOurServices": "Contrata nuestros servicios",
+    "helpCard": "¿Necesitas ayuda personalizada?"
+  },
+
+
   "hero": {
     "home": {
       "image": "assets/images/hero/home.png",
@@ -93,40 +136,14 @@
       "text": "Artículos, consejos y blogs para cuidar de tu salud y tu bienestar."
     }
   },
-  "actionButton": {
-    "sendCv": "Enviar currículum",
-    "contact": "Contactar",
-    "goToHome": "Ir a contacto",
-    "goToAboutUs": "Quiénes somos",
-    "goToOurProject": "Ver tratamientos",
-    "goToTips": "Más información",
-    "goToContact": "Trabaja con nosotros",
-    "hereWeAre": "Dónde estamos",
-    "hireOurServices": "Contrata nuestros servicios",
-    "helpCard": "¿Necesitas ayuda personalizada?"
-  },
-  "mail": {
-    "recipient": "gestionwellcare@outloock.es",
-    "cv": {
-      "subject": "Candidatura para Wellcare Clinics SL",
-      "body": "Hola,\n\nHe visto vuestra web y me gustaría enviaros mi CV para posibles candidaturas en Wellcare Clinics SL.\n\n¡¡¡NO OLVIDES ADJUNTAR TU CURRÍCULUM EN ESTE CORREO!!!"
-    }
-  },
+
+
+  
+  
   "treatments": {
     "sectionTitle": "Nuestros tratamientos",
     "items": [
-      {
-        "image": "assets/images/knee.png",
-        "imageAlt": "",
-        "title": "Traumatología y Rehabilitación",
-        "text": "Tratamiento para todo tipo de lesiones musculo-esqueléticas remitidos por su especialista en traumatología, neurocirugía, reumatología u otras especialidades"
-      },
-      {
-        "image": "assets/images/back.png",
-        "imageAlt": "",
-        "title": "Dolor crónico",
-        "text": "Tratamientos enfocados en aliviar el dolor persistente y mejorar la calidad de vida."
-      },
+      
       {
         "image": "assets/images/pelvis.png",
         "imageAlt": "",
@@ -138,9 +155,23 @@
         "imageAlt": "",
         "title": "Fisioterapia respiratoria",
         "text": "Técnicas basadas en el conocimiento de la fisiopatología respiratoria, junto con el conocimiento psicoemocional del paciente, para prevenir, curar o, algunas veces, tan sólo estabilizar las alteraciones que afectan al sistema toracopulmonar. Aerosolterapia, inspirómetro de incentico, vibración, tos, tos y expectoración, tos asistida."
+      },
+      {
+        "image": "assets/images/knee.png",
+        "imageAlt": "",
+        "title": "Traumatología y Rehabilitación",
+        "text": "Tratamiento para todo tipo de lesiones musculo-esqueléticas remitidos por su especialista en traumatología, neurocirugía, reumatología u otras especialidades"
+      },
+      {
+        "image": "assets/images/back.png",
+        "imageAlt": "",
+        "title": "Dolor crónico",
+        "text": "Tratamientos enfocados en aliviar el dolor persistente y mejorar la calidad de vida."
       }
     ]
   },
+
+
   "team": {
     "sectionTitle": "Nuestro equipo profesional",
     "items": [
@@ -176,6 +207,8 @@
       }
     ]
   },
+
+
   "metrics": {
     "items": [
       {
@@ -198,6 +231,8 @@
       }
     ]
   },
+
+
   "articles": {
     "sectionTitle": "Explora nuestros artículos.",
     "all": "Todos",
@@ -299,6 +334,8 @@
       }
     ]
   },
+
+
   "specializedPhysiotherapy": {
     "sectionTitle": "Por qué elegirnos",
     "leftImage": {
@@ -336,6 +373,8 @@
       "alt": "Fisioterapeuta tratando el hombro de una paciente"
     }
   },
+
+
   "clinicIdentity": {
     "title": "Tu clínica de confianza",
     "text": "En Wellcare Clinics contamos con un equipo especializado en Fisioterapia avanzada, comprometido con tu bienestar en cada sesión. Te acompañamos en todo el proceso para ofrecerte una atención cercana, profesional y adaptada a tus necesidades.",
@@ -360,6 +399,8 @@
       ]
     }
   },
+
+
   "services": {
     "sectionTitle": "Nuestros servicios",
     "text": "En Wellcare Clinics nos especializamos en ofrecer tratamientos personalizados y efectivos para una amplia gama de condiciones.",
@@ -391,6 +432,8 @@
       }
     ]
   },
+
+
   "personalizedTreatments": {
     "title": "Tratamientos avanzados para distintas patologías.",
     "text": "En Wellcare Clinics tratamos una diversas patologías utilizando técnicas avanzadas y la última tecnología para asegurar los mejores resultados en cada caso.",
@@ -421,10 +464,8 @@
       }
     ]
   },
-  "contactCta": {
-    "title": "¿Necesitas más información?",
-    "text": "Contacta con nosotros para saber más sobre nuestros servicios y cómo podemos ayudarte."
-  },
+
+
   "workWithUs": {
     "sectionTitle": "¿Por qué trabajar en Wellcare Clinics?",
     "text": "Ofrecemos un entorno donde podrás desarrollarte profesionalmente y marcar la diferencia cada día.",
@@ -455,17 +496,9 @@
       }
     ]
   },
-  "sendCv": {
-    "image": "assets/images/send-cv.jpg",
-    "imageAlt": "Fisioterapeuta atendiendo a un paciente",
-    "title": "Envía tu currículum",
-    "text": "Buscamos profesionales comprometidos, con vocación y ganas de seguir creciendo junto a nosotros",
-    "items": [
-      "Fisioterapeutas",
-      "Traumatólogos",
-      "Personal de grupo y administrativos"
-    ]
-  },
+
+
+  
   "locations": {
     "sectionTitle": "¿Dónde estamos?",
     "text": "Contamos con varias clínicas para estar siempre cerca de ti.",

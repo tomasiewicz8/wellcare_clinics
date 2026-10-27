@@ -4,6 +4,31 @@
     "logo": "assets/images/wellcare.png",
     "logoAlt": "Logo de Wellcare Clinics"
   },
+
+  "mail": {
+    "recipient": "gestionwellcare@outloock.es",
+    "cv": {
+      "subject": "Candidature pour Wellcare Clinics SL",
+      "body": "Bonjour,\n\nJ’ai consulté votre site et je souhaiterais vous envoyer mon CV pour d’éventuelles opportunités chez Wellcare Clinics SL.\n\nN’OUBLIEZ PAS DE JOINDRE VOTRE CV À CET E-MAIL !!!"
+    }
+  },
+  "contactCta": {
+    "title": "Besoin de plus d’informations ?",
+    "text": "Contactez-nous pour en savoir plus sur nos services et sur la façon dont nous pouvons vous aider."
+  },
+
+  "sendCv": {
+    "image": "assets/images/send-cv.jpg",
+    "imageAlt": "Kinésithérapeute prenant en charge un patient",
+    "title": "Envoyez-nous votre CV",
+    "text": "Nous recherchons des professionnels engagés, passionnés par leur métier et désireux de continuer à évoluer à nos côtés.",
+    "items": [
+      "Kinésithérapeutes",
+      "Traumatologues",
+      "Personnel du groupe et personnel administratif"
+    ]
+  },
+
   "languages": {
     "spanish": {
       "code": "es",
@@ -21,6 +46,7 @@
       "icon": "assets/images/languages/fr.png"
     }
   },
+
   "navigation": {
     "home": "Accueil",
     "aboutUs": "Qui sommes-nous ?",
@@ -29,6 +55,7 @@
     "contact": "Contact",
     "language": "Langue"
   },
+
   "footer": {
     "brand": {
       "subtitle": "Rééducation et kinésithérapie avancée",
@@ -61,6 +88,22 @@
       "logoAlt": "Logo de Wellcare Clinics"
     }
   },
+
+
+  "actionButton": {
+    "sendCv": "Envoyer mon CV",
+    "contact": "Nous contacter",
+    "goToHome": "Aller à la page contact",
+    "goToAboutUs": "Qui sommes-nous ?",
+    "goToOurProject": "Voir les traitements",
+    "goToTips": "En savoir plus",
+    "goToContact": "Rejoignez-nous",
+    "hereWeAre": "Où nous trouver",
+    "hireOurServices": "Réserver nos services",
+    "helpCard": "Besoin d’une aide personnalisée ?"
+  },
+
+
   "hero": {
     "home": {
       "image": "assets/images/hero/home.png",
@@ -93,28 +136,14 @@
       "text": "Des articles, des conseils et des billets de blog pour prendre soin de votre santé et de votre bien-être."
     }
   },
-  "actionButton": {
-    "sendCv": "Envoyer mon CV",
-    "contact": "Nous contacter",
-    "goToHome": "Aller à la page contact",
-    "goToAboutUs": "Qui sommes-nous ?",
-    "goToOurProject": "Voir les traitements",
-    "goToTips": "En savoir plus",
-    "goToContact": "Rejoignez-nous",
-    "hereWeAre": "Où nous trouver",
-    "hireOurServices": "Réserver nos services",
-    "helpCard": "Besoin d’une aide personnalisée ?"
-  },
-  "mail": {
-    "recipient": "gestionwellcare@outloock.es",
-    "cv": {
-      "subject": "Candidature pour Wellcare Clinics SL",
-      "body": "Bonjour,\n\nJ’ai consulté votre site et je souhaiterais vous envoyer mon CV pour d’éventuelles opportunités chez Wellcare Clinics SL.\n\nN’OUBLIEZ PAS DE JOINDRE VOTRE CV À CET E-MAIL !!!"
-    }
-  },
+
+
+  
+  
   "treatments": {
     "sectionTitle": "Nos traitements",
     "items": [
+      
       {
         "image": "assets/images/knee.png",
         "imageAlt": "",
@@ -141,6 +170,8 @@
       }
     ]
   },
+
+
   "team": {
     "sectionTitle": "Notre équipe de professionnels",
     "items": [
@@ -176,6 +207,8 @@
       }
     ]
   },
+
+
   "metrics": {
     "items": [
       {
@@ -198,6 +231,8 @@
       }
     ]
   },
+
+
   "articles": {
     "sectionTitle": "Découvrez nos articles.",
     "all": "Tous",
@@ -299,6 +334,8 @@
       }
     ]
   },
+
+
   "specializedPhysiotherapy": {
     "sectionTitle": "Pourquoi nous choisir",
     "leftImage": {
@@ -336,6 +373,8 @@
       "alt": "Kinésithérapeute traitant l’épaule d’une patiente"
     }
   },
+
+
   "clinicIdentity": {
     "title": "Votre clinique de confiance",
     "text": "Chez Wellcare Clinics, notre équipe est spécialisée en kinésithérapie avancée et s’engage pour votre bien-être à chaque séance. Nous vous accompagnons tout au long du parcours pour vous offrir une prise en charge chaleureuse, professionnelle et adaptée à vos besoins.",
@@ -360,6 +399,8 @@
       ]
     }
   },
+
+
   "services": {
     "sectionTitle": "Nos services",
     "text": "Chez Wellcare Clinics, nous sommes spécialisés dans les traitements personnalisés et efficaces pour un large éventail de pathologies.",
@@ -391,6 +432,8 @@
       }
     ]
   },
+
+
   "personalizedTreatments": {
     "title": "Des traitements avancés pour différentes pathologies.",
     "text": "Chez Wellcare Clinics, nous traitons diverses pathologies à l’aide de techniques avancées et des technologies les plus récentes pour garantir les meilleurs résultats dans chaque cas.",
@@ -421,10 +464,8 @@
       }
     ]
   },
-  "contactCta": {
-    "title": "Besoin de plus d’informations ?",
-    "text": "Contactez-nous pour en savoir plus sur nos services et sur la façon dont nous pouvons vous aider."
-  },
+
+
   "workWithUs": {
     "sectionTitle": "Pourquoi travailler chez Wellcare Clinics ?",
     "text": "Nous vous offrons un environnement où vous pourrez évoluer professionnellement et faire la différence chaque jour.",
@@ -455,17 +496,9 @@
       }
     ]
   },
-  "sendCv": {
-    "image": "assets/images/send-cv.jpg",
-    "imageAlt": "Kinésithérapeute prenant en charge un patient",
-    "title": "Envoyez-nous votre CV",
-    "text": "Nous recherchons des professionnels engagés, passionnés par leur métier et désireux de continuer à évoluer à nos côtés.",
-    "items": [
-      "Kinésithérapeutes",
-      "Traumatologues",
-      "Personnel du groupe et personnel administratif"
-    ]
-  },
+
+
+  
   "locations": {
     "sectionTitle": "Où sommes-nous ?",
     "text": "Nous disposons de plusieurs cliniques pour être toujours proches de vous.",
